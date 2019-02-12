@@ -371,11 +371,13 @@ string
 A fixed height.
 
 ```
+xxsmall
 xsmall
 small
 medium
 large
 xlarge
+xxlarge
 string
 ```
 
@@ -547,11 +549,13 @@ string
 A fixed width.
 
 ```
+xxsmall
 xsmall
 small
 medium
 large
 xlarge
+xxlarge
 string
 ```
 
