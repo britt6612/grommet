@@ -55,7 +55,7 @@ const activeDates = {
 
 const timeStamp = /T.*/;
 
-const formatSelectedDatesString = (date) => `Currently selected 
+const formatSelectedDatesString = (date) => `Currently selected
   ${date?.map((item) => {
     let dates;
     if (!Array.isArray(item)) {
@@ -671,9 +671,15 @@ const Calendar = forwardRef(
           </Box>
           <Box flex={false} direction="row" align="center">
             <Button
-              a11yTitle={previousMonth.toLocaleDateString(locale, {
-                month: 'long',
-                year: 'numeric',
+              a11yTitle={format({
+                id: 'calendar.previous',
+                messages,
+                values: {
+                  date: previousMonth.toLocaleDateString(locale, {
+                    month: 'long',
+                    year: 'numeric',
+                  }),
+                },
               })}
               icon={<PreviousIcon size={size !== 'small' ? size : undefined} />}
               disabled={!betweenDates(previousMonth, bounds)}
@@ -681,7 +687,7 @@ const Calendar = forwardRef(
                 changeReference(previousMonth);
                 announce(
                   format({
-                    id: 'calendar.previous',
+                    id: 'calendar.previousMove',
                     messages,
                     values: {
                       date: previousMonth.toLocaleDateString(locale, {
@@ -694,9 +700,15 @@ const Calendar = forwardRef(
               }}
             />
             <Button
-              a11yTitle={nextMonth.toLocaleDateString(locale, {
-                month: 'long',
-                year: 'numeric',
+              a11yTitle={format({
+                id: 'calendar.next',
+                messages,
+                values: {
+                  date: nextMonth.toLocaleDateString(locale, {
+                    month: 'long',
+                    year: 'numeric',
+                  }),
+                },
               })}
               icon={<NextIcon size={size !== 'small' ? size : undefined} />}
               disabled={!betweenDates(nextMonth, bounds)}
@@ -704,7 +716,7 @@ const Calendar = forwardRef(
                 changeReference(nextMonth);
                 announce(
                   format({
-                    id: 'calendar.next',
+                    id: 'calendar.nextMove',
                     messages,
                     values: {
                       date: nextMonth.toLocaleDateString(locale, {
@@ -866,7 +878,7 @@ const Calendar = forwardRef(
                       onClick: () => {
                         selectDate(dateString);
                         announce(
-                          `Selected 
+                          `Selected
                           ${formatToLocalYYYYMMDD(dateString)}`,
                           'assertive',
                         );
