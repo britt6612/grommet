@@ -96,6 +96,7 @@ const unflatten = (formValue) => {
 
 // converts from the external view format to the internal Form value format
 const viewToFormValue = (view) => {
+  console.log('View:', view); // Log view to ensure it contains columns
   const result = { ...(view?.properties || {}) };
   // convert { min: , max: } range to [min, max] for RangeSelector
   Object.keys(result).forEach((key) => {
@@ -118,7 +119,7 @@ const viewToFormValue = (view) => {
   if (view?.name) result[formViewNameKey] = view.name;
   if (view?.columns) result[formColumnsKey] = view.columns;
   if (view?.groupBy) result[formGroupByKey] = view.groupBy;
-
+  console.log('Before unflattening:', view?.columns);
   return unflatten(result);
 };
 
@@ -242,6 +243,7 @@ export const DataForm = ({
   const { messages, onView, view, views } = useContext(DataContext);
   const { format } = useContext(MessageContext);
   const [formValue, setFormValue] = useState(viewToFormValue(view));
+  console.log("view in dataForm",view);
   // special case for range selectors which always have a value.
   // when value returns to its min/max, remove it from view
   // like other properties
@@ -277,7 +279,9 @@ export const DataForm = ({
     [debounce, formValue, onView, updateOn, views],
   );
 
-  useEffect(() => setFormValue(viewToFormValue(view)), [view]);
+  useEffect(() => {
+    setFormValue(viewToFormValue(view));
+  }, [view]);
 
   let content = children;
   if ((footer !== false && updateOn === 'submit') || pad) {

@@ -98,6 +98,8 @@ const DataTable = ({
   } = useContext(DataContext);
   const data = dataProp || contextData || emptyData;
 
+  console.log('view in dataTable', view);
+
   const columns = useMemo(() => {
     let result = [];
     if (columnsProp) result = columnsProp;
@@ -108,7 +110,8 @@ const DataTable = ({
       }));
     else if (data.length)
       result = Object.keys(data[0]).map((p) => ({ property: p }));
-    if (view?.columns)
+    if (view?.columns) {
+      console.log('view columns', view?.columns);
       result = result
         .filter((c) => view.columns.includes(c.property))
         .sort(
@@ -116,6 +119,7 @@ const DataTable = ({
             view.columns.indexOf(c1.property) -
             view.columns.indexOf(c2.property),
         );
+    }
     return result;
   }, [columnsProp, data, properties, view]);
 

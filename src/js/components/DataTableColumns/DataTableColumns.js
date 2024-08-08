@@ -1,4 +1,10 @@
-import React, { useCallback, useContext, useMemo, useState } from 'react';
+import React, {
+  useCallback,
+  useEffect,
+  useContext,
+  useMemo,
+  useState,
+} from 'react';
 import { Search } from 'grommet-icons/icons/Search';
 import { Splits } from 'grommet-icons/icons/Splits';
 import { Lock } from 'grommet-icons/icons/Lock';
@@ -80,10 +86,25 @@ const Content = ({ drop, options = [], ...rest }) => {
         }
       : undefined;
   }, [options, objectOptions]);
-  // 'value' is an array of property names
+
+  const defaultVisible = useMemo(() => {
+    if (!objectOptions) return [];
+    return options
+      .filter((option) => option.defaultVisable === false && option.label)
+      .map((option) => option.label.toLowerCase());
+  }, [options, objectOptions]);
+
+  // Compute initialValue1 outside of useEffect
+  const initialValue = useMemo(() => {
+    const valueFromOptions = optionsToValue(options);
+    return valueFromOptions.filter(
+      (item) => !defaultVisible.includes(item.toLowerCase()),
+    );
+  }, [options, defaultVisible]);
+
   const [value, setValue] = useFormInput({
     name: formColumnsKey,
-    initialValue: optionsToValue(options),
+    initialValue,
   });
 
   // When the user searches, updated the filtered options based on the
@@ -165,11 +186,53 @@ const Content = ({ drop, options = [], ...rest }) => {
 };
 
 export const DataTableColumns = ({ drop, options, ...rest }) => {
-  const { id: dataId, messages } = useContext(DataContext);
+  const { id: dataId, messages, view, onView } = useContext(DataContext);
   const { inDataForm } = useContext(DataFormContext);
   const { format } = useContext(MessageContext);
   const theme = useThemeValue();
   const [showContent, setShowContent] = useState();
+
+  useEffect(() => {
+    console.log('view', view);
+  }, [view]);
+
+  const objectOptions = useMemo(
+    () => options && options.length && typeof options[0] === 'object',
+    [options],
+  );
+
+  const defaultVisible = useMemo(() => {
+    if (!objectOptions) return [];
+    return options
+      .filter((option) => option.defaultVisable === false && option.label)
+      .map((option) => option.label.toLowerCase());
+  }, [options, objectOptions]);
+
+  // Compute initialValue1 outside of useEffect
+  const initialValue = useMemo(() => {
+    const valueFromOptions = optionsToValue(options);
+    return valueFromOptions.filter(
+      (item) => !defaultVisible.includes(item.toLowerCase()),
+    );
+  }, [options, defaultVisible]);
+
+  // useEffect(() => {
+  //   // if we are getting the step or page from outside the view,
+  //   // update the Data's view in case it needs to filter.
+  //   if (onView) onView({ ...view, page, step });
+  // }, [onView, page, step, view]);
+
+  useEffect(() => {
+    console.log('new effect');
+    const newView = {
+      ...view,
+      columnns: initialValue,
+    };
+    if (onView && view.columns !== initialValue) {
+      onView(newView);
+    }
+    console.log(newView);
+  }, [onView, view, initialValue]);
 
   const tip = format({
     id: 'dataTableColumns.tip',
@@ -177,12 +240,14 @@ export const DataTableColumns = ({ drop, options, ...rest }) => {
   });
 
   let content = <Content drop={drop} options={options} />;
-  if (!inDataForm)
+  if (!inDataForm) {
+    console.log('hello in !dataform');
     content = (
       <DataForm footer={false} updateOn="change">
         {content}
       </DataForm>
     );
+  }
 
   if (!drop) return content;
 

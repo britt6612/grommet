@@ -14,7 +14,8 @@ import { columns, DATA } from '../../DataTable/stories/data';
 const options = columns.map(({ header, property }, i) => ({
   property,
   label: property === 'name' ? 'Name' : header,
-  pinned: i === 0 || i === 1,
+  pinned: i === 3,
+  defaultVisable: i !== 0 && i !== 1, // Set `defaultVisable` to false only for the first index
 }));
 
 export const Pinned = () => (
