@@ -36,7 +36,7 @@ exports[`FileInput accept 1`] = `
   justify-content: space-between;
 }
 
-.c6 {
+.c5 {
   box-sizing: border-box;
   display: inline-flex;
   font-size: inherit;
@@ -49,14 +49,8 @@ exports[`FileInput accept 1`] = `
   margin: 12px;
 }
 
-.c6:hover {
+.c5:hover {
   text-decoration: underline;
-}
-
-.c5 {
-  margin: 12px;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 .c3 {
@@ -162,12 +156,13 @@ exports[`FileInput accept 1`] = `
       class="c4"
     >
       <span
-        class="c5 "
+        class="textRecipe_size_medium "
+        style="margin: 12px;"
       >
         Drop file here or
       </span>
       <a
-        class="c6"
+        class="c5"
         tabindex="-1"
       >
         browse
@@ -215,7 +210,7 @@ exports[`FileInput background 1`] = `
   justify-content: space-between;
 }
 
-.c6 {
+.c5 {
   box-sizing: border-box;
   display: inline-flex;
   font-size: inherit;
@@ -228,14 +223,8 @@ exports[`FileInput background 1`] = `
   margin: 12px;
 }
 
-.c6:hover {
+.c5:hover {
   text-decoration: underline;
-}
-
-.c5 {
-  margin: 12px;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 .c3 {
@@ -340,12 +329,13 @@ exports[`FileInput background 1`] = `
       class="c4"
     >
       <span
-        class="c5 "
+        class="textRecipe_size_medium "
+        style="margin: 12px;"
       >
         Drop file here or
       </span>
       <a
-        class="c6"
+        class="c5"
         tabindex="-1"
       >
         browse
@@ -391,7 +381,7 @@ exports[`FileInput basic 1`] = `
   justify-content: space-between;
 }
 
-.c6 {
+.c5 {
   box-sizing: border-box;
   display: inline-flex;
   font-size: inherit;
@@ -404,14 +394,8 @@ exports[`FileInput basic 1`] = `
   margin: 12px;
 }
 
-.c6:hover {
+.c5:hover {
   text-decoration: underline;
-}
-
-.c5 {
-  margin: 12px;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 .c3 {
@@ -516,12 +500,13 @@ exports[`FileInput basic 1`] = `
       class="c4"
     >
       <span
-        class="c5 "
+        class="textRecipe_size_medium "
+        style="margin: 12px;"
       >
         Drop file here or
       </span>
       <a
-        class="c6"
+        class="c5"
         tabindex="-1"
       >
         browse
@@ -557,7 +542,7 @@ exports[`FileInput basic outside grommet wrapper 1`] = `
   justify-content: space-between;
 }
 
-.c5 {
+.c4 {
   box-sizing: border-box;
   display: inline-flex;
   font-size: inherit;
@@ -570,14 +555,8 @@ exports[`FileInput basic outside grommet wrapper 1`] = `
   margin: 12px;
 }
 
-.c5:hover {
+.c4:hover {
   text-decoration: underline;
-}
-
-.c4 {
-  margin: 12px;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 .c2 {
@@ -679,12 +658,12 @@ exports[`FileInput basic outside grommet wrapper 1`] = `
     class="c3"
   >
     <span
-      class="c4 "
+      class="textRecipe_size_medium "
     >
       Drop file here or
     </span>
     <a
-      class="c5"
+      class="c4"
       tabindex="-1"
     >
       browse
@@ -729,7 +708,7 @@ exports[`FileInput border 1`] = `
   justify-content: space-between;
 }
 
-.c6 {
+.c5 {
   box-sizing: border-box;
   display: inline-flex;
   font-size: inherit;
@@ -742,14 +721,8 @@ exports[`FileInput border 1`] = `
   margin: 12px;
 }
 
-.c6:hover {
+.c5:hover {
   text-decoration: underline;
-}
-
-.c5 {
-  margin: 12px;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 .c3 {
@@ -854,12 +827,13 @@ exports[`FileInput border 1`] = `
       class="c4"
     >
       <span
-        class="c5 "
+        class="textRecipe_size_medium "
+        style="margin: 12px;"
       >
         Drop file here or
       </span>
       <a
-        class="c6"
+        class="c5"
         tabindex="-1"
       >
         browse
@@ -905,7 +879,7 @@ exports[`FileInput custom theme input font size 1`] = `
   justify-content: space-between;
 }
 
-.c6 {
+.c5 {
   box-sizing: border-box;
   display: inline-flex;
   font-size: inherit;
@@ -918,14 +892,8 @@ exports[`FileInput custom theme input font size 1`] = `
   margin: 12px;
 }
 
-.c6:hover {
+.c5:hover {
   text-decoration: underline;
-}
-
-.c5 {
-  margin: 12px;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 .c3 {
@@ -1029,12 +997,13 @@ exports[`FileInput custom theme input font size 1`] = `
       class="c4"
     >
       <span
-        class="c5 "
+        class="textRecipe_size_medium "
+        style="margin: 12px;"
       >
         Drop file here or
       </span>
       <a
-        class="c6"
+        class="c5"
         tabindex="-1"
       >
         browse
@@ -1080,7 +1049,7 @@ exports[`FileInput disabled 1`] = `
   justify-content: space-between;
 }
 
-.c6 {
+.c5 {
   box-sizing: border-box;
   display: inline-flex;
   font-size: inherit;
@@ -1094,12 +1063,6 @@ exports[`FileInput disabled 1`] = `
   opacity: 0.3;
   cursor: default;
   text-decoration: none;
-}
-
-.c5 {
-  margin: 12px;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 .c3 {
@@ -1207,12 +1170,13 @@ exports[`FileInput disabled 1`] = `
       class="c4"
     >
       <span
-        class="c5 "
+        class="textRecipe_size_medium "
+        style="margin: 12px;"
       >
         Drop file here or
       </span>
       <a
-        class="c6"
+        class="c5"
         disabled=""
         tabindex="-1"
       >
@@ -1224,7 +1188,7 @@ exports[`FileInput disabled 1`] = `
 `;
 
 exports[`FileInput disabled with file selected 1`] = `
-.c12 {
+.c10 {
   display: inline-block;
   flex: 0 0 auto;
   width: 24px;
@@ -1233,25 +1197,25 @@ exports[`FileInput disabled with file selected 1`] = `
   stroke: #666666;
 }
 
-.c12 g {
+.c10 g {
   fill: inherit;
   stroke: inherit;
 }
 
-.c12 *:not([stroke])[fill='none'] {
+.c10 *:not([stroke])[fill='none'] {
   stroke-width: 0;
 }
 
-.c12 *[stroke*='#'],
-.c12 *[STROKE*='#'] {
+.c10 *[stroke*='#'],
+.c10 *[STROKE*='#'] {
   stroke: inherit;
   fill: none;
 }
 
-.c12 *[fill-rule],
-.c12 *[FILL-RULE],
-.c12 *[fill*='#'],
-.c12 *[FILL*='#'] {
+.c10 *[fill-rule],
+.c10 *[FILL-RULE],
+.c10 *[fill*='#'],
+.c10 *[FILL*='#'] {
   fill: inherit;
   stroke: none;
 }
@@ -1276,7 +1240,7 @@ exports[`FileInput disabled with file selected 1`] = `
   flex-direction: column;
 }
 
-.c3 {
+.c2 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1286,7 +1250,7 @@ exports[`FileInput disabled with file selected 1`] = `
   flex-direction: column;
 }
 
-.c4 {
+.c3 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1298,7 +1262,7 @@ exports[`FileInput disabled with file selected 1`] = `
   justify-content: center;
 }
 
-.c7 {
+.c6 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1309,7 +1273,7 @@ exports[`FileInput disabled with file selected 1`] = `
   justify-content: space-between;
 }
 
-.c8 {
+.c7 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1320,7 +1284,7 @@ exports[`FileInput disabled with file selected 1`] = `
   flex-direction: row;
 }
 
-.c10 {
+.c8 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1331,7 +1295,7 @@ exports[`FileInput disabled with file selected 1`] = `
   flex: 0 0 auto;
 }
 
-.c13 {
+.c11 {
   box-sizing: border-box;
   display: inline-flex;
   font-size: inherit;
@@ -1346,26 +1310,7 @@ exports[`FileInput disabled with file selected 1`] = `
   text-decoration: none;
 }
 
-.c2 {
-  margin-left: 12px;
-  margin-right: 12px;
-  margin-top: 6px;
-  margin-bottom: 6px;
-  font-size: 18px;
-  line-height: 24px;
-}
-
 .c9 {
-  font-size: 18px;
-  line-height: 24px;
-  white-space: nowrap;
-  max-width: 100%;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  font-weight: 600;
-}
-
-.c11 {
   display: inline-block;
   box-sizing: border-box;
   cursor: pointer;
@@ -1386,47 +1331,47 @@ exports[`FileInput disabled with file selected 1`] = `
   padding: 12px;
 }
 
-.c11:focus {
+.c9:focus {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c11:focus >circle,
-.c11:focus >ellipse,
-.c11:focus >line,
-.c11:focus >path,
-.c11:focus >polygon,
-.c11:focus >polyline,
-.c11:focus >rect {
+.c9:focus >circle,
+.c9:focus >ellipse,
+.c9:focus >line,
+.c9:focus >path,
+.c9:focus >polygon,
+.c9:focus >polyline,
+.c9:focus >rect {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c11:focus ::-moz-focus-inner {
+.c9:focus ::-moz-focus-inner {
   border: 0;
 }
 
-.c11:focus:not(:focus-visible) {
+.c9:focus:not(:focus-visible) {
   outline: none;
   box-shadow: none;
 }
 
-.c11:focus:not(:focus-visible) >circle,
-.c11:focus:not(:focus-visible) >ellipse,
-.c11:focus:not(:focus-visible) >line,
-.c11:focus:not(:focus-visible) >path,
-.c11:focus:not(:focus-visible) >polygon,
-.c11:focus:not(:focus-visible) >polyline,
-.c11:focus:not(:focus-visible) >rect {
+.c9:focus:not(:focus-visible) >circle,
+.c9:focus:not(:focus-visible) >ellipse,
+.c9:focus:not(:focus-visible) >line,
+.c9:focus:not(:focus-visible) >path,
+.c9:focus:not(:focus-visible) >polygon,
+.c9:focus:not(:focus-visible) >polyline,
+.c9:focus:not(:focus-visible) >rect {
   outline: none;
   box-shadow: none;
 }
 
-.c11:focus:not(:focus-visible) ::-moz-focus-inner {
+.c9:focus:not(:focus-visible) ::-moz-focus-inner {
   border: 0;
 }
 
-.c6 {
+.c5 {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -1450,42 +1395,42 @@ exports[`FileInput disabled with file selected 1`] = `
   right: 24px;
 }
 
-.c6::-webkit-input-placeholder {
+.c5::-webkit-input-placeholder {
   color: #AAAAAA;
 }
 
-.c6::-moz-placeholder {
+.c5::-moz-placeholder {
   color: #AAAAAA;
 }
 
-.c6:-ms-input-placeholder {
+.c5:-ms-input-placeholder {
   color: #AAAAAA;
 }
 
-.c6 ::-webkit-search-decoration {
+.c5 ::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-.c6::-moz-focus-inner {
+.c5::-moz-focus-inner {
   border: none;
   outline: none;
 }
 
-.c6:-moz-placeholder,
-.c6::-moz-placeholder {
+.c5:-moz-placeholder,
+.c5::-moz-placeholder {
   opacity: 1;
 }
 
-.c6::-moz-focus-inner {
+.c5::-moz-focus-inner {
   border: none;
   outline: none;
 }
 
-.c6::-webkit-file-upload-button {
+.c5::-webkit-file-upload-button {
   cursor: pointer;
 }
 
-.c5 {
+.c4 {
   cursor: pointer;
   position: relative;
   opacity: 0.3;
@@ -1494,18 +1439,18 @@ exports[`FileInput disabled with file selected 1`] = `
   box-shadow: none;
 }
 
-.c5 >circle,
-.c5 >ellipse,
-.c5 >line,
-.c5 >path,
-.c5 >polygon,
-.c5 >polyline,
-.c5 >rect {
+.c4 >circle,
+.c4 >ellipse,
+.c4 >line,
+.c4 >path,
+.c4 >polygon,
+.c4 >polyline,
+.c4 >rect {
   outline: none;
   box-shadow: none;
 }
 
-.c5 ::-moz-focus-inner {
+.c4 ::-moz-focus-inner {
   border: 0;
 }
 
@@ -1516,13 +1461,13 @@ exports[`FileInput disabled with file selected 1`] = `
 }
 
 @media only screen and (max-width: 768px) {
-  .c3 {
+  .c2 {
     border: dashed 2px rgba(0, 0, 0, 0.33);
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c8 {
+  .c7 {
     margin: 6px;
   }
 }
@@ -1535,51 +1480,53 @@ exports[`FileInput disabled with file selected 1`] = `
       class="c1 "
     >
       <label
-        class="c2"
+        class="textRecipe_size_medium"
         for="fileInput"
         id="grommet-fileInput__label"
+        style="margin: 6px 12px 6px 12px;"
       >
         File input with max size
       </label>
       <div
-        class="c3 "
+        class="c2 "
       >
         <div
-          class="c4 c5"
+          class="c3 c4"
           disabled=""
         >
           <input
             aria-invalid="false"
-            class="c6"
+            class="c5"
             disabled=""
             id="fileInput"
             name="fileInput"
             type="file"
           />
           <div
-            class="c7"
+            class="c6"
           >
             <div
-              class="c8"
+              class="c7"
             >
               <span
-                class="c9 "
+                class="textRecipe_size_medium_truncate_true "
+                style="font-weight: 600;"
               >
                 file-size-okay.csv
               </span>
             </div>
             <div
-              class="c10"
+              class="c8"
             >
               <button
                 aria-label="remove file-size-okay.csv"
-                class="c11"
+                class="c9"
                 disabled=""
                 type="button"
               >
                 <svg
                   aria-label="FormClose"
-                  class="c12"
+                  class="c10"
                   viewBox="0 0 24 24"
                 >
                   <path
@@ -1591,7 +1538,7 @@ exports[`FileInput disabled with file selected 1`] = `
                 </svg>
               </button>
               <a
-                class="c13"
+                class="c11"
                 disabled=""
                 tabindex="-1"
               >
@@ -1643,7 +1590,7 @@ exports[`FileInput margin 1`] = `
   justify-content: space-between;
 }
 
-.c6 {
+.c5 {
   box-sizing: border-box;
   display: inline-flex;
   font-size: inherit;
@@ -1656,14 +1603,8 @@ exports[`FileInput margin 1`] = `
   margin: 12px;
 }
 
-.c6:hover {
+.c5:hover {
   text-decoration: underline;
-}
-
-.c5 {
-  margin: 12px;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 .c3 {
@@ -1774,12 +1715,13 @@ exports[`FileInput margin 1`] = `
       class="c4"
     >
       <span
-        class="c5 "
+        class="textRecipe_size_medium "
+        style="margin: 12px;"
       >
         Drop file here or
       </span>
       <a
-        class="c6"
+        class="c5"
         tabindex="-1"
       >
         browse
@@ -1825,7 +1767,7 @@ exports[`FileInput maxSize 1`] = `
   justify-content: space-between;
 }
 
-.c6 {
+.c5 {
   box-sizing: border-box;
   display: inline-flex;
   font-size: inherit;
@@ -1838,14 +1780,8 @@ exports[`FileInput maxSize 1`] = `
   margin: 12px;
 }
 
-.c6:hover {
+.c5:hover {
   text-decoration: underline;
-}
-
-.c5 {
-  margin: 12px;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 .c3 {
@@ -1950,12 +1886,13 @@ exports[`FileInput maxSize 1`] = `
       class="c4"
     >
       <span
-        class="c5 "
+        class="textRecipe_size_medium "
+        style="margin: 12px;"
       >
         Drop file here or
       </span>
       <a
-        class="c6"
+        class="c5"
         tabindex="-1"
       >
         browse
@@ -2001,7 +1938,7 @@ exports[`FileInput messages 1`] = `
   justify-content: space-between;
 }
 
-.c6 {
+.c5 {
   box-sizing: border-box;
   display: inline-flex;
   font-size: inherit;
@@ -2014,14 +1951,8 @@ exports[`FileInput messages 1`] = `
   margin: 12px;
 }
 
-.c6:hover {
+.c5:hover {
   text-decoration: underline;
-}
-
-.c5 {
-  margin: 12px;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 .c3 {
@@ -2126,12 +2057,13 @@ exports[`FileInput messages 1`] = `
       class="c4"
     >
       <span
-        class="c5 "
+        class="textRecipe_size_medium "
+        style="margin: 12px;"
       >
         Drop file here or
       </span>
       <a
-        class="c6"
+        class="c5"
         tabindex="-1"
       >
         test browse
@@ -2177,7 +2109,7 @@ exports[`FileInput multiple 1`] = `
   justify-content: space-between;
 }
 
-.c6 {
+.c5 {
   box-sizing: border-box;
   display: inline-flex;
   font-size: inherit;
@@ -2190,14 +2122,8 @@ exports[`FileInput multiple 1`] = `
   margin: 12px;
 }
 
-.c6:hover {
+.c5:hover {
   text-decoration: underline;
-}
-
-.c5 {
-  margin: 12px;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 .c3 {
@@ -2303,12 +2229,13 @@ exports[`FileInput multiple 1`] = `
       class="c4"
     >
       <span
-        class="c5 "
+        class="textRecipe_size_medium "
+        style="margin: 12px;"
       >
         Drop files here or
       </span>
       <a
-        class="c6"
+        class="c5"
         tabindex="-1"
       >
         browse
@@ -2354,7 +2281,7 @@ exports[`FileInput multiple aggregateThreshold 1`] = `
   justify-content: space-between;
 }
 
-.c6 {
+.c5 {
   box-sizing: border-box;
   display: inline-flex;
   font-size: inherit;
@@ -2367,14 +2294,8 @@ exports[`FileInput multiple aggregateThreshold 1`] = `
   margin: 12px;
 }
 
-.c6:hover {
+.c5:hover {
   text-decoration: underline;
-}
-
-.c5 {
-  margin: 12px;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 .c3 {
@@ -2480,12 +2401,13 @@ exports[`FileInput multiple aggregateThreshold 1`] = `
       class="c4"
     >
       <span
-        class="c5 "
+        class="textRecipe_size_medium "
+        style="margin: 12px;"
       >
         Drop files here or
       </span>
       <a
-        class="c6"
+        class="c5"
         tabindex="-1"
       >
         browse
@@ -2531,7 +2453,7 @@ exports[`FileInput multiple max 1`] = `
   justify-content: space-between;
 }
 
-.c6 {
+.c5 {
   box-sizing: border-box;
   display: inline-flex;
   font-size: inherit;
@@ -2544,14 +2466,8 @@ exports[`FileInput multiple max 1`] = `
   margin: 12px;
 }
 
-.c6:hover {
+.c5:hover {
   text-decoration: underline;
-}
-
-.c5 {
-  margin: 12px;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 .c3 {
@@ -2657,12 +2573,13 @@ exports[`FileInput multiple max 1`] = `
       class="c4"
     >
       <span
-        class="c5 "
+        class="textRecipe_size_medium "
+        style="margin: 12px;"
       >
         Drop files here or
       </span>
       <a
-        class="c6"
+        class="c5"
         tabindex="-1"
       >
         browse
@@ -2709,7 +2626,7 @@ exports[`FileInput pad 1`] = `
   justify-content: space-between;
 }
 
-.c6 {
+.c5 {
   box-sizing: border-box;
   display: inline-flex;
   font-size: inherit;
@@ -2722,14 +2639,8 @@ exports[`FileInput pad 1`] = `
   margin: 12px;
 }
 
-.c6:hover {
+.c5:hover {
   text-decoration: underline;
-}
-
-.c5 {
-  margin: 12px;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 .c3 {
@@ -2840,12 +2751,13 @@ exports[`FileInput pad 1`] = `
       class="c4"
     >
       <span
-        class="c5 "
+        class="textRecipe_size_medium "
+        style="margin: 12px;"
       >
         Drop file here or
       </span>
       <a
-        class="c6"
+        class="c5"
         tabindex="-1"
       >
         browse
@@ -2856,7 +2768,7 @@ exports[`FileInput pad 1`] = `
 `;
 
 exports[`FileInput should use theme icons 1`] = `
-.c9 {
+.c8 {
   display: inline-block;
   flex: 0 0 auto;
   width: 24px;
@@ -2865,25 +2777,25 @@ exports[`FileInput should use theme icons 1`] = `
   stroke: #666666;
 }
 
-.c9 g {
+.c8 g {
   fill: inherit;
   stroke: inherit;
 }
 
-.c9 *:not([stroke])[fill='none'] {
+.c8 *:not([stroke])[fill='none'] {
   stroke-width: 0;
 }
 
-.c9 *[stroke*='#'],
-.c9 *[STROKE*='#'] {
+.c8 *[stroke*='#'],
+.c8 *[STROKE*='#'] {
   stroke: inherit;
   fill: none;
 }
 
-.c9 *[fill-rule],
-.c9 *[FILL-RULE],
-.c9 *[fill*='#'],
-.c9 *[FILL*='#'] {
+.c8 *[fill-rule],
+.c8 *[FILL-RULE],
+.c8 *[fill*='#'],
+.c8 *[FILL*='#'] {
   fill: inherit;
   stroke: none;
 }
@@ -2908,7 +2820,7 @@ exports[`FileInput should use theme icons 1`] = `
   flex-direction: column;
 }
 
-.c3 {
+.c2 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -2918,7 +2830,7 @@ exports[`FileInput should use theme icons 1`] = `
   flex-direction: column;
 }
 
-.c4 {
+.c3 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -2930,7 +2842,7 @@ exports[`FileInput should use theme icons 1`] = `
   justify-content: center;
 }
 
-.c7 {
+.c6 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -2941,7 +2853,7 @@ exports[`FileInput should use theme icons 1`] = `
   justify-content: space-between;
 }
 
-.c8 {
+.c7 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -2952,7 +2864,7 @@ exports[`FileInput should use theme icons 1`] = `
   flex-direction: row;
 }
 
-.c12 {
+.c10 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -2963,13 +2875,13 @@ exports[`FileInput should use theme icons 1`] = `
   flex: 0 0 auto;
 }
 
-.c10 {
+.c9 {
   flex: 0 0 auto;
   align-self: stretch;
   width: 6px;
 }
 
-.c14 {
+.c12 {
   box-sizing: border-box;
   display: inline-flex;
   font-size: inherit;
@@ -2981,30 +2893,11 @@ exports[`FileInput should use theme icons 1`] = `
   margin: 12px;
 }
 
-.c14:hover {
+.c12:hover {
   text-decoration: underline;
 }
 
-.c2 {
-  margin-left: 12px;
-  margin-right: 12px;
-  margin-top: 6px;
-  margin-bottom: 6px;
-  font-size: 18px;
-  line-height: 24px;
-}
-
 .c11 {
-  font-size: 18px;
-  line-height: 24px;
-  white-space: nowrap;
-  max-width: 100%;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  font-weight: 600;
-}
-
-.c13 {
   display: inline-block;
   box-sizing: border-box;
   cursor: pointer;
@@ -3023,52 +2916,52 @@ exports[`FileInput should use theme icons 1`] = `
   padding: 12px;
 }
 
-.c13:hover {
+.c11:hover {
   background-color: rgba(221, 221, 221, 0.4);
   color: #000000;
 }
 
-.c13:focus {
+.c11:focus {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c13:focus >circle,
-.c13:focus >ellipse,
-.c13:focus >line,
-.c13:focus >path,
-.c13:focus >polygon,
-.c13:focus >polyline,
-.c13:focus >rect {
+.c11:focus >circle,
+.c11:focus >ellipse,
+.c11:focus >line,
+.c11:focus >path,
+.c11:focus >polygon,
+.c11:focus >polyline,
+.c11:focus >rect {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c13:focus ::-moz-focus-inner {
+.c11:focus ::-moz-focus-inner {
   border: 0;
 }
 
-.c13:focus:not(:focus-visible) {
+.c11:focus:not(:focus-visible) {
   outline: none;
   box-shadow: none;
 }
 
-.c13:focus:not(:focus-visible) >circle,
-.c13:focus:not(:focus-visible) >ellipse,
-.c13:focus:not(:focus-visible) >line,
-.c13:focus:not(:focus-visible) >path,
-.c13:focus:not(:focus-visible) >polygon,
-.c13:focus:not(:focus-visible) >polyline,
-.c13:focus:not(:focus-visible) >rect {
+.c11:focus:not(:focus-visible) >circle,
+.c11:focus:not(:focus-visible) >ellipse,
+.c11:focus:not(:focus-visible) >line,
+.c11:focus:not(:focus-visible) >path,
+.c11:focus:not(:focus-visible) >polygon,
+.c11:focus:not(:focus-visible) >polyline,
+.c11:focus:not(:focus-visible) >rect {
   outline: none;
   box-shadow: none;
 }
 
-.c13:focus:not(:focus-visible) ::-moz-focus-inner {
+.c11:focus:not(:focus-visible) ::-moz-focus-inner {
   border: 0;
 }
 
-.c6 {
+.c5 {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -3093,60 +2986,60 @@ exports[`FileInput should use theme icons 1`] = `
   right: 24px;
 }
 
-.c6::-webkit-input-placeholder {
+.c5::-webkit-input-placeholder {
   color: #AAAAAA;
 }
 
-.c6::-moz-placeholder {
+.c5::-moz-placeholder {
   color: #AAAAAA;
 }
 
-.c6:-ms-input-placeholder {
+.c5:-ms-input-placeholder {
   color: #AAAAAA;
 }
 
-.c6 ::-webkit-search-decoration {
+.c5 ::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-.c6::-moz-focus-inner {
+.c5::-moz-focus-inner {
   border: none;
   outline: none;
 }
 
-.c6:-moz-placeholder,
-.c6::-moz-placeholder {
+.c5:-moz-placeholder,
+.c5::-moz-placeholder {
   opacity: 1;
 }
 
-.c6::-moz-focus-inner {
+.c5::-moz-focus-inner {
   border: none;
   outline: none;
 }
 
-.c6::-webkit-file-upload-button {
+.c5::-webkit-file-upload-button {
   cursor: pointer;
 }
 
-.c5 {
+.c4 {
   cursor: pointer;
   position: relative;
   outline: none;
   box-shadow: none;
 }
 
-.c5 >circle,
-.c5 >ellipse,
-.c5 >line,
-.c5 >path,
-.c5 >polygon,
-.c5 >polyline,
-.c5 >rect {
+.c4 >circle,
+.c4 >ellipse,
+.c4 >line,
+.c4 >path,
+.c4 >polygon,
+.c4 >polyline,
+.c4 >rect {
   outline: none;
   box-shadow: none;
 }
 
-.c5 ::-moz-focus-inner {
+.c4 ::-moz-focus-inner {
   border: 0;
 }
 
@@ -3157,19 +3050,19 @@ exports[`FileInput should use theme icons 1`] = `
 }
 
 @media only screen and (max-width: 768px) {
-  .c3 {
+  .c2 {
     border: dashed 2px rgba(0, 0, 0, 0.33);
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c8 {
+  .c7 {
     margin: 6px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c10 {
+  .c9 {
     width: 3px;
   }
 }
@@ -3182,34 +3075,35 @@ exports[`FileInput should use theme icons 1`] = `
       class="c1 "
     >
       <label
-        class="c2"
+        class="textRecipe_size_medium"
         for="fileInput"
         id="grommet-fileInput__label"
+        style="margin: 6px 12px 6px 12px;"
       >
         File input with max size
       </label>
       <div
-        class="c3 "
+        class="c2 "
       >
         <div
-          class="c4 c5"
+          class="c3 c4"
         >
           <input
             aria-invalid="true"
-            class="c6"
+            class="c5"
             id="fileInput"
             name="fileInput"
             type="file"
           />
           <div
-            class="c7"
+            class="c6"
           >
             <div
-              class="c8"
+              class="c7"
             >
               <svg
                 aria-label="Error, file-size-error.csv exceeds 200.0 B limit."
-                class="c9"
+                class="c8"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -3220,25 +3114,26 @@ exports[`FileInput should use theme icons 1`] = `
                 />
               </svg>
               <div
-                class="c10"
+                class="c9"
               />
               <span
-                class="c11 "
+                class="textRecipe_size_medium_truncate_true "
+                style="font-weight: 600;"
               >
                 file-size-error.csv
               </span>
             </div>
             <div
-              class="c12"
+              class="c10"
             >
               <button
                 aria-label="remove file-size-error.csv"
-                class="c13"
+                class="c11"
                 type="button"
               >
                 <svg
                   aria-label="FormClose"
-                  class="c9"
+                  class="c8"
                   viewBox="0 0 24 24"
                 >
                   <path
@@ -3250,7 +3145,7 @@ exports[`FileInput should use theme icons 1`] = `
                 </svg>
               </button>
               <a
-                class="c14"
+                class="c12"
                 tabindex="-1"
               >
                 browse
@@ -3301,7 +3196,7 @@ exports[`FileInput theme anchor margin and label gap 1`] = `
   justify-content: space-between;
 }
 
-.c6 {
+.c5 {
   box-sizing: border-box;
   display: inline-flex;
   font-size: inherit;
@@ -3314,14 +3209,8 @@ exports[`FileInput theme anchor margin and label gap 1`] = `
   margin: 48px;
 }
 
-.c6:hover {
+.c5:hover {
   text-decoration: underline;
-}
-
-.c5 {
-  margin: 12px;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 .c3 {
@@ -3426,12 +3315,13 @@ exports[`FileInput theme anchor margin and label gap 1`] = `
         class="c4"
       >
         <span
-          class="c5 "
+          class="textRecipe_size_medium "
+          style="margin: 12px;"
         >
           Drop file here or
         </span>
         <a
-          class="c6"
+          class="c5"
           tabindex="-1"
         >
           browse

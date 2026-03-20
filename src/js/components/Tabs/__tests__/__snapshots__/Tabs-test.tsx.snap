@@ -47,7 +47,7 @@ exports[`Tabs Custom Tab component 1`] = `
   padding-bottom: 6px;
 }
 
-.c8 {
+.c7 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -60,18 +60,6 @@ exports[`Tabs Custom Tab component 1`] = `
   min-height: 0;
   flex-direction: column;
   padding-bottom: 6px;
-}
-
-.c7 {
-  font-size: 18px;
-  line-height: 24px;
-  color: #444444;
-}
-
-.c9 {
-  font-size: 18px;
-  line-height: 24px;
-  color: #7D4CDB;
 }
 
 .c4 {
@@ -147,7 +135,7 @@ exports[`Tabs Custom Tab component 1`] = `
   z-index: 1;
 }
 
-.c10 {
+.c8 {
   min-height: 0;
 }
 
@@ -188,27 +176,27 @@ exports[`Tabs Custom Tab component 1`] = `
 }
 
 @media only screen and (max-width: 768px) {
-  .c8 {
+  .c7 {
     margin-left: 6px;
     margin-right: 6px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c8 {
+  .c7 {
     margin-top: 2px;
     margin-bottom: 2px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c8 {
+  .c7 {
     border-bottom: solid 2px #7D4CDB;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c8 {
+  .c7 {
     padding-bottom: 3px;
   }
 }
@@ -237,7 +225,8 @@ exports[`Tabs Custom Tab component 1`] = `
             class="c5 c6"
           >
             <span
-              class="c7"
+              class="textRecipe_size_medium"
+              style="color: rgb(68, 68, 68);"
             >
               Tab 1
             </span>
@@ -251,10 +240,11 @@ exports[`Tabs Custom Tab component 1`] = `
           type="button"
         >
           <div
-            class="c8 c6"
+            class="c7 c6"
           >
             <span
-              class="c9"
+              class="textRecipe_size_medium"
+              style="color: rgb(125, 76, 219);"
             >
               Tab 2
             </span>
@@ -264,7 +254,7 @@ exports[`Tabs Custom Tab component 1`] = `
     </div>
     <div
       aria-label="Tab 1 Tab Contents"
-      class="c10"
+      class="c8"
       role="tabpanel"
     >
       Tab body 1
@@ -320,7 +310,7 @@ exports[`Tabs Tab 1`] = `
   padding-bottom: 6px;
 }
 
-.c8 {
+.c7 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -333,18 +323,6 @@ exports[`Tabs Tab 1`] = `
   min-height: 0;
   flex-direction: column;
   padding-bottom: 6px;
-}
-
-.c7 {
-  font-size: 18px;
-  line-height: 24px;
-  color: #444444;
-}
-
-.c9 {
-  font-size: 18px;
-  line-height: 24px;
-  color: #7D4CDB;
 }
 
 .c4 {
@@ -420,7 +398,7 @@ exports[`Tabs Tab 1`] = `
   z-index: 1;
 }
 
-.c10 {
+.c8 {
   min-height: 0;
 }
 
@@ -461,27 +439,27 @@ exports[`Tabs Tab 1`] = `
 }
 
 @media only screen and (max-width: 768px) {
-  .c8 {
+  .c7 {
     margin-left: 6px;
     margin-right: 6px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c8 {
+  .c7 {
     margin-top: 2px;
     margin-bottom: 2px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c8 {
+  .c7 {
     border-bottom: solid 2px #7D4CDB;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c8 {
+  .c7 {
     padding-bottom: 3px;
   }
 }
@@ -510,7 +488,8 @@ exports[`Tabs Tab 1`] = `
             class="c5 c6"
           >
             <span
-              class="c7"
+              class="textRecipe_size_medium"
+              style="color: rgb(68, 68, 68);"
             >
               Tab 1
             </span>
@@ -524,10 +503,11 @@ exports[`Tabs Tab 1`] = `
           type="button"
         >
           <div
-            class="c8 c6"
+            class="c7 c6"
           >
             <span
-              class="c9"
+              class="textRecipe_size_medium"
+              style="color: rgb(125, 76, 219);"
             >
               Tab 2
             </span>
@@ -537,7 +517,7 @@ exports[`Tabs Tab 1`] = `
     </div>
     <div
       aria-label="Tab 1 Tab Contents"
-      class="c10"
+      class="c8"
       role="tabpanel"
     >
       Tab body 1
@@ -594,7 +574,7 @@ exports[`Tabs alignControls 1`] = `
   padding-bottom: 6px;
 }
 
-.c8 {
+.c7 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -607,18 +587,6 @@ exports[`Tabs alignControls 1`] = `
   min-height: 0;
   flex-direction: column;
   padding-bottom: 6px;
-}
-
-.c7 {
-  font-size: 18px;
-  line-height: 24px;
-  color: #444444;
-}
-
-.c9 {
-  font-size: 18px;
-  line-height: 24px;
-  color: #7D4CDB;
 }
 
 .c4 {
@@ -694,7 +662,7 @@ exports[`Tabs alignControls 1`] = `
   z-index: 1;
 }
 
-.c10 {
+.c8 {
   min-height: 0;
 }
 
@@ -738,27 +706,27 @@ exports[`Tabs alignControls 1`] = `
 }
 
 @media only screen and (max-width: 768px) {
-  .c8 {
+  .c7 {
     margin-left: 6px;
     margin-right: 6px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c8 {
+  .c7 {
     margin-top: 2px;
     margin-bottom: 2px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c8 {
+  .c7 {
     border-bottom: solid 2px #7D4CDB;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c8 {
+  .c7 {
     padding-bottom: 3px;
   }
 }
@@ -787,7 +755,8 @@ exports[`Tabs alignControls 1`] = `
             class="c5 c6"
           >
             <span
-              class="c7"
+              class="textRecipe_size_medium"
+              style="color: rgb(68, 68, 68);"
             >
               Tab 1
             </span>
@@ -801,10 +770,11 @@ exports[`Tabs alignControls 1`] = `
           type="button"
         >
           <div
-            class="c8 c6"
+            class="c7 c6"
           >
             <span
-              class="c9"
+              class="textRecipe_size_medium"
+              style="color: rgb(125, 76, 219);"
             >
               Tab 2
             </span>
@@ -814,7 +784,7 @@ exports[`Tabs alignControls 1`] = `
     </div>
     <div
       aria-label="Tab 1 Tab Contents"
-      class="c10"
+      class="c8"
       role="tabpanel"
     >
       Tab body 1
@@ -870,7 +840,7 @@ exports[`Tabs change to second tab 1`] = `
   padding-bottom: 6px;
 }
 
-.c8 {
+.c7 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -883,18 +853,6 @@ exports[`Tabs change to second tab 1`] = `
   min-height: 0;
   flex-direction: column;
   padding-bottom: 6px;
-}
-
-.c7 {
-  font-size: 18px;
-  line-height: 24px;
-  color: #444444;
-}
-
-.c9 {
-  font-size: 18px;
-  line-height: 24px;
-  color: #7D4CDB;
 }
 
 .c4 {
@@ -970,7 +928,7 @@ exports[`Tabs change to second tab 1`] = `
   z-index: 1;
 }
 
-.c10 {
+.c8 {
   min-height: 0;
 }
 
@@ -1011,27 +969,27 @@ exports[`Tabs change to second tab 1`] = `
 }
 
 @media only screen and (max-width: 768px) {
-  .c8 {
+  .c7 {
     margin-left: 6px;
     margin-right: 6px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c8 {
+  .c7 {
     margin-top: 2px;
     margin-bottom: 2px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c8 {
+  .c7 {
     border-bottom: solid 2px #7D4CDB;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c8 {
+  .c7 {
     padding-bottom: 3px;
   }
 }
@@ -1060,7 +1018,8 @@ exports[`Tabs change to second tab 1`] = `
             class="c5 c6"
           >
             <span
-              class="c7"
+              class="textRecipe_size_medium"
+              style="color: rgb(68, 68, 68);"
             >
               Tab 1
             </span>
@@ -1074,10 +1033,11 @@ exports[`Tabs change to second tab 1`] = `
           type="button"
         >
           <div
-            class="c8 c6"
+            class="c7 c6"
           >
             <span
-              class="c9"
+              class="textRecipe_size_medium"
+              style="color: rgb(125, 76, 219);"
             >
               Tab 2
             </span>
@@ -1087,7 +1047,7 @@ exports[`Tabs change to second tab 1`] = `
     </div>
     <div
       aria-label="Tab 1 Tab Contents"
-      class="c10"
+      class="c8"
       role="tabpanel"
     >
       Tab body 1
@@ -1121,7 +1081,8 @@ exports[`Tabs change to second tab 2`] = `
             class="StyledBox-sc-13pk1d4-0 fWYnbV StyledTab-sc-1nnwnsb-0 jyUKod"
           >
             <span
-              class="StyledText-sc-1sadyjn-0 dgqqUh"
+              class="textRecipe_size_medium"
+              style="color: rgb(125, 76, 219);"
             >
               Tab 1
             </span>
@@ -1138,7 +1099,8 @@ exports[`Tabs change to second tab 2`] = `
             class="StyledBox-sc-13pk1d4-0 ZXqDp StyledTab-sc-1nnwnsb-0 jyUKod"
           >
             <span
-              class="StyledText-sc-1sadyjn-0 cIfVJX"
+              class="textRecipe_size_medium"
+              style="color: rgb(68, 68, 68);"
             >
               Tab 2
             </span>
@@ -1796,7 +1758,7 @@ exports[`Tabs onClick 1`] = `
   padding-bottom: 6px;
 }
 
-.c8 {
+.c7 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1809,18 +1771,6 @@ exports[`Tabs onClick 1`] = `
   min-height: 0;
   flex-direction: column;
   padding-bottom: 6px;
-}
-
-.c7 {
-  font-size: 18px;
-  line-height: 24px;
-  color: #444444;
-}
-
-.c9 {
-  font-size: 18px;
-  line-height: 24px;
-  color: #7D4CDB;
 }
 
 .c4 {
@@ -1896,7 +1846,7 @@ exports[`Tabs onClick 1`] = `
   z-index: 1;
 }
 
-.c10 {
+.c8 {
   min-height: 0;
 }
 
@@ -1937,27 +1887,27 @@ exports[`Tabs onClick 1`] = `
 }
 
 @media only screen and (max-width: 768px) {
-  .c8 {
+  .c7 {
     margin-left: 6px;
     margin-right: 6px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c8 {
+  .c7 {
     margin-top: 2px;
     margin-bottom: 2px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c8 {
+  .c7 {
     border-bottom: solid 2px #7D4CDB;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c8 {
+  .c7 {
     padding-bottom: 3px;
   }
 }
@@ -1986,7 +1936,8 @@ exports[`Tabs onClick 1`] = `
             class="c5 c6"
           >
             <span
-              class="c7"
+              class="textRecipe_size_medium"
+              style="color: rgb(68, 68, 68);"
             >
               Tab 1
             </span>
@@ -2000,10 +1951,11 @@ exports[`Tabs onClick 1`] = `
           type="button"
         >
           <div
-            class="c8 c6"
+            class="c7 c6"
           >
             <span
-              class="c9"
+              class="textRecipe_size_medium"
+              style="color: rgb(125, 76, 219);"
             >
               Tab 2
             </span>
@@ -2013,7 +1965,7 @@ exports[`Tabs onClick 1`] = `
     </div>
     <div
       aria-label="Tab 1 Tab Contents"
-      class="c10"
+      class="c8"
       role="tabpanel"
     >
       Tab body 1
@@ -2069,7 +2021,7 @@ exports[`Tabs renders outside grommet wrapper 1`] = `
   padding-bottom: 6px;
 }
 
-.c7 {
+.c6 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -2082,18 +2034,6 @@ exports[`Tabs renders outside grommet wrapper 1`] = `
   min-height: 0;
   flex-direction: column;
   padding-bottom: 6px;
-}
-
-.c6 {
-  font-size: 18px;
-  line-height: 24px;
-  color: #444444;
-}
-
-.c8 {
-  font-size: 18px;
-  line-height: 24px;
-  color: #7D4CDB;
 }
 
 .c3 {
@@ -2169,7 +2109,7 @@ exports[`Tabs renders outside grommet wrapper 1`] = `
   z-index: 1;
 }
 
-.c9 {
+.c7 {
   min-height: 0;
 }
 
@@ -2200,27 +2140,27 @@ exports[`Tabs renders outside grommet wrapper 1`] = `
 }
 
 @media only screen and (max-width: 768px) {
-  .c7 {
+  .c6 {
     margin-left: 6px;
     margin-right: 6px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c7 {
+  .c6 {
     margin-top: 2px;
     margin-bottom: 2px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c7 {
+  .c6 {
     border-bottom: solid 2px #7D4CDB;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c7 {
+  .c6 {
     padding-bottom: 3px;
   }
 }
@@ -2246,7 +2186,7 @@ exports[`Tabs renders outside grommet wrapper 1`] = `
           class="c4 c5"
         >
           <span
-            class="c6"
+            class="textRecipe_size_medium"
           >
             Tab 1
           </span>
@@ -2260,10 +2200,10 @@ exports[`Tabs renders outside grommet wrapper 1`] = `
         type="button"
       >
         <div
-          class="c7 c5"
+          class="c6 c5"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
           >
             Tab 2
           </span>
@@ -2273,7 +2213,7 @@ exports[`Tabs renders outside grommet wrapper 1`] = `
   </div>
   <div
     aria-label="Tab 1 Tab Contents"
-    class="c9"
+    class="c7"
     role="tabpanel"
   >
     Tab body 1
@@ -2328,7 +2268,7 @@ exports[`Tabs set on hover 1`] = `
   padding-bottom: 6px;
 }
 
-.c8 {
+.c7 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -2341,18 +2281,6 @@ exports[`Tabs set on hover 1`] = `
   min-height: 0;
   flex-direction: column;
   padding-bottom: 6px;
-}
-
-.c7 {
-  font-size: 18px;
-  line-height: 24px;
-  color: #444444;
-}
-
-.c9 {
-  font-size: 18px;
-  line-height: 24px;
-  color: #7D4CDB;
 }
 
 .c4 {
@@ -2428,7 +2356,7 @@ exports[`Tabs set on hover 1`] = `
   z-index: 1;
 }
 
-.c10 {
+.c8 {
   min-height: 0;
 }
 
@@ -2469,27 +2397,27 @@ exports[`Tabs set on hover 1`] = `
 }
 
 @media only screen and (max-width: 768px) {
-  .c8 {
+  .c7 {
     margin-left: 6px;
     margin-right: 6px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c8 {
+  .c7 {
     margin-top: 2px;
     margin-bottom: 2px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c8 {
+  .c7 {
     border-bottom: solid 2px #7D4CDB;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c8 {
+  .c7 {
     padding-bottom: 3px;
   }
 }
@@ -2518,7 +2446,8 @@ exports[`Tabs set on hover 1`] = `
             class="c5 c6"
           >
             <span
-              class="c7"
+              class="textRecipe_size_medium"
+              style="color: rgb(68, 68, 68);"
             >
               Tab 1
             </span>
@@ -2532,10 +2461,11 @@ exports[`Tabs set on hover 1`] = `
           type="button"
         >
           <div
-            class="c8 c6"
+            class="c7 c6"
           >
             <span
-              class="c9"
+              class="textRecipe_size_medium"
+              style="color: rgb(125, 76, 219);"
             >
               Tab 2
             </span>
@@ -2545,7 +2475,7 @@ exports[`Tabs set on hover 1`] = `
     </div>
     <div
       aria-label="Tab 1 Tab Contents"
-      class="c10"
+      class="c8"
       role="tabpanel"
     >
       Tab body 1
@@ -2579,7 +2509,8 @@ exports[`Tabs set on hover 2`] = `
             class="StyledBox-sc-13pk1d4-0 ZXqDp StyledTab-sc-1nnwnsb-0 jyUKod"
           >
             <span
-              class="StyledText-sc-1sadyjn-0 cIfVJX"
+              class="textRecipe_size_medium"
+              style="color: rgb(68, 68, 68);"
             >
               Tab 1
             </span>
@@ -2596,7 +2527,8 @@ exports[`Tabs set on hover 2`] = `
             class="StyledBox-sc-13pk1d4-0 fWYnbV StyledTab-sc-1nnwnsb-0 jyUKod"
           >
             <span
-              class="StyledText-sc-1sadyjn-0 dgqqUh"
+              class="textRecipe_size_medium"
+              style="color: rgb(125, 76, 219);"
             >
               Tab 2
             </span>
@@ -2640,7 +2572,8 @@ exports[`Tabs set on hover 3`] = `
             class="StyledBox-sc-13pk1d4-0 ZXqDp StyledTab-sc-1nnwnsb-0 jyUKod"
           >
             <span
-              class="StyledText-sc-1sadyjn-0 cIfVJX"
+              class="textRecipe_size_medium"
+              style="color: rgb(68, 68, 68);"
             >
               Tab 1
             </span>
@@ -2657,7 +2590,8 @@ exports[`Tabs set on hover 3`] = `
             class="StyledBox-sc-13pk1d4-0 ZXqDp StyledTab-sc-1nnwnsb-0 jyUKod"
           >
             <span
-              class="StyledText-sc-1sadyjn-0 ehcSOD"
+              class="textRecipe_size_medium"
+              style="color: rgb(0, 0, 0);"
             >
               Tab 2
             </span>
@@ -2701,7 +2635,8 @@ exports[`Tabs set on hover 4`] = `
             class="StyledBox-sc-13pk1d4-0 ZXqDp StyledTab-sc-1nnwnsb-0 jyUKod"
           >
             <span
-              class="StyledText-sc-1sadyjn-0 cIfVJX"
+              class="textRecipe_size_medium"
+              style="color: rgb(68, 68, 68);"
             >
               Tab 1
             </span>
@@ -2718,7 +2653,8 @@ exports[`Tabs set on hover 4`] = `
             class="StyledBox-sc-13pk1d4-0 ZXqDp StyledTab-sc-1nnwnsb-0 jyUKod"
           >
             <span
-              class="StyledText-sc-1sadyjn-0 ehcSOD"
+              class="textRecipe_size_medium"
+              style="color: rgb(0, 0, 0);"
             >
               Tab 2
             </span>
@@ -2762,7 +2698,8 @@ exports[`Tabs set on hover 5`] = `
             class="StyledBox-sc-13pk1d4-0 ZXqDp StyledTab-sc-1nnwnsb-0 jyUKod"
           >
             <span
-              class="StyledText-sc-1sadyjn-0 cIfVJX"
+              class="textRecipe_size_medium"
+              style="color: rgb(68, 68, 68);"
             >
               Tab 1
             </span>
@@ -2779,7 +2716,8 @@ exports[`Tabs set on hover 5`] = `
             class="StyledBox-sc-13pk1d4-0 fWYnbV StyledTab-sc-1nnwnsb-0 jyUKod"
           >
             <span
-              class="StyledText-sc-1sadyjn-0 dgqqUh"
+              class="textRecipe_size_medium"
+              style="color: rgb(125, 76, 219);"
             >
               Tab 2
             </span>
@@ -2843,12 +2781,6 @@ exports[`Tabs should allow to extend tab styles 1`] = `
   min-height: 0;
   flex-direction: column;
   padding-bottom: 6px;
-}
-
-.c8 {
-  font-size: 18px;
-  line-height: 24px;
-  color: #7D4CDB;
 }
 
 .c4 {
@@ -2936,7 +2868,7 @@ exports[`Tabs should allow to extend tab styles 1`] = `
   z-index: 1;
 }
 
-.c9 {
+.c8 {
   min-height: 0;
 }
 
@@ -3013,7 +2945,8 @@ exports[`Tabs should allow to extend tab styles 1`] = `
             class="c6 c7"
           >
             <span
-              class="c8"
+              class="textRecipe_size_medium"
+              style="color: rgb(125, 76, 219);"
             >
               Title 2
             </span>
@@ -3023,7 +2956,7 @@ exports[`Tabs should allow to extend tab styles 1`] = `
     </div>
     <div
       aria-label="Title 1 Tab Contents"
-      class="c9"
+      class="c8"
       role="tabpanel"
     >
       Some content
@@ -3079,7 +3012,7 @@ exports[`Tabs should apply custom theme disabled style 1`] = `
   padding-bottom: 6px;
 }
 
-.c9 {
+.c8 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -3092,18 +3025,6 @@ exports[`Tabs should apply custom theme disabled style 1`] = `
   min-height: 0;
   flex-direction: column;
   padding-bottom: 6px;
-}
-
-.c7 {
-  font-size: 18px;
-  line-height: 24px;
-  color: #444444;
-}
-
-.c11 {
-  font-size: 18px;
-  line-height: 24px;
-  color: blue;
 }
 
 .c4 {
@@ -3163,7 +3084,7 @@ exports[`Tabs should apply custom theme disabled style 1`] = `
   border: 0;
 }
 
-.c8 {
+.c7 {
   display: inline-block;
   box-sizing: border-box;
   cursor: pointer;
@@ -3182,43 +3103,43 @@ exports[`Tabs should apply custom theme disabled style 1`] = `
   cursor: default;
 }
 
-.c8:focus {
+.c7:focus {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c8:focus >circle,
-.c8:focus >ellipse,
-.c8:focus >line,
-.c8:focus >path,
-.c8:focus >polygon,
-.c8:focus >polyline,
-.c8:focus >rect {
+.c7:focus >circle,
+.c7:focus >ellipse,
+.c7:focus >line,
+.c7:focus >path,
+.c7:focus >polygon,
+.c7:focus >polyline,
+.c7:focus >rect {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c8:focus ::-moz-focus-inner {
+.c7:focus ::-moz-focus-inner {
   border: 0;
 }
 
-.c8:focus:not(:focus-visible) {
+.c7:focus:not(:focus-visible) {
   outline: none;
   box-shadow: none;
 }
 
-.c8:focus:not(:focus-visible) >circle,
-.c8:focus:not(:focus-visible) >ellipse,
-.c8:focus:not(:focus-visible) >line,
-.c8:focus:not(:focus-visible) >path,
-.c8:focus:not(:focus-visible) >polygon,
-.c8:focus:not(:focus-visible) >polyline,
-.c8:focus:not(:focus-visible) >rect {
+.c7:focus:not(:focus-visible) >circle,
+.c7:focus:not(:focus-visible) >ellipse,
+.c7:focus:not(:focus-visible) >line,
+.c7:focus:not(:focus-visible) >path,
+.c7:focus:not(:focus-visible) >polygon,
+.c7:focus:not(:focus-visible) >polyline,
+.c7:focus:not(:focus-visible) >rect {
   outline: none;
   box-shadow: none;
 }
 
-.c8:focus:not(:focus-visible) ::-moz-focus-inner {
+.c7:focus:not(:focus-visible) ::-moz-focus-inner {
   border: 0;
 }
 
@@ -3238,7 +3159,7 @@ exports[`Tabs should apply custom theme disabled style 1`] = `
   z-index: 1;
 }
 
-.c10 {
+.c9 {
   white-space: nowrap;
   margin-left: 12px;
   margin-right: 12px;
@@ -3247,7 +3168,7 @@ exports[`Tabs should apply custom theme disabled style 1`] = `
   color: blue;
 }
 
-.c12 {
+.c10 {
   min-height: 0;
 }
 
@@ -3288,27 +3209,27 @@ exports[`Tabs should apply custom theme disabled style 1`] = `
 }
 
 @media only screen and (max-width: 768px) {
-  .c9 {
+  .c8 {
     margin-left: 6px;
     margin-right: 6px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c9 {
+  .c8 {
     margin-top: 2px;
     margin-bottom: 2px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c9 {
+  .c8 {
     border-bottom: solid 2px green;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c9 {
+  .c8 {
     padding-bottom: 3px;
   }
 }
@@ -3337,7 +3258,8 @@ exports[`Tabs should apply custom theme disabled style 1`] = `
             class="c5 c6"
           >
             <span
-              class="c7"
+              class="textRecipe_size_medium"
+              style="color: rgb(68, 68, 68);"
             >
               Enabled Tab
             </span>
@@ -3346,17 +3268,18 @@ exports[`Tabs should apply custom theme disabled style 1`] = `
         <button
           aria-expanded="false"
           aria-selected="false"
-          class="c8"
+          class="c7"
           disabled=""
           role="tab"
           type="button"
         >
           <div
-            class="c9 c10"
+            class="c8 c9"
             disabled=""
           >
             <span
-              class="c11"
+              class="textRecipe_size_medium"
+              style="color: blue;"
             >
               Disabled Tab
             </span>
@@ -3366,7 +3289,7 @@ exports[`Tabs should apply custom theme disabled style 1`] = `
     </div>
     <div
       aria-label="Enabled Tab Tab Contents"
-      class="c12"
+      class="c10"
       role="tabpanel"
     >
       This tab is enabled
@@ -3422,7 +3345,7 @@ exports[`Tabs should apply custom theme disabled style when theme.button.default
   padding-bottom: 6px;
 }
 
-.c9 {
+.c8 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -3435,18 +3358,6 @@ exports[`Tabs should apply custom theme disabled style when theme.button.default
   min-height: 0;
   flex-direction: column;
   padding-bottom: 6px;
-}
-
-.c7 {
-  font-size: 18px;
-  line-height: 24px;
-  color: #444444;
-}
-
-.c11 {
-  font-size: 18px;
-  line-height: 24px;
-  color: blue;
 }
 
 .c4 {
@@ -3506,7 +3417,7 @@ exports[`Tabs should apply custom theme disabled style when theme.button.default
   border: 0;
 }
 
-.c8 {
+.c7 {
   display: inline-block;
   box-sizing: border-box;
   cursor: pointer;
@@ -3525,43 +3436,43 @@ exports[`Tabs should apply custom theme disabled style when theme.button.default
   cursor: default;
 }
 
-.c8:focus {
+.c7:focus {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c8:focus >circle,
-.c8:focus >ellipse,
-.c8:focus >line,
-.c8:focus >path,
-.c8:focus >polygon,
-.c8:focus >polyline,
-.c8:focus >rect {
+.c7:focus >circle,
+.c7:focus >ellipse,
+.c7:focus >line,
+.c7:focus >path,
+.c7:focus >polygon,
+.c7:focus >polyline,
+.c7:focus >rect {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c8:focus ::-moz-focus-inner {
+.c7:focus ::-moz-focus-inner {
   border: 0;
 }
 
-.c8:focus:not(:focus-visible) {
+.c7:focus:not(:focus-visible) {
   outline: none;
   box-shadow: none;
 }
 
-.c8:focus:not(:focus-visible) >circle,
-.c8:focus:not(:focus-visible) >ellipse,
-.c8:focus:not(:focus-visible) >line,
-.c8:focus:not(:focus-visible) >path,
-.c8:focus:not(:focus-visible) >polygon,
-.c8:focus:not(:focus-visible) >polyline,
-.c8:focus:not(:focus-visible) >rect {
+.c7:focus:not(:focus-visible) >circle,
+.c7:focus:not(:focus-visible) >ellipse,
+.c7:focus:not(:focus-visible) >line,
+.c7:focus:not(:focus-visible) >path,
+.c7:focus:not(:focus-visible) >polygon,
+.c7:focus:not(:focus-visible) >polyline,
+.c7:focus:not(:focus-visible) >rect {
   outline: none;
   box-shadow: none;
 }
 
-.c8:focus:not(:focus-visible) ::-moz-focus-inner {
+.c7:focus:not(:focus-visible) ::-moz-focus-inner {
   border: 0;
 }
 
@@ -3581,7 +3492,7 @@ exports[`Tabs should apply custom theme disabled style when theme.button.default
   z-index: 1;
 }
 
-.c10 {
+.c9 {
   white-space: nowrap;
   margin-left: 12px;
   margin-right: 12px;
@@ -3590,7 +3501,7 @@ exports[`Tabs should apply custom theme disabled style when theme.button.default
   color: blue;
 }
 
-.c12 {
+.c10 {
   min-height: 0;
 }
 
@@ -3631,27 +3542,27 @@ exports[`Tabs should apply custom theme disabled style when theme.button.default
 }
 
 @media only screen and (max-width: 768px) {
-  .c9 {
+  .c8 {
     margin-left: 6px;
     margin-right: 6px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c9 {
+  .c8 {
     margin-top: 2px;
     margin-bottom: 2px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c9 {
+  .c8 {
     border-bottom: solid 2px green;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c9 {
+  .c8 {
     padding-bottom: 3px;
   }
 }
@@ -3680,7 +3591,8 @@ exports[`Tabs should apply custom theme disabled style when theme.button.default
             class="c5 c6"
           >
             <span
-              class="c7"
+              class="textRecipe_size_medium"
+              style="color: rgb(68, 68, 68);"
             >
               Enabled Tab
             </span>
@@ -3689,17 +3601,18 @@ exports[`Tabs should apply custom theme disabled style when theme.button.default
         <button
           aria-expanded="false"
           aria-selected="false"
-          class="c8"
+          class="c7"
           disabled=""
           role="tab"
           type="button"
         >
           <div
-            class="c9 c10"
+            class="c8 c9"
             disabled=""
           >
             <span
-              class="c11"
+              class="textRecipe_size_medium"
+              style="color: blue;"
             >
               Disabled Tab
             </span>
@@ -3709,7 +3622,7 @@ exports[`Tabs should apply custom theme disabled style when theme.button.default
     </div>
     <div
       aria-label="Enabled Tab Tab Contents"
-      class="c12"
+      class="c10"
       role="tabpanel"
     >
       This tab is enabled
@@ -3767,7 +3680,7 @@ exports[`Tabs should apply theme alignSelf to tab controls 1`] = `
   padding-bottom: 6px;
 }
 
-.c8 {
+.c7 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -3780,18 +3693,6 @@ exports[`Tabs should apply theme alignSelf to tab controls 1`] = `
   min-height: 0;
   flex-direction: column;
   padding-bottom: 6px;
-}
-
-.c7 {
-  font-size: 18px;
-  line-height: 24px;
-  color: #444444;
-}
-
-.c9 {
-  font-size: 18px;
-  line-height: 24px;
-  color: #7D4CDB;
 }
 
 .c4 {
@@ -3867,7 +3768,7 @@ exports[`Tabs should apply theme alignSelf to tab controls 1`] = `
   z-index: 1;
 }
 
-.c10 {
+.c8 {
   min-height: 0;
 }
 
@@ -3908,27 +3809,27 @@ exports[`Tabs should apply theme alignSelf to tab controls 1`] = `
 }
 
 @media only screen and (max-width: 768px) {
-  .c8 {
+  .c7 {
     margin-left: 6px;
     margin-right: 6px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c8 {
+  .c7 {
     margin-top: 2px;
     margin-bottom: 2px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c8 {
+  .c7 {
     border-bottom: solid 2px #7D4CDB;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c8 {
+  .c7 {
     padding-bottom: 3px;
   }
 }
@@ -3957,7 +3858,8 @@ exports[`Tabs should apply theme alignSelf to tab controls 1`] = `
               class="c5 c6"
             >
               <span
-                class="c7"
+                class="textRecipe_size_medium"
+                style="color: rgb(68, 68, 68);"
               >
                 Tab 1
               </span>
@@ -3971,10 +3873,11 @@ exports[`Tabs should apply theme alignSelf to tab controls 1`] = `
             type="button"
           >
             <div
-              class="c8 c6"
+              class="c7 c6"
             >
               <span
-                class="c9"
+                class="textRecipe_size_medium"
+                style="color: rgb(125, 76, 219);"
               >
                 Tab 2
               </span>
@@ -3984,7 +3887,7 @@ exports[`Tabs should apply theme alignSelf to tab controls 1`] = `
       </div>
       <div
         aria-label="Tab 1 Tab Contents"
-        class="c10"
+        class="c8"
         role="tabpanel"
       >
         This tab is first
@@ -4383,7 +4286,7 @@ exports[`Tabs should style as disabled 1`] = `
   padding-bottom: 6px;
 }
 
-.c9 {
+.c8 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -4396,18 +4299,6 @@ exports[`Tabs should style as disabled 1`] = `
   min-height: 0;
   flex-direction: column;
   padding-bottom: 6px;
-}
-
-.c7 {
-  font-size: 18px;
-  line-height: 24px;
-  color: #444444;
-}
-
-.c11 {
-  font-size: 18px;
-  line-height: 24px;
-  color: #7D4CDB;
 }
 
 .c4 {
@@ -4467,7 +4358,7 @@ exports[`Tabs should style as disabled 1`] = `
   border: 0;
 }
 
-.c8 {
+.c7 {
   display: inline-block;
   box-sizing: border-box;
   cursor: pointer;
@@ -4486,43 +4377,43 @@ exports[`Tabs should style as disabled 1`] = `
   cursor: default;
 }
 
-.c8:focus {
+.c7:focus {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c8:focus >circle,
-.c8:focus >ellipse,
-.c8:focus >line,
-.c8:focus >path,
-.c8:focus >polygon,
-.c8:focus >polyline,
-.c8:focus >rect {
+.c7:focus >circle,
+.c7:focus >ellipse,
+.c7:focus >line,
+.c7:focus >path,
+.c7:focus >polygon,
+.c7:focus >polyline,
+.c7:focus >rect {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c8:focus ::-moz-focus-inner {
+.c7:focus ::-moz-focus-inner {
   border: 0;
 }
 
-.c8:focus:not(:focus-visible) {
+.c7:focus:not(:focus-visible) {
   outline: none;
   box-shadow: none;
 }
 
-.c8:focus:not(:focus-visible) >circle,
-.c8:focus:not(:focus-visible) >ellipse,
-.c8:focus:not(:focus-visible) >line,
-.c8:focus:not(:focus-visible) >path,
-.c8:focus:not(:focus-visible) >polygon,
-.c8:focus:not(:focus-visible) >polyline,
-.c8:focus:not(:focus-visible) >rect {
+.c7:focus:not(:focus-visible) >circle,
+.c7:focus:not(:focus-visible) >ellipse,
+.c7:focus:not(:focus-visible) >line,
+.c7:focus:not(:focus-visible) >path,
+.c7:focus:not(:focus-visible) >polygon,
+.c7:focus:not(:focus-visible) >polyline,
+.c7:focus:not(:focus-visible) >rect {
   outline: none;
   box-shadow: none;
 }
 
-.c8:focus:not(:focus-visible) ::-moz-focus-inner {
+.c7:focus:not(:focus-visible) ::-moz-focus-inner {
   border: 0;
 }
 
@@ -4542,7 +4433,7 @@ exports[`Tabs should style as disabled 1`] = `
   z-index: 1;
 }
 
-.c10 {
+.c9 {
   white-space: nowrap;
   margin-left: 12px;
   margin-right: 12px;
@@ -4550,7 +4441,7 @@ exports[`Tabs should style as disabled 1`] = `
   margin-bottom: 3px;
 }
 
-.c12 {
+.c10 {
   min-height: 0;
 }
 
@@ -4591,27 +4482,27 @@ exports[`Tabs should style as disabled 1`] = `
 }
 
 @media only screen and (max-width: 768px) {
-  .c9 {
+  .c8 {
     margin-left: 6px;
     margin-right: 6px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c9 {
+  .c8 {
     margin-top: 2px;
     margin-bottom: 2px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c9 {
+  .c8 {
     border-bottom: solid 2px #7D4CDB;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c9 {
+  .c8 {
     padding-bottom: 3px;
   }
 }
@@ -4640,7 +4531,8 @@ exports[`Tabs should style as disabled 1`] = `
             class="c5 c6"
           >
             <span
-              class="c7"
+              class="textRecipe_size_medium"
+              style="color: rgb(68, 68, 68);"
             >
               Enabled Tab
             </span>
@@ -4649,17 +4541,18 @@ exports[`Tabs should style as disabled 1`] = `
         <button
           aria-expanded="false"
           aria-selected="false"
-          class="c8"
+          class="c7"
           disabled=""
           role="tab"
           type="button"
         >
           <div
-            class="c9 c10"
+            class="c8 c9"
             disabled=""
           >
             <span
-              class="c11"
+              class="textRecipe_size_medium"
+              style="color: rgb(125, 76, 219);"
             >
               Disabled Tab
             </span>
@@ -4669,7 +4562,7 @@ exports[`Tabs should style as disabled 1`] = `
     </div>
     <div
       aria-label="Enabled Tab Tab Contents"
-      class="c12"
+      class="c10"
       role="tabpanel"
     >
       This tab is enabled
@@ -4710,7 +4603,7 @@ exports[`Tabs styled component should change tab color when active 1`] = `
   overflow: visible;
 }
 
-.c10 {
+.c9 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -4738,18 +4631,6 @@ exports[`Tabs styled component should change tab color when active 1`] = `
   min-height: 0;
   flex-direction: column;
   padding-bottom: 6px;
-}
-
-.c11 {
-  font-size: 18px;
-  line-height: 24px;
-  color: #444444;
-}
-
-.c8 {
-  font-size: 18px;
-  line-height: 24px;
-  color: #7D4CDB;
 }
 
 .c4 {
@@ -4825,7 +4706,7 @@ exports[`Tabs styled component should change tab color when active 1`] = `
   z-index: 1;
 }
 
-.c12 {
+.c10 {
   min-height: 0;
 }
 
@@ -4839,7 +4720,7 @@ exports[`Tabs styled component should change tab color when active 1`] = `
   -webkit-font-smoothing: antialiased;
 }
 
-.c9 {
+.c8 {
   background: blue;
 }
 
@@ -4848,27 +4729,27 @@ exports[`Tabs styled component should change tab color when active 1`] = `
 }
 
 @media only screen and (max-width: 768px) {
-  .c10 {
+  .c9 {
     margin-left: 6px;
     margin-right: 6px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c10 {
+  .c9 {
     margin-top: 2px;
     margin-bottom: 2px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c10 {
+  .c9 {
     border-bottom: solid 2px #000000;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c10 {
+  .c9 {
     padding-bottom: 3px;
   }
 }
@@ -4923,7 +4804,8 @@ exports[`Tabs styled component should change tab color when active 1`] = `
             class="c6 c7"
           >
             <span
-              class="c8"
+              class="textRecipe_size_medium"
+              style="color: rgb(125, 76, 219);"
             >
               About
             </span>
@@ -4932,15 +4814,16 @@ exports[`Tabs styled component should change tab color when active 1`] = `
         <button
           aria-expanded="true"
           aria-selected="true"
-          class="c4 c9"
+          class="c4 c8"
           role="tab"
           type="button"
         >
           <div
-            class="c10 c7"
+            class="c9 c7"
           >
             <span
-              class="c11"
+              class="textRecipe_size_medium"
+              style="color: rgb(68, 68, 68);"
             >
               Activity
             </span>
@@ -4957,7 +4840,8 @@ exports[`Tabs styled component should change tab color when active 1`] = `
             class="c6 c7"
           >
             <span
-              class="c8"
+              class="textRecipe_size_medium"
+              style="color: rgb(125, 76, 219);"
             >
               Stickers
             </span>
@@ -4967,7 +4851,7 @@ exports[`Tabs styled component should change tab color when active 1`] = `
     </div>
     <div
       aria-label="Activity Tab Contents"
-      class="c12"
+      class="c10"
       role="tabpanel"
     />
   </div>
@@ -5024,7 +4908,7 @@ exports[`Tabs theme tab gap 1`] = `
   padding-bottom: 6px;
 }
 
-.c9 {
+.c8 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -5045,18 +4929,6 @@ exports[`Tabs theme tab gap 1`] = `
   flex: 0 0 auto;
   align-self: stretch;
   width: 48px;
-}
-
-.c8 {
-  font-size: 18px;
-  line-height: 24px;
-  color: #444444;
-}
-
-.c10 {
-  font-size: 18px;
-  line-height: 24px;
-  color: #7D4CDB;
 }
 
 .c4 {
@@ -5132,7 +5004,7 @@ exports[`Tabs theme tab gap 1`] = `
   z-index: 1;
 }
 
-.c11 {
+.c9 {
   min-height: 0;
 }
 
@@ -5173,27 +5045,27 @@ exports[`Tabs theme tab gap 1`] = `
 }
 
 @media only screen and (max-width: 768px) {
-  .c9 {
+  .c8 {
     margin-left: 6px;
     margin-right: 6px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c9 {
+  .c8 {
     margin-top: 2px;
     margin-bottom: 2px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c9 {
+  .c8 {
     border-bottom: solid 2px #7D4CDB;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c9 {
+  .c8 {
     padding-bottom: 3px;
   }
 }
@@ -5234,7 +5106,8 @@ exports[`Tabs theme tab gap 1`] = `
                 class="c7"
               />
               <span
-                class="c8"
+                class="textRecipe_size_medium"
+                style="color: rgb(68, 68, 68);"
               >
                 Tab 1
               </span>
@@ -5248,7 +5121,7 @@ exports[`Tabs theme tab gap 1`] = `
             type="button"
           >
             <div
-              class="c9 c6"
+              class="c8 c6"
             >
               <svg
                 color="control"
@@ -5257,7 +5130,8 @@ exports[`Tabs theme tab gap 1`] = `
                 class="c7"
               />
               <span
-                class="c10"
+                class="textRecipe_size_medium"
+                style="color: rgb(125, 76, 219);"
               >
                 Tab 2
               </span>
@@ -5267,7 +5141,7 @@ exports[`Tabs theme tab gap 1`] = `
       </div>
       <div
         aria-label="Tab 1 Tab Contents"
-        class="c11"
+        class="c9"
         role="tabpanel"
       >
         Tab body 1
@@ -5326,7 +5200,7 @@ exports[`Tabs with icon + reverse 1`] = `
   padding-bottom: 6px;
 }
 
-.c9 {
+.c8 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -5347,18 +5221,6 @@ exports[`Tabs with icon + reverse 1`] = `
   flex: 0 0 auto;
   align-self: stretch;
   width: 12px;
-}
-
-.c8 {
-  font-size: 18px;
-  line-height: 24px;
-  color: #444444;
-}
-
-.c10 {
-  font-size: 18px;
-  line-height: 24px;
-  color: #7D4CDB;
 }
 
 .c4 {
@@ -5434,7 +5296,7 @@ exports[`Tabs with icon + reverse 1`] = `
   z-index: 1;
 }
 
-.c11 {
+.c9 {
   min-height: 0;
 }
 
@@ -5475,27 +5337,27 @@ exports[`Tabs with icon + reverse 1`] = `
 }
 
 @media only screen and (max-width: 768px) {
-  .c9 {
+  .c8 {
     margin-left: 6px;
     margin-right: 6px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c9 {
+  .c8 {
     margin-top: 2px;
     margin-bottom: 2px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c9 {
+  .c8 {
     border-bottom: solid 2px #7D4CDB;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c9 {
+  .c8 {
     padding-bottom: 3px;
   }
 }
@@ -5536,7 +5398,8 @@ exports[`Tabs with icon + reverse 1`] = `
               class="c7"
             />
             <span
-              class="c8"
+              class="textRecipe_size_medium"
+              style="color: rgb(68, 68, 68);"
             >
               Tab 1
             </span>
@@ -5550,10 +5413,11 @@ exports[`Tabs with icon + reverse 1`] = `
           type="button"
         >
           <div
-            class="c9 c6"
+            class="c8 c6"
           >
             <span
-              class="c10"
+              class="textRecipe_size_medium"
+              style="color: rgb(125, 76, 219);"
             >
               Tab 2
             </span>
@@ -5569,7 +5433,7 @@ exports[`Tabs with icon + reverse 1`] = `
     </div>
     <div
       aria-label="Tab 1 Tab Contents"
-      class="c11"
+      class="c9"
       role="tabpanel"
     >
       Tab body 1

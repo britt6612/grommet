@@ -127,6 +127,23 @@ Object.keys(statusColors).forEach((color) => {
 });
 
 export const generate = (baseSpacing = 24, scale = 6) => {
+  // Phase 0.3: CSS tokens are pre-compiled from generate(24, 6) into
+  // src/js/themes/grommet/grommet.theme.css.ts via Vanilla Extract.
+  // Custom baseSpacing/scale args still work for the returned JS object
+  // (used by deepMerge / ThemeContext), but do NOT affect any VE CSS output.
+  if (
+    process.env.NODE_ENV !== 'production' &&
+    (baseSpacing !== 24 || scale !== 6)
+  ) {
+    // eslint-disable-next-line no-console
+    console.warn(
+      '[grommet] generate(baseSpacing, scale) called with custom arguments. ' +
+        'CSS tokens are pre-compiled from generate(24, 6) and will not change. ' +
+        'The returned JS object still applies via GrommetThemeContext for ' +
+        'non-CSS values (component logic, icon sizes, etc.). ' +
+        'See the migration guide for alternatives.',
+    );
+  }
   // 24
   const baseFontSize = baseSpacing * 0.75; // 18
   const fontScale = baseSpacing / scale; // 4

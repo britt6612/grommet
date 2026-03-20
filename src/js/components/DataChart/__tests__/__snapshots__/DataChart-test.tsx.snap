@@ -7222,11 +7222,6 @@ exports[`DataChart legend 1`] = `
   width: 6px;
 }
 
-.c13 {
-  font-size: 18px;
-  line-height: 24px;
-}
-
 .c9 {
   display: block;
   max-width: 100%;
@@ -7391,7 +7386,7 @@ exports[`DataChart legend 1`] = `
           class="c12"
         />
         <span
-          class="c13"
+          class="textRecipe_size_medium"
         >
           a
         </span>
@@ -9117,11 +9112,6 @@ exports[`DataChart placeholder node 1`] = `
   justify-content: center;
 }
 
-.c11 {
-  font-size: 18px;
-  line-height: 24px;
-}
-
 .c8 {
   display: block;
   max-width: 100%;
@@ -9231,7 +9221,7 @@ exports[`DataChart placeholder node 1`] = `
           class="c10"
         >
           <span
-            class="c11"
+            class="textRecipe_size_medium"
           >
             no data
           </span>
@@ -9315,12 +9305,6 @@ exports[`DataChart placeholder text 1`] = `
   flex-direction: column;
   height: 100%;
   justify-content: center;
-}
-
-.c11 {
-  font-size: 18px;
-  line-height: 24px;
-  color: #555555;
 }
 
 .c8 {
@@ -9439,7 +9423,8 @@ exports[`DataChart placeholder text 1`] = `
           class="c10"
         >
           <span
-            class="c11"
+            class="textRecipe_size_medium"
+            style="color: rgb(85, 85, 85);"
           >
             no data
           </span>
@@ -10294,17 +10279,6 @@ exports[`DataChart theme overrides 2`] = `
   padding: 48px;
 }
 
-.c4 {
-  font-size: 14px;
-  line-height: 20px;
-}
-
-.c5 {
-  font-size: 14px;
-  line-height: 20px;
-  font-weight: bold;
-}
-
 .c1 {
   font-size: 18px;
   line-height: 24px;
@@ -10380,12 +10354,13 @@ exports[`DataChart theme overrides 2`] = `
         />
       </svg>
       <span
-        class="c4"
+        class="textRecipe_size_small"
       >
         percent
       </span>
       <span
-        class="c5"
+        class="textRecipe_size_small"
+        style="font-weight: bold;"
       >
         47.942553860420304
       </span>

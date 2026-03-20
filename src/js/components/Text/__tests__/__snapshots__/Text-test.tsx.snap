@@ -11,16 +11,11 @@ exports[`accepts ref 1`] = `
   -webkit-font-smoothing: antialiased;
 }
 
-.c1 {
-  font-size: 18px;
-  line-height: 24px;
-}
-
 <div
   class="c0"
 >
   <span
-    class="c1"
+    class="textRecipe_size_medium"
   >
     text
   </span>
@@ -38,16 +33,11 @@ exports[`renders 1`] = `
   -webkit-font-smoothing: antialiased;
 }
 
-.c1 {
-  font-size: 18px;
-  line-height: 24px;
-}
-
 <div
   class="c0"
 >
   <span
-    class="c1"
+    class="textRecipe_size_medium"
   >
     text
   </span>
@@ -65,17 +55,12 @@ exports[`renders color 1`] = `
   -webkit-font-smoothing: antialiased;
 }
 
-.c1 {
-  font-size: 18px;
-  line-height: 24px;
-  color: #EB0000;
-}
-
 <div
   class="c0"
 >
   <span
-    class="c1"
+    class="textRecipe_size_medium"
+    style="color: rgb(235, 0, 0);"
   />
 </div>
 `;
@@ -91,112 +76,55 @@ exports[`renders margin 1`] = `
   -webkit-font-smoothing: antialiased;
 }
 
-.c1 {
-  margin: 12px;
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.c2 {
-  margin: 24px;
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.c3 {
-  margin: 48px;
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.c4 {
-  margin: 0px;
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.c5 {
-  margin-top: 12px;
-  margin-bottom: 12px;
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.c6 {
-  margin-left: 12px;
-  margin-right: 12px;
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.c7 {
-  margin-bottom: 12px;
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.c8 {
-  margin-top: 12px;
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.c9 {
-  margin-left: 12px;
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.c10 {
-  margin-right: 12px;
-  font-size: 18px;
-  line-height: 24px;
-}
-
 <div
   class="c0"
 >
   <span
-    class="c1"
+    class="textRecipe_size_medium"
+    style="margin: 12px;"
   />
   <span
-    class="c2"
+    class="textRecipe_size_medium"
+    style="margin: 24px;"
   />
   <span
-    class="c3"
+    class="textRecipe_size_medium"
+    style="margin: 48px;"
   />
   <span
-    class="c4"
+    class="textRecipe_size_medium"
+    style="margin: 0px;"
   />
   <span
-    class="c5"
+    class="textRecipe_size_medium"
+    style="margin-top: 12px; margin-bottom: 12px;"
   />
   <span
-    class="c6"
+    class="textRecipe_size_medium"
+    style="margin-left: 12px; margin-right: 12px;"
   />
   <span
-    class="c7"
+    class="textRecipe_size_medium"
+    style="margin-bottom: 12px;"
   />
   <span
-    class="c8"
+    class="textRecipe_size_medium"
+    style="margin-top: 12px;"
   />
   <span
-    class="c9"
+    class="textRecipe_size_medium"
+    style="margin-left: 12px;"
   />
   <span
-    class="c10"
+    class="textRecipe_size_medium"
+    style="margin-right: 12px;"
   />
 </div>
 `;
 
 exports[`renders outside grommet wrapper 1`] = `
-.c0 {
-  font-size: 18px;
-  line-height: 24px;
-}
-
 <span
-  class="c0"
+  class="textRecipe_size_medium"
 >
   text
 </span>
@@ -213,91 +141,41 @@ exports[`renders size 1`] = `
   -webkit-font-smoothing: antialiased;
 }
 
-.c1 {
-  font-size: 12px;
-  line-height: 18px;
-}
-
-.c2 {
-  font-size: 14px;
-  line-height: 20px;
-}
-
-.c3 {
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.c4 {
-  font-size: 22px;
-  line-height: 28px;
-}
-
-.c5 {
-  font-size: 26px;
-  line-height: 32px;
-}
-
-.c6 {
-  font-size: 34px;
-  line-height: 40px;
-}
-
-.c7 {
-  font-size: 42px;
-  line-height: 48px;
-}
-
-.c8 {
-  font-size: 54px;
-  line-height: 60px;
-}
-
-.c9 {
-  font-size: 70px;
-  line-height: 76px;
-}
-
-.c10 {
-  font-size: 90px;
-  line-height: 96px;
-}
-
 <div
   class="c0"
 >
   <span
-    class="c1"
+    class="textRecipe_size_xsmall"
   />
   <span
-    class="c2"
+    class="textRecipe_size_small"
   />
   <span
-    class="c3"
+    class="textRecipe_size_medium"
   />
   <span
-    class="c4"
+    class="textRecipe_size_large"
   />
   <span
-    class="c5"
+    class="textRecipe_size_xlarge"
   />
   <span
-    class="c6"
+    class="textRecipe_size_xxlarge"
   />
   <span
-    class="c6"
+    class="textRecipe_size_2xl"
   />
   <span
-    class="c7"
+    class="textRecipe_size_3xl"
   />
   <span
-    class="c8"
+    class="textRecipe_size_4xl"
   />
   <span
-    class="c9"
+    class="textRecipe_size_5xl"
   />
   <span
-    class="c10"
+    class="textRecipe_size_6xl"
   />
 </div>
 `;
@@ -313,16 +191,11 @@ exports[`renders tag 1`] = `
   -webkit-font-smoothing: antialiased;
 }
 
-.c1 {
-  font-size: 18px;
-  line-height: 24px;
-}
-
 <div
   class="c0"
 >
   <div
-    class="c1"
+    class="textRecipe_size_medium"
   />
 </div>
 `;
@@ -338,44 +211,24 @@ exports[`renders textAlign 1`] = `
   -webkit-font-smoothing: antialiased;
 }
 
-.c1 {
-  font-size: 18px;
-  line-height: 24px;
-  text-align: left;
-}
-
-.c2 {
-  font-size: 18px;
-  line-height: 24px;
-  text-align: center;
-}
-
-.c3 {
-  font-size: 18px;
-  line-height: 24px;
-  text-align: right;
-}
-
-.c4 {
-  font-size: 18px;
-  line-height: 24px;
-  text-align: justify;
-}
-
 <div
   class="c0"
 >
   <span
-    class="c1"
+    class="textRecipe_size_medium"
+    style="text-align: left;"
   />
   <span
-    class="c2"
+    class="textRecipe_size_medium"
+    style="text-align: center;"
   />
   <span
-    class="c3"
+    class="textRecipe_size_medium"
+    style="text-align: right;"
   />
   <span
-    class="c4"
+    class="textRecipe_size_medium"
+    style="text-align: justify;"
   />
 </div>
 `;
@@ -389,11 +242,6 @@ exports[`renders tip 1`] = `
   -ms-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-}
-
-.c1 {
-  font-size: 18px;
-  line-height: 24px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -425,7 +273,7 @@ exports[`renders tip 1`] = `
 >
   <span
     aria-label="tooltip"
-    class="c1"
+    class="textRecipe_size_medium"
   >
     Default Tip
   </span>
@@ -443,30 +291,16 @@ exports[`renders truncate 1`] = `
   -webkit-font-smoothing: antialiased;
 }
 
-.c1 {
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.c2 {
-  font-size: 18px;
-  line-height: 24px;
-  white-space: nowrap;
-  max-width: 100%;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
 <div
   class="c0"
 >
   <span
-    class="c1"
+    class="textRecipe_size_medium"
   >
     a b c d e f g h i j k l m n o p q r s t u v w x y z
   </span>
   <span
-    class="c2"
+    class="textRecipe_size_medium_truncate_true"
   >
     a b c d e f g h i j k l m n o p q r s t u v w x y z
   </span>
@@ -484,26 +318,16 @@ exports[`renders weight 1`] = `
   -webkit-font-smoothing: antialiased;
 }
 
-.c1 {
-  font-size: 18px;
-  line-height: 24px;
-  font-weight: normal;
-}
-
-.c2 {
-  font-size: 18px;
-  line-height: 24px;
-  font-weight: bold;
-}
-
 <div
   class="c0"
 >
   <span
-    class="c1"
+    class="textRecipe_size_medium"
+    style="font-weight: normal;"
   />
   <span
-    class="c2"
+    class="textRecipe_size_medium"
+    style="font-weight: bold;"
   />
 </div>
 `;
@@ -519,23 +343,18 @@ exports[`should apply a11yTitle or aria-label 1`] = `
   -webkit-font-smoothing: antialiased;
 }
 
-.c1 {
-  font-size: 18px;
-  line-height: 24px;
-}
-
 <div
   class="c0"
 >
   <span
     aria-label="test"
-    class="c1"
+    class="textRecipe_size_medium"
   >
      Example
   </span>
   <span
     aria-label="test-2"
-    class="c1"
+    class="textRecipe_size_medium"
   >
     Example
   </span>
@@ -553,17 +372,12 @@ exports[`should have no accessibility violations 1`] = `
   -webkit-font-smoothing: antialiased;
 }
 
-.c1 {
-  font-size: 18px;
-  line-height: 24px;
-}
-
 <div
   class="c0"
 >
   <span
     aria-label="test"
-    class="c1"
+    class="textRecipe_size_medium"
   >
      Example
   </span>

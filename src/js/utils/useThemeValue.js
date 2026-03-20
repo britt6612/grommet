@@ -1,18 +1,25 @@
 import { useContext } from 'react';
-import { ThemeContext } from 'styled-components';
+import { ThemeContext } from '../contexts/ThemeContext';
 import { defaultProps } from '../default-props';
 
 /*
-  Hook that returns theme value along with a flag to determine if we are 
-  outside of a theme context provider, if so pass the base theme.
-  If used outside of `<Grommet>` wrapper, falls back to base theme.
+  Hook that returns the current theme from GrommetThemeContext.
+  Falls back to the base theme when used outside of <Grommet>.
+
+  passThemeFlag: During the migration period, un-migrated Styled*.js files
+  still need the theme passed explicitly as a `theme` prop when they are used
+  outside <Grommet> (no ThemeProvider in scope). Once all Styled*.js files are
+  removed, passThemeFlag can be simplified to always return {}.
 */
 const useThemeValue = () => {
   const context = useContext(ThemeContext);
-  const theme = context || defaultProps.theme;
+  const hasContext = context && Object.keys(context).length > 0;
+  const theme = hasContext ? context : defaultProps.theme;
   return {
     theme,
-    passThemeFlag: { ...(context === undefined ? { theme } : {}) },
+    // Pass theme explicitly to styled-components when outside <Grommet>.
+    // Remove this after all Styled*.js files are deleted.
+    passThemeFlag: { ...(!hasContext ? { theme } : {}) },
   };
 };
 

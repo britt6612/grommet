@@ -51,12 +51,6 @@ exports[`Sidebar all 1`] = `
   height: 48px;
 }
 
-.c6 {
-  align-self: center;
-  font-size: 22px;
-  line-height: 28px;
-}
-
 .c0 {
   font-size: 18px;
   line-height: 24px;
@@ -110,7 +104,8 @@ exports[`Sidebar all 1`] = `
       class="c2 StyledAvatar-sc-1suyamb-1"
     >
       <span
-        class="c6 "
+        class="textRecipe_size_large "
+        style="align-self: center;"
       >
         SY
       </span>
@@ -536,12 +531,6 @@ exports[`Sidebar theme gap and pad 1`] = `
   height: 12px;
 }
 
-.c6 {
-  align-self: center;
-  font-size: 22px;
-  line-height: 28px;
-}
-
 .c0 {
   font-size: 18px;
   line-height: 24px;
@@ -603,7 +592,8 @@ exports[`Sidebar theme gap and pad 1`] = `
       class="c2 StyledAvatar-sc-1suyamb-1"
     >
       <span
-        class="c6 "
+        class="textRecipe_size_large "
+        style="align-self: center;"
       >
         SY
       </span>

@@ -288,7 +288,7 @@ exports[`Select Clear option renders - bottom 1`] = `
   padding: 12px;
 }
 
-.c11 {
+.c10 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -299,7 +299,7 @@ exports[`Select Clear option renders - bottom 1`] = `
   flex: 0 0 auto;
 }
 
-.c14 {
+.c13 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -333,18 +333,6 @@ exports[`Select Clear option renders - bottom 1`] = `
 }
 
 .c8 {
-  margin: 0px;
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.c15 {
-  font-size: 18px;
-  line-height: 24px;
-  color: #555555;
-}
-
-.c9 {
   display: inline-block;
   box-sizing: border-box;
   cursor: pointer;
@@ -361,43 +349,43 @@ exports[`Select Clear option renders - bottom 1`] = `
   text-align: inherit;
 }
 
-.c9:focus {
+.c8:focus {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c9:focus >circle,
-.c9:focus >ellipse,
-.c9:focus >line,
-.c9:focus >path,
-.c9:focus >polygon,
-.c9:focus >polyline,
-.c9:focus >rect {
+.c8:focus >circle,
+.c8:focus >ellipse,
+.c8:focus >line,
+.c8:focus >path,
+.c8:focus >polygon,
+.c8:focus >polyline,
+.c8:focus >rect {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c9:focus ::-moz-focus-inner {
+.c8:focus ::-moz-focus-inner {
   border: 0;
 }
 
-.c9:focus:not(:focus-visible) {
+.c8:focus:not(:focus-visible) {
   outline: none;
   box-shadow: none;
 }
 
-.c9:focus:not(:focus-visible) >circle,
-.c9:focus:not(:focus-visible) >ellipse,
-.c9:focus:not(:focus-visible) >line,
-.c9:focus:not(:focus-visible) >path,
-.c9:focus:not(:focus-visible) >polygon,
-.c9:focus:not(:focus-visible) >polyline,
-.c9:focus:not(:focus-visible) >rect {
+.c8:focus:not(:focus-visible) >circle,
+.c8:focus:not(:focus-visible) >ellipse,
+.c8:focus:not(:focus-visible) >line,
+.c8:focus:not(:focus-visible) >path,
+.c8:focus:not(:focus-visible) >polygon,
+.c8:focus:not(:focus-visible) >polyline,
+.c8:focus:not(:focus-visible) >rect {
   outline: none;
   box-shadow: none;
 }
 
-.c9:focus:not(:focus-visible) ::-moz-focus-inner {
+.c8:focus:not(:focus-visible) ::-moz-focus-inner {
   border: 0;
 }
 
@@ -458,7 +446,7 @@ exports[`Select Clear option renders - bottom 1`] = `
   border: 0;
 }
 
-.c12 {
+.c11 {
   display: inline-block;
   box-sizing: border-box;
   cursor: pointer;
@@ -476,23 +464,23 @@ exports[`Select Clear option renders - bottom 1`] = `
   width: 100%;
 }
 
-.c12:focus:not(:focus-visible) {
+.c11:focus:not(:focus-visible) {
   outline: none;
   box-shadow: none;
 }
 
-.c12:focus:not(:focus-visible) >circle,
-.c12:focus:not(:focus-visible) >ellipse,
-.c12:focus:not(:focus-visible) >line,
-.c12:focus:not(:focus-visible) >path,
-.c12:focus:not(:focus-visible) >polygon,
-.c12:focus:not(:focus-visible) >polyline,
-.c12:focus:not(:focus-visible) >rect {
+.c11:focus:not(:focus-visible) >circle,
+.c11:focus:not(:focus-visible) >ellipse,
+.c11:focus:not(:focus-visible) >line,
+.c11:focus:not(:focus-visible) >path,
+.c11:focus:not(:focus-visible) >polygon,
+.c11:focus:not(:focus-visible) >polyline,
+.c11:focus:not(:focus-visible) >rect {
   outline: none;
   box-shadow: none;
 }
 
-.c12:focus:not(:focus-visible) ::-moz-focus-inner {
+.c11:focus:not(:focus-visible) ::-moz-focus-inner {
   border: 0;
 }
 
@@ -507,7 +495,7 @@ exports[`Select Clear option renders - bottom 1`] = `
   outline: none;
 }
 
-.c10 {
+.c9 {
   display: block;
   width: 100%;
 }
@@ -519,7 +507,7 @@ exports[`Select Clear option renders - bottom 1`] = `
   width: 100%;
 }
 
-.c13:focus {
+.c12:focus {
   background-color: rgba(221, 221, 221, 0.4);
   color: #000000;
 }
@@ -535,7 +523,7 @@ exports[`Select Clear option renders - bottom 1`] = `
 }
 
 @media only screen and (max-width: 768px) {
-  .c14 {
+  .c13 {
     padding: 6px;
   }
 }
@@ -583,7 +571,8 @@ exports[`Select Clear option renders - bottom 1`] = `
           class="c7"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             one
           </span>
@@ -593,7 +582,7 @@ exports[`Select Clear option renders - bottom 1`] = `
         aria-posinset="2"
         aria-selected="false"
         aria-setsize="2"
-        class="c9 c10"
+        class="c8 c9"
         role="option"
         tabindex="-1"
         type="button"
@@ -602,26 +591,28 @@ exports[`Select Clear option renders - bottom 1`] = `
           class="c7"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             two
           </span>
         </div>
       </button>
       <div
-        class="c11"
+        class="c10"
       />
     </div>
     <button
       aria-label="Clear selection. Or, press shift tab to move to select options"
-      class="c12 c13"
+      class="c11 c12"
       type="button"
     >
       <div
-        class="c14"
+        class="c13"
       >
         <span
-          class="c15"
+          class="textRecipe_size_medium"
+          style="color: rgb(85, 85, 85);"
         >
           Clear selection
         </span>
@@ -672,7 +663,7 @@ exports[`Select Clear option renders correct label when wrapped in FormField 1`]
   padding: 12px;
 }
 
-.c9 {
+.c8 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -701,12 +692,6 @@ exports[`Select Clear option renders correct label when wrapped in FormField 1`]
   transform-origin: top left;
   animation: kPQHBD 0.1s forwards;
   animation-delay: 0.01s;
-}
-
-.c8 {
-  margin: 0px;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 .c5 {
@@ -843,7 +828,8 @@ exports[`Select Clear option renders correct label when wrapped in FormField 1`]
           class="c7"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             one
           </span>
@@ -862,14 +848,15 @@ exports[`Select Clear option renders correct label when wrapped in FormField 1`]
           class="c7"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             two
           </span>
         </div>
       </button>
       <div
-        class="c9"
+        class="c8"
       />
     </div>
   </div>
@@ -917,7 +904,7 @@ exports[`Select Clear option renders custom label 1`] = `
   padding: 12px;
 }
 
-.c9 {
+.c8 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -946,12 +933,6 @@ exports[`Select Clear option renders custom label 1`] = `
   transform-origin: top left;
   animation: kPQHBD 0.1s forwards;
   animation-delay: 0.01s;
-}
-
-.c8 {
-  margin: 0px;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 .c5 {
@@ -1080,7 +1061,8 @@ exports[`Select Clear option renders custom label 1`] = `
           class="c7"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             one
           </span>
@@ -1099,14 +1081,15 @@ exports[`Select Clear option renders custom label 1`] = `
           class="c7"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             two
           </span>
         </div>
       </button>
       <div
-        class="c9"
+        class="c8"
       />
     </div>
   </div>
@@ -1143,7 +1126,7 @@ exports[`Select Clear option renders- top 1`] = `
   flex-direction: column;
 }
 
-.c11 {
+.c10 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1154,7 +1137,7 @@ exports[`Select Clear option renders- top 1`] = `
   padding: 12px;
 }
 
-.c15 {
+.c13 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1198,19 +1181,7 @@ exports[`Select Clear option renders- top 1`] = `
   animation-delay: 0.01s;
 }
 
-.c12 {
-  margin: 0px;
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.c7 {
-  font-size: 18px;
-  line-height: 24px;
-  color: #555555;
-}
-
-.c13 {
+.c11 {
   display: inline-block;
   box-sizing: border-box;
   cursor: pointer;
@@ -1227,43 +1198,43 @@ exports[`Select Clear option renders- top 1`] = `
   text-align: inherit;
 }
 
-.c13:focus {
+.c11:focus {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c13:focus >circle,
-.c13:focus >ellipse,
-.c13:focus >line,
-.c13:focus >path,
-.c13:focus >polygon,
-.c13:focus >polyline,
-.c13:focus >rect {
+.c11:focus >circle,
+.c11:focus >ellipse,
+.c11:focus >line,
+.c11:focus >path,
+.c11:focus >polygon,
+.c11:focus >polyline,
+.c11:focus >rect {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c13:focus ::-moz-focus-inner {
+.c11:focus ::-moz-focus-inner {
   border: 0;
 }
 
-.c13:focus:not(:focus-visible) {
+.c11:focus:not(:focus-visible) {
   outline: none;
   box-shadow: none;
 }
 
-.c13:focus:not(:focus-visible) >circle,
-.c13:focus:not(:focus-visible) >ellipse,
-.c13:focus:not(:focus-visible) >line,
-.c13:focus:not(:focus-visible) >path,
-.c13:focus:not(:focus-visible) >polygon,
-.c13:focus:not(:focus-visible) >polyline,
-.c13:focus:not(:focus-visible) >rect {
+.c11:focus:not(:focus-visible) >circle,
+.c11:focus:not(:focus-visible) >ellipse,
+.c11:focus:not(:focus-visible) >line,
+.c11:focus:not(:focus-visible) >path,
+.c11:focus:not(:focus-visible) >polygon,
+.c11:focus:not(:focus-visible) >polyline,
+.c11:focus:not(:focus-visible) >rect {
   outline: none;
   box-shadow: none;
 }
 
-.c13:focus:not(:focus-visible) ::-moz-focus-inner {
+.c11:focus:not(:focus-visible) ::-moz-focus-inner {
   border: 0;
 }
 
@@ -1305,7 +1276,7 @@ exports[`Select Clear option renders- top 1`] = `
   border: 0;
 }
 
-.c9 {
+.c8 {
   display: inline-block;
   box-sizing: border-box;
   cursor: pointer;
@@ -1322,43 +1293,43 @@ exports[`Select Clear option renders- top 1`] = `
   text-align: inherit;
 }
 
-.c9:focus {
+.c8:focus {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c9:focus >circle,
-.c9:focus >ellipse,
-.c9:focus >line,
-.c9:focus >path,
-.c9:focus >polygon,
-.c9:focus >polyline,
-.c9:focus >rect {
+.c8:focus >circle,
+.c8:focus >ellipse,
+.c8:focus >line,
+.c8:focus >path,
+.c8:focus >polygon,
+.c8:focus >polyline,
+.c8:focus >rect {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c9:focus ::-moz-focus-inner {
+.c8:focus ::-moz-focus-inner {
   border: 0;
 }
 
-.c9:focus:not(:focus-visible) {
+.c8:focus:not(:focus-visible) {
   outline: none;
   box-shadow: none;
 }
 
-.c9:focus:not(:focus-visible) >circle,
-.c9:focus:not(:focus-visible) >ellipse,
-.c9:focus:not(:focus-visible) >line,
-.c9:focus:not(:focus-visible) >path,
-.c9:focus:not(:focus-visible) >polygon,
-.c9:focus:not(:focus-visible) >polyline,
-.c9:focus:not(:focus-visible) >rect {
+.c8:focus:not(:focus-visible) >circle,
+.c8:focus:not(:focus-visible) >ellipse,
+.c8:focus:not(:focus-visible) >line,
+.c8:focus:not(:focus-visible) >path,
+.c8:focus:not(:focus-visible) >polygon,
+.c8:focus:not(:focus-visible) >polyline,
+.c8:focus:not(:focus-visible) >rect {
   outline: none;
   box-shadow: none;
 }
 
-.c9:focus:not(:focus-visible) ::-moz-focus-inner {
+.c8:focus:not(:focus-visible) ::-moz-focus-inner {
   border: 0;
 }
 
@@ -1366,19 +1337,19 @@ exports[`Select Clear option renders- top 1`] = `
   max-height: inherit;
 }
 
-.c8 {
+.c7 {
   position: relative;
   scroll-behavior: smooth;
   overflow: auto;
   outline: none;
 }
 
-.c14 {
+.c12 {
   display: block;
   width: 100%;
 }
 
-.c10 {
+.c9 {
   background-color: #7D4CDB;
   color: #FFFFFF;
   display: block;
@@ -1395,7 +1366,7 @@ exports[`Select Clear option renders- top 1`] = `
 }
 
 @media only screen and (max-width: 768px) {
-  .c11 {
+  .c10 {
     padding: 6px;
   }
 }
@@ -1439,7 +1410,8 @@ exports[`Select Clear option renders- top 1`] = `
         class="c6"
       >
         <span
-          class="c7"
+          class="textRecipe_size_medium"
+          style="color: rgb(85, 85, 85);"
         >
           Clear selection
         </span>
@@ -1447,7 +1419,7 @@ exports[`Select Clear option renders- top 1`] = `
     </button>
     <div
       aria-label="list of options"
-      class="c8"
+      class="c7"
       role="listbox"
       tabindex="-1"
     >
@@ -1455,16 +1427,17 @@ exports[`Select Clear option renders- top 1`] = `
         aria-posinset="1"
         aria-selected="true"
         aria-setsize="2"
-        class="c9 c10"
+        class="c8 c9"
         role="option"
         tabindex="0"
         type="button"
       >
         <div
-          class="c11"
+          class="c10"
         >
           <span
-            class="c12"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             one
           </span>
@@ -1474,23 +1447,24 @@ exports[`Select Clear option renders- top 1`] = `
         aria-posinset="2"
         aria-selected="false"
         aria-setsize="2"
-        class="c13 c14"
+        class="c11 c12"
         role="option"
         tabindex="-1"
         type="button"
       >
         <div
-          class="c11"
+          class="c10"
         >
           <span
-            class="c12"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             two
           </span>
         </div>
       </button>
       <div
-        class="c15"
+        class="c13"
       />
     </div>
   </div>
@@ -2396,12 +2370,6 @@ exports[`Select applies custom global.hover theme to options 2`] = `
   padding: 12px;
 }
 
-.c3 {
-  margin: 0px;
-  font-size: 18px;
-  line-height: 24px;
-}
-
 .c0 {
   display: inline-block;
   box-sizing: border-box;
@@ -2504,7 +2472,8 @@ exports[`Select applies custom global.hover theme to options 2`] = `
     class="c2"
   >
     <span
-      class="c3"
+      class="textRecipe_size_medium"
+      style="margin: 0px;"
     >
       afternoon
     </span>
@@ -3524,8 +3493,8 @@ exports[`Select dark 1`] = `
   flex: 0 0 auto;
   width: 24px;
   height: 24px;
-  fill: #6FFFB0;
-  stroke: #6FFFB0;
+  fill: #7D4CDB;
+  stroke: #7D4CDB;
 }
 
 .c10 g {
@@ -3668,7 +3637,7 @@ exports[`Select dark 1`] = `
   padding: 11px;
   font-weight: 600;
   margin: 0;
-  border: 1px solid rgba(255, 255, 255, 0.33);
+  border: 1px solid rgba(0, 0, 0, 0.33);
   border-radius: 4px;
   border: none;
   outline: none;
@@ -3711,7 +3680,7 @@ exports[`Select dark 1`] = `
 }
 
 .c3 {
-  border: 1px solid rgba(255, 255, 255, 0.33);
+  border: 1px solid rgba(0, 0, 0, 0.33);
   border-radius: 4px;
 }
 
@@ -4077,7 +4046,7 @@ exports[`Select default value clear 1`] = `
   padding: 12px;
 }
 
-.c11 {
+.c10 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -4088,7 +4057,7 @@ exports[`Select default value clear 1`] = `
   padding: 12px;
 }
 
-.c15 {
+.c13 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -4119,19 +4088,7 @@ exports[`Select default value clear 1`] = `
   animation-delay: 0.01s;
 }
 
-.c7 {
-  font-size: 18px;
-  line-height: 24px;
-  color: #555555;
-}
-
-.c12 {
-  margin: 0px;
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.c9 {
+.c8 {
   display: inline-block;
   box-sizing: border-box;
   cursor: pointer;
@@ -4148,43 +4105,43 @@ exports[`Select default value clear 1`] = `
   text-align: inherit;
 }
 
-.c9:focus {
+.c8:focus {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c9:focus >circle,
-.c9:focus >ellipse,
-.c9:focus >line,
-.c9:focus >path,
-.c9:focus >polygon,
-.c9:focus >polyline,
-.c9:focus >rect {
+.c8:focus >circle,
+.c8:focus >ellipse,
+.c8:focus >line,
+.c8:focus >path,
+.c8:focus >polygon,
+.c8:focus >polyline,
+.c8:focus >rect {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c9:focus ::-moz-focus-inner {
+.c8:focus ::-moz-focus-inner {
   border: 0;
 }
 
-.c9:focus:not(:focus-visible) {
+.c8:focus:not(:focus-visible) {
   outline: none;
   box-shadow: none;
 }
 
-.c9:focus:not(:focus-visible) >circle,
-.c9:focus:not(:focus-visible) >ellipse,
-.c9:focus:not(:focus-visible) >line,
-.c9:focus:not(:focus-visible) >path,
-.c9:focus:not(:focus-visible) >polygon,
-.c9:focus:not(:focus-visible) >polyline,
-.c9:focus:not(:focus-visible) >rect {
+.c8:focus:not(:focus-visible) >circle,
+.c8:focus:not(:focus-visible) >ellipse,
+.c8:focus:not(:focus-visible) >line,
+.c8:focus:not(:focus-visible) >path,
+.c8:focus:not(:focus-visible) >polygon,
+.c8:focus:not(:focus-visible) >polyline,
+.c8:focus:not(:focus-visible) >rect {
   outline: none;
   box-shadow: none;
 }
 
-.c9:focus:not(:focus-visible) ::-moz-focus-inner {
+.c8:focus:not(:focus-visible) ::-moz-focus-inner {
   border: 0;
 }
 
@@ -4226,7 +4183,7 @@ exports[`Select default value clear 1`] = `
   border: 0;
 }
 
-.c13 {
+.c11 {
   display: inline-block;
   box-sizing: border-box;
   cursor: pointer;
@@ -4243,43 +4200,43 @@ exports[`Select default value clear 1`] = `
   text-align: inherit;
 }
 
-.c13:focus {
+.c11:focus {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c13:focus >circle,
-.c13:focus >ellipse,
-.c13:focus >line,
-.c13:focus >path,
-.c13:focus >polygon,
-.c13:focus >polyline,
-.c13:focus >rect {
+.c11:focus >circle,
+.c11:focus >ellipse,
+.c11:focus >line,
+.c11:focus >path,
+.c11:focus >polygon,
+.c11:focus >polyline,
+.c11:focus >rect {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c13:focus ::-moz-focus-inner {
+.c11:focus ::-moz-focus-inner {
   border: 0;
 }
 
-.c13:focus:not(:focus-visible) {
+.c11:focus:not(:focus-visible) {
   outline: none;
   box-shadow: none;
 }
 
-.c13:focus:not(:focus-visible) >circle,
-.c13:focus:not(:focus-visible) >ellipse,
-.c13:focus:not(:focus-visible) >line,
-.c13:focus:not(:focus-visible) >path,
-.c13:focus:not(:focus-visible) >polygon,
-.c13:focus:not(:focus-visible) >polyline,
-.c13:focus:not(:focus-visible) >rect {
+.c11:focus:not(:focus-visible) >circle,
+.c11:focus:not(:focus-visible) >ellipse,
+.c11:focus:not(:focus-visible) >line,
+.c11:focus:not(:focus-visible) >path,
+.c11:focus:not(:focus-visible) >polygon,
+.c11:focus:not(:focus-visible) >polyline,
+.c11:focus:not(:focus-visible) >rect {
   outline: none;
   box-shadow: none;
 }
 
-.c13:focus:not(:focus-visible) ::-moz-focus-inner {
+.c11:focus:not(:focus-visible) ::-moz-focus-inner {
   border: 0;
 }
 
@@ -4287,19 +4244,19 @@ exports[`Select default value clear 1`] = `
   max-height: inherit;
 }
 
-.c8 {
+.c7 {
   position: relative;
   scroll-behavior: smooth;
   overflow: auto;
   outline: none;
 }
 
-.c10 {
+.c9 {
   display: block;
   width: 100%;
 }
 
-.c14 {
+.c12 {
   background-color: #7D4CDB;
   color: #FFFFFF;
   display: block;
@@ -4322,7 +4279,7 @@ exports[`Select default value clear 1`] = `
 }
 
 @media only screen and (max-width: 768px) {
-  .c11 {
+  .c10 {
     padding: 6px;
   }
 }
@@ -4360,7 +4317,8 @@ exports[`Select default value clear 1`] = `
         class="c6"
       >
         <span
-          class="c7"
+          class="textRecipe_size_medium"
+          style="color: rgb(85, 85, 85);"
         >
           Clear selection
         </span>
@@ -4368,7 +4326,7 @@ exports[`Select default value clear 1`] = `
     </button>
     <div
       aria-label="list of options"
-      class="c8"
+      class="c7"
       role="listbox"
       tabindex="-1"
     >
@@ -4376,16 +4334,17 @@ exports[`Select default value clear 1`] = `
         aria-posinset="1"
         aria-selected="false"
         aria-setsize="2"
-        class="c9 c10"
+        class="c8 c9"
         role="option"
         tabindex="-1"
         type="button"
       >
         <div
-          class="c11"
+          class="c10"
         >
           <span
-            class="c12"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             one
           </span>
@@ -4395,23 +4354,24 @@ exports[`Select default value clear 1`] = `
         aria-posinset="2"
         aria-selected="true"
         aria-setsize="2"
-        class="c13 c14"
+        class="c11 c12"
         role="option"
         tabindex="0"
         type="button"
       >
         <div
-          class="c11"
+          class="c10"
         >
           <span
-            class="c12"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             two
           </span>
         </div>
       </button>
       <div
-        class="c15"
+        class="c13"
       />
     </div>
   </div>
@@ -5281,7 +5241,7 @@ exports[`Select disabled key 2`] = `
   padding: 12px;
 }
 
-.c11 {
+.c10 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -5313,12 +5273,6 @@ exports[`Select disabled key 2`] = `
 }
 
 .c8 {
-  margin: 0px;
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.c9 {
   display: inline-block;
   box-sizing: border-box;
   cursor: pointer;
@@ -5335,43 +5289,43 @@ exports[`Select disabled key 2`] = `
   text-align: inherit;
 }
 
-.c9:focus {
+.c8:focus {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c9:focus >circle,
-.c9:focus >ellipse,
-.c9:focus >line,
-.c9:focus >path,
-.c9:focus >polygon,
-.c9:focus >polyline,
-.c9:focus >rect {
+.c8:focus >circle,
+.c8:focus >ellipse,
+.c8:focus >line,
+.c8:focus >path,
+.c8:focus >polygon,
+.c8:focus >polyline,
+.c8:focus >rect {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c9:focus ::-moz-focus-inner {
+.c8:focus ::-moz-focus-inner {
   border: 0;
 }
 
-.c9:focus:not(:focus-visible) {
+.c8:focus:not(:focus-visible) {
   outline: none;
   box-shadow: none;
 }
 
-.c9:focus:not(:focus-visible) >circle,
-.c9:focus:not(:focus-visible) >ellipse,
-.c9:focus:not(:focus-visible) >line,
-.c9:focus:not(:focus-visible) >path,
-.c9:focus:not(:focus-visible) >polygon,
-.c9:focus:not(:focus-visible) >polyline,
-.c9:focus:not(:focus-visible) >rect {
+.c8:focus:not(:focus-visible) >circle,
+.c8:focus:not(:focus-visible) >ellipse,
+.c8:focus:not(:focus-visible) >line,
+.c8:focus:not(:focus-visible) >path,
+.c8:focus:not(:focus-visible) >polygon,
+.c8:focus:not(:focus-visible) >polyline,
+.c8:focus:not(:focus-visible) >rect {
   outline: none;
   box-shadow: none;
 }
 
-.c9:focus:not(:focus-visible) ::-moz-focus-inner {
+.c8:focus:not(:focus-visible) ::-moz-focus-inner {
   border: 0;
 }
 
@@ -5451,7 +5405,7 @@ exports[`Select disabled key 2`] = `
   cursor: default;
 }
 
-.c10 {
+.c9 {
   display: block;
   width: 100%;
 }
@@ -5511,7 +5465,8 @@ exports[`Select disabled key 2`] = `
           class="c7"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             Value1
           </span>
@@ -5521,7 +5476,7 @@ exports[`Select disabled key 2`] = `
         aria-posinset="2"
         aria-selected="false"
         aria-setsize="2"
-        class="c9 c10"
+        class="c8 c9"
         role="option"
         tabindex="-1"
         type="button"
@@ -5530,14 +5485,15 @@ exports[`Select disabled key 2`] = `
           class="c7"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             Value2
           </span>
         </div>
       </button>
       <div
-        class="c11"
+        class="c10"
       />
     </div>
   </div>
@@ -5585,7 +5541,7 @@ exports[`Select disabled option value 1`] = `
   padding: 12px;
 }
 
-.c11 {
+.c10 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -5617,12 +5573,6 @@ exports[`Select disabled option value 1`] = `
 }
 
 .c8 {
-  margin: 0px;
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.c9 {
   display: inline-block;
   box-sizing: border-box;
   cursor: pointer;
@@ -5639,43 +5589,43 @@ exports[`Select disabled option value 1`] = `
   text-align: inherit;
 }
 
-.c9:focus {
+.c8:focus {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c9:focus >circle,
-.c9:focus >ellipse,
-.c9:focus >line,
-.c9:focus >path,
-.c9:focus >polygon,
-.c9:focus >polyline,
-.c9:focus >rect {
+.c8:focus >circle,
+.c8:focus >ellipse,
+.c8:focus >line,
+.c8:focus >path,
+.c8:focus >polygon,
+.c8:focus >polyline,
+.c8:focus >rect {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c9:focus ::-moz-focus-inner {
+.c8:focus ::-moz-focus-inner {
   border: 0;
 }
 
-.c9:focus:not(:focus-visible) {
+.c8:focus:not(:focus-visible) {
   outline: none;
   box-shadow: none;
 }
 
-.c9:focus:not(:focus-visible) >circle,
-.c9:focus:not(:focus-visible) >ellipse,
-.c9:focus:not(:focus-visible) >line,
-.c9:focus:not(:focus-visible) >path,
-.c9:focus:not(:focus-visible) >polygon,
-.c9:focus:not(:focus-visible) >polyline,
-.c9:focus:not(:focus-visible) >rect {
+.c8:focus:not(:focus-visible) >circle,
+.c8:focus:not(:focus-visible) >ellipse,
+.c8:focus:not(:focus-visible) >line,
+.c8:focus:not(:focus-visible) >path,
+.c8:focus:not(:focus-visible) >polygon,
+.c8:focus:not(:focus-visible) >polyline,
+.c8:focus:not(:focus-visible) >rect {
   outline: none;
   box-shadow: none;
 }
 
-.c9:focus:not(:focus-visible) ::-moz-focus-inner {
+.c8:focus:not(:focus-visible) ::-moz-focus-inner {
   border: 0;
 }
 
@@ -5755,7 +5705,7 @@ exports[`Select disabled option value 1`] = `
   cursor: default;
 }
 
-.c10 {
+.c9 {
   display: block;
   width: 100%;
 }
@@ -5815,7 +5765,8 @@ exports[`Select disabled option value 1`] = `
           class="c7"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             one
           </span>
@@ -5825,7 +5776,7 @@ exports[`Select disabled option value 1`] = `
         aria-posinset="2"
         aria-selected="false"
         aria-setsize="2"
-        class="c9 c10"
+        class="c8 c9"
         role="option"
         tabindex="-1"
         type="button"
@@ -5834,14 +5785,15 @@ exports[`Select disabled option value 1`] = `
           class="c7"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             two
           </span>
         </div>
       </button>
       <div
-        class="c11"
+        class="c10"
       />
     </div>
   </div>
@@ -6254,7 +6206,7 @@ exports[`Select large drop container height 1`] = `
   padding: 12px;
 }
 
-.c9 {
+.c8 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -6283,12 +6235,6 @@ exports[`Select large drop container height 1`] = `
   transform-origin: top left;
   animation: kPQHBD 0.1s forwards;
   animation-delay: 0.01s;
-}
-
-.c8 {
-  margin: 0px;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 .c5 {
@@ -6417,7 +6363,8 @@ exports[`Select large drop container height 1`] = `
           class="c7"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             one
           </span>
@@ -6436,14 +6383,15 @@ exports[`Select large drop container height 1`] = `
           class="c7"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             two
           </span>
         </div>
       </button>
       <div
-        class="c9"
+        class="c8"
       />
     </div>
   </div>
@@ -6482,7 +6430,7 @@ exports[`Select medium drop container height 1`] = `
   padding: 12px;
 }
 
-.c9 {
+.c8 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -6511,12 +6459,6 @@ exports[`Select medium drop container height 1`] = `
   transform-origin: top left;
   animation: kPQHBD 0.1s forwards;
   animation-delay: 0.01s;
-}
-
-.c8 {
-  margin: 0px;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 .c5 {
@@ -6645,7 +6587,8 @@ exports[`Select medium drop container height 1`] = `
           class="c7"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             one
           </span>
@@ -6664,14 +6607,15 @@ exports[`Select medium drop container height 1`] = `
           class="c7"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             two
           </span>
         </div>
       </button>
       <div
-        class="c9"
+        class="c8"
       />
     </div>
   </div>
@@ -7478,7 +7422,7 @@ exports[`Select onChange with valueKey object 2`] = `
   padding: 12px;
 }
 
-.c9 {
+.c8 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -7507,12 +7451,6 @@ exports[`Select onChange with valueKey object 2`] = `
   transform-origin: top left;
   animation: kPQHBD 0.1s forwards;
   animation-delay: 0.01s;
-}
-
-.c8 {
-  margin: 0px;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 .c5 {
@@ -7641,7 +7579,8 @@ exports[`Select onChange with valueKey object 2`] = `
           class="c7"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             Value1
           </span>
@@ -7660,14 +7599,15 @@ exports[`Select onChange with valueKey object 2`] = `
           class="c7"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             Value2
           </span>
         </div>
       </button>
       <div
-        class="c9"
+        class="c8"
       />
     </div>
   </div>
@@ -8237,7 +8177,7 @@ exports[`Select onChange with valueKey string 2`] = `
   padding: 12px;
 }
 
-.c9 {
+.c8 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -8266,12 +8206,6 @@ exports[`Select onChange with valueKey string 2`] = `
   transform-origin: top left;
   animation: kPQHBD 0.1s forwards;
   animation-delay: 0.01s;
-}
-
-.c8 {
-  margin: 0px;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 .c5 {
@@ -8400,7 +8334,8 @@ exports[`Select onChange with valueKey string 2`] = `
           class="c7"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             Value1
           </span>
@@ -8419,14 +8354,15 @@ exports[`Select onChange with valueKey string 2`] = `
           class="c7"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             Value2
           </span>
         </div>
       </button>
       <div
-        class="c9"
+        class="c8"
       />
     </div>
   </div>
@@ -8941,7 +8877,7 @@ exports[`Select onChange with valueLabel 2`] = `
   padding: 12px;
 }
 
-.c9 {
+.c8 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -8970,12 +8906,6 @@ exports[`Select onChange with valueLabel 2`] = `
   transform-origin: top left;
   animation: kPQHBD 0.1s forwards;
   animation-delay: 0.01s;
-}
-
-.c8 {
-  margin: 0px;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 .c5 {
@@ -9104,7 +9034,8 @@ exports[`Select onChange with valueLabel 2`] = `
           class="c7"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             one
           </span>
@@ -9123,14 +9054,15 @@ exports[`Select onChange with valueLabel 2`] = `
           class="c7"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             two
           </span>
         </div>
       </button>
       <div
-        class="c9"
+        class="c8"
       />
     </div>
   </div>
@@ -9434,7 +9366,7 @@ exports[`Select onChange without labelKey 2`] = `
   padding: 12px;
 }
 
-.c9 {
+.c8 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -9463,12 +9395,6 @@ exports[`Select onChange without labelKey 2`] = `
   transform-origin: top left;
   animation: kPQHBD 0.1s forwards;
   animation-delay: 0.01s;
-}
-
-.c8 {
-  margin: 0px;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 .c5 {
@@ -9597,7 +9523,8 @@ exports[`Select onChange without labelKey 2`] = `
           class="c7"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             1
           </span>
@@ -9616,14 +9543,15 @@ exports[`Select onChange without labelKey 2`] = `
           class="c7"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             2
           </span>
         </div>
       </button>
       <div
-        class="c9"
+        class="c8"
       />
     </div>
   </div>
@@ -10193,7 +10121,7 @@ exports[`Select onChange without labelKey or valueKey 2`] = `
   padding: 12px;
 }
 
-.c9 {
+.c8 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -10222,12 +10150,6 @@ exports[`Select onChange without labelKey or valueKey 2`] = `
   transform-origin: top left;
   animation: kPQHBD 0.1s forwards;
   animation-delay: 0.01s;
-}
-
-.c8 {
-  margin: 0px;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 .c5 {
@@ -10356,7 +10278,8 @@ exports[`Select onChange without labelKey or valueKey 2`] = `
           class="c7"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             1
           </span>
@@ -10375,14 +10298,15 @@ exports[`Select onChange without labelKey or valueKey 2`] = `
           class="c7"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             2
           </span>
         </div>
       </button>
       <div
-        class="c9"
+        class="c8"
       />
     </div>
   </div>
@@ -10952,7 +10876,7 @@ exports[`Select onChange without valueKey 2`] = `
   padding: 12px;
 }
 
-.c9 {
+.c8 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -10981,12 +10905,6 @@ exports[`Select onChange without valueKey 2`] = `
   transform-origin: top left;
   animation: kPQHBD 0.1s forwards;
   animation-delay: 0.01s;
-}
-
-.c8 {
-  margin: 0px;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 .c5 {
@@ -11115,7 +11033,8 @@ exports[`Select onChange without valueKey 2`] = `
           class="c7"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             Value1
           </span>
@@ -11134,14 +11053,15 @@ exports[`Select onChange without valueKey 2`] = `
           class="c7"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             Value2
           </span>
         </div>
       </button>
       <div
-        class="c9"
+        class="c8"
       />
     </div>
   </div>
@@ -12286,7 +12206,7 @@ exports[`Select prop: onOpen 3`] = `
   padding: 12px;
 }
 
-.c9 {
+.c8 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -12315,12 +12235,6 @@ exports[`Select prop: onOpen 3`] = `
   transform-origin: top left;
   animation: kPQHBD 0.1s forwards;
   animation-delay: 0.01s;
-}
-
-.c8 {
-  margin: 0px;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 .c5 {
@@ -12449,7 +12363,7 @@ exports[`Select prop: onOpen 3`] = `
           class="c7"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
           >
             one
           </span>
@@ -12468,14 +12382,14 @@ exports[`Select prop: onOpen 3`] = `
           class="c7"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
           >
             two
           </span>
         </div>
       </button>
       <div
-        class="c9"
+        class="c8"
       />
     </div>
   </div>
@@ -12511,7 +12425,7 @@ exports[`Select prop: onOpen 5`] = `
       class="StyledBox-sc-13pk1d4-0 dPAImr"
     >
       <span
-        class="StyledText-sc-1sadyjn-0 jQsnaU"
+        class="textRecipe_size_medium"
       >
         one
       </span>
@@ -12530,7 +12444,7 @@ exports[`Select prop: onOpen 5`] = `
       class="StyledBox-sc-13pk1d4-0 dPAImr"
     >
       <span
-        class="StyledText-sc-1sadyjn-0 jQsnaU"
+        class="textRecipe_size_medium"
       >
         two
       </span>
@@ -12820,7 +12734,7 @@ exports[`Select renders custom clear selection styling 2`] = `
   flex-direction: column;
 }
 
-.c11 {
+.c10 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -12831,7 +12745,7 @@ exports[`Select renders custom clear selection styling 2`] = `
   padding: 12px;
 }
 
-.c15 {
+.c13 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -12877,20 +12791,7 @@ exports[`Select renders custom clear selection styling 2`] = `
   animation-delay: 0.01s;
 }
 
-.c7 {
-  font-size: 18px;
-  line-height: 24px;
-  color: #000000;
-  font-weight: 600;
-}
-
-.c12 {
-  margin: 0px;
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.c9 {
+.c8 {
   display: inline-block;
   box-sizing: border-box;
   cursor: pointer;
@@ -12907,47 +12808,47 @@ exports[`Select renders custom clear selection styling 2`] = `
   text-align: inherit;
 }
 
-.c9:focus {
+.c8:focus {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c9:focus >circle,
-.c9:focus >ellipse,
-.c9:focus >line,
-.c9:focus >path,
-.c9:focus >polygon,
-.c9:focus >polyline,
-.c9:focus >rect {
+.c8:focus >circle,
+.c8:focus >ellipse,
+.c8:focus >line,
+.c8:focus >path,
+.c8:focus >polygon,
+.c8:focus >polyline,
+.c8:focus >rect {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c9:focus ::-moz-focus-inner {
+.c8:focus ::-moz-focus-inner {
   border: 0;
 }
 
-.c9:focus:not(:focus-visible) {
+.c8:focus:not(:focus-visible) {
   outline: none;
   box-shadow: none;
 }
 
-.c9:focus:not(:focus-visible) >circle,
-.c9:focus:not(:focus-visible) >ellipse,
-.c9:focus:not(:focus-visible) >line,
-.c9:focus:not(:focus-visible) >path,
-.c9:focus:not(:focus-visible) >polygon,
-.c9:focus:not(:focus-visible) >polyline,
-.c9:focus:not(:focus-visible) >rect {
+.c8:focus:not(:focus-visible) >circle,
+.c8:focus:not(:focus-visible) >ellipse,
+.c8:focus:not(:focus-visible) >line,
+.c8:focus:not(:focus-visible) >path,
+.c8:focus:not(:focus-visible) >polygon,
+.c8:focus:not(:focus-visible) >polyline,
+.c8:focus:not(:focus-visible) >rect {
   outline: none;
   box-shadow: none;
 }
 
-.c9:focus:not(:focus-visible) ::-moz-focus-inner {
+.c8:focus:not(:focus-visible) ::-moz-focus-inner {
   border: 0;
 }
 
-.c13 {
+.c11 {
   display: inline-block;
   box-sizing: border-box;
   cursor: pointer;
@@ -12964,43 +12865,43 @@ exports[`Select renders custom clear selection styling 2`] = `
   text-align: inherit;
 }
 
-.c13:focus {
+.c11:focus {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c13:focus >circle,
-.c13:focus >ellipse,
-.c13:focus >line,
-.c13:focus >path,
-.c13:focus >polygon,
-.c13:focus >polyline,
-.c13:focus >rect {
+.c11:focus >circle,
+.c11:focus >ellipse,
+.c11:focus >line,
+.c11:focus >path,
+.c11:focus >polygon,
+.c11:focus >polyline,
+.c11:focus >rect {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c13:focus ::-moz-focus-inner {
+.c11:focus ::-moz-focus-inner {
   border: 0;
 }
 
-.c13:focus:not(:focus-visible) {
+.c11:focus:not(:focus-visible) {
   outline: none;
   box-shadow: none;
 }
 
-.c13:focus:not(:focus-visible) >circle,
-.c13:focus:not(:focus-visible) >ellipse,
-.c13:focus:not(:focus-visible) >line,
-.c13:focus:not(:focus-visible) >path,
-.c13:focus:not(:focus-visible) >polygon,
-.c13:focus:not(:focus-visible) >polyline,
-.c13:focus:not(:focus-visible) >rect {
+.c11:focus:not(:focus-visible) >circle,
+.c11:focus:not(:focus-visible) >ellipse,
+.c11:focus:not(:focus-visible) >line,
+.c11:focus:not(:focus-visible) >path,
+.c11:focus:not(:focus-visible) >polygon,
+.c11:focus:not(:focus-visible) >polyline,
+.c11:focus:not(:focus-visible) >rect {
   outline: none;
   box-shadow: none;
 }
 
-.c13:focus:not(:focus-visible) ::-moz-focus-inner {
+.c11:focus:not(:focus-visible) ::-moz-focus-inner {
   border: 0;
 }
 
@@ -13046,19 +12947,19 @@ exports[`Select renders custom clear selection styling 2`] = `
   max-height: inherit;
 }
 
-.c8 {
+.c7 {
   position: relative;
   scroll-behavior: smooth;
   overflow: auto;
   outline: none;
 }
 
-.c10 {
+.c9 {
   display: block;
   width: 100%;
 }
 
-.c14 {
+.c12 {
   background-color: #7D4CDB;
   color: #FFFFFF;
   display: block;
@@ -13083,7 +12984,7 @@ exports[`Select renders custom clear selection styling 2`] = `
 }
 
 @media only screen and (max-width: 768px) {
-  .c11 {
+  .c10 {
     padding: 6px;
   }
 }
@@ -13135,7 +13036,8 @@ exports[`Select renders custom clear selection styling 2`] = `
         class="c6"
       >
         <span
-          class="c7"
+          class="textRecipe_size_medium"
+          style="color: rgb(0, 0, 0); font-weight: 600;"
         >
           Clear selection
         </span>
@@ -13143,7 +13045,7 @@ exports[`Select renders custom clear selection styling 2`] = `
     </button>
     <div
       aria-label="list of options"
-      class="c8"
+      class="c7"
       role="listbox"
       tabindex="-1"
     >
@@ -13151,16 +13053,17 @@ exports[`Select renders custom clear selection styling 2`] = `
         aria-posinset="1"
         aria-selected="false"
         aria-setsize="3"
-        class="c9 c10"
+        class="c8 c9"
         role="option"
         tabindex="-1"
         type="button"
       >
         <div
-          class="c11"
+          class="c10"
         >
           <span
-            class="c12"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             morning
           </span>
@@ -13170,16 +13073,17 @@ exports[`Select renders custom clear selection styling 2`] = `
         aria-posinset="2"
         aria-selected="true"
         aria-setsize="3"
-        class="c13 c14"
+        class="c11 c12"
         role="option"
         tabindex="0"
         type="button"
       >
         <div
-          class="c11"
+          class="c10"
         >
           <span
-            class="c12"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             afternoon
           </span>
@@ -13189,23 +13093,24 @@ exports[`Select renders custom clear selection styling 2`] = `
         aria-posinset="3"
         aria-selected="false"
         aria-setsize="3"
-        class="c9 c10"
+        class="c8 c9"
         role="option"
         tabindex="-1"
         type="button"
       >
         <div
-          class="c11"
+          class="c10"
         >
           <span
-            class="c12"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             evening
           </span>
         </div>
       </button>
       <div
-        class="c15"
+        class="c13"
       />
     </div>
   </div>
@@ -13506,7 +13411,7 @@ exports[`Select renders custom listbox styling 1`] = `
   padding: 12px;
 }
 
-.c11 {
+.c10 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -13535,12 +13440,6 @@ exports[`Select renders custom listbox styling 1`] = `
   transform-origin: top left;
   animation: kPQHBD 0.1s forwards;
   animation-delay: 0.01s;
-}
-
-.c8 {
-  margin: 0px;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 .c5 {
@@ -13600,7 +13499,7 @@ exports[`Select renders custom listbox styling 1`] = `
   border: 0;
 }
 
-.c9 {
+.c8 {
   display: inline-block;
   box-sizing: border-box;
   cursor: pointer;
@@ -13617,43 +13516,43 @@ exports[`Select renders custom listbox styling 1`] = `
   text-align: inherit;
 }
 
-.c9:focus {
+.c8:focus {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c9:focus >circle,
-.c9:focus >ellipse,
-.c9:focus >line,
-.c9:focus >path,
-.c9:focus >polygon,
-.c9:focus >polyline,
-.c9:focus >rect {
+.c8:focus >circle,
+.c8:focus >ellipse,
+.c8:focus >line,
+.c8:focus >path,
+.c8:focus >polygon,
+.c8:focus >polyline,
+.c8:focus >rect {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c9:focus ::-moz-focus-inner {
+.c8:focus ::-moz-focus-inner {
   border: 0;
 }
 
-.c9:focus:not(:focus-visible) {
+.c8:focus:not(:focus-visible) {
   outline: none;
   box-shadow: none;
 }
 
-.c9:focus:not(:focus-visible) >circle,
-.c9:focus:not(:focus-visible) >ellipse,
-.c9:focus:not(:focus-visible) >line,
-.c9:focus:not(:focus-visible) >path,
-.c9:focus:not(:focus-visible) >polygon,
-.c9:focus:not(:focus-visible) >polyline,
-.c9:focus:not(:focus-visible) >rect {
+.c8:focus:not(:focus-visible) >circle,
+.c8:focus:not(:focus-visible) >ellipse,
+.c8:focus:not(:focus-visible) >line,
+.c8:focus:not(:focus-visible) >path,
+.c8:focus:not(:focus-visible) >polygon,
+.c8:focus:not(:focus-visible) >polyline,
+.c8:focus:not(:focus-visible) >rect {
   outline: none;
   box-shadow: none;
 }
 
-.c9:focus:not(:focus-visible) ::-moz-focus-inner {
+.c8:focus:not(:focus-visible) ::-moz-focus-inner {
   border: 0;
 }
 
@@ -13674,7 +13573,7 @@ exports[`Select renders custom listbox styling 1`] = `
   width: 100%;
 }
 
-.c10 {
+.c9 {
   background-color: #7D4CDB;
   color: #FFFFFF;
   display: block;
@@ -13734,7 +13633,8 @@ exports[`Select renders custom listbox styling 1`] = `
           class="c7"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             morning
           </span>
@@ -13744,7 +13644,7 @@ exports[`Select renders custom listbox styling 1`] = `
         aria-posinset="2"
         aria-selected="true"
         aria-setsize="3"
-        class="c9 c10"
+        class="c8 c9"
         role="option"
         tabindex="0"
         type="button"
@@ -13753,7 +13653,8 @@ exports[`Select renders custom listbox styling 1`] = `
           class="c7"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             afternoon
           </span>
@@ -13772,14 +13673,15 @@ exports[`Select renders custom listbox styling 1`] = `
           class="c7"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             evening
           </span>
         </div>
       </button>
       <div
-        class="c11"
+        class="c10"
       />
     </div>
   </div>
@@ -15780,7 +15682,7 @@ exports[`Select search 2`] = `
   padding: 12px;
 }
 
-.c16 {
+.c15 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -15809,12 +15711,6 @@ exports[`Select search 2`] = `
   transform-origin: top left;
   animation: kPQHBD 0.1s forwards;
   animation-delay: 0.01s;
-}
-
-.c13 {
-  margin: 0px;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 .c10 {
@@ -15874,7 +15770,7 @@ exports[`Select search 2`] = `
   border: 0;
 }
 
-.c14 {
+.c13 {
   display: inline-block;
   box-sizing: border-box;
   cursor: pointer;
@@ -15891,43 +15787,43 @@ exports[`Select search 2`] = `
   text-align: inherit;
 }
 
-.c14:focus {
+.c13:focus {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c14:focus >circle,
-.c14:focus >ellipse,
-.c14:focus >line,
-.c14:focus >path,
-.c14:focus >polygon,
-.c14:focus >polyline,
-.c14:focus >rect {
+.c13:focus >circle,
+.c13:focus >ellipse,
+.c13:focus >line,
+.c13:focus >path,
+.c13:focus >polygon,
+.c13:focus >polyline,
+.c13:focus >rect {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c14:focus ::-moz-focus-inner {
+.c13:focus ::-moz-focus-inner {
   border: 0;
 }
 
-.c14:focus:not(:focus-visible) {
+.c13:focus:not(:focus-visible) {
   outline: none;
   box-shadow: none;
 }
 
-.c14:focus:not(:focus-visible) >circle,
-.c14:focus:not(:focus-visible) >ellipse,
-.c14:focus:not(:focus-visible) >line,
-.c14:focus:not(:focus-visible) >path,
-.c14:focus:not(:focus-visible) >polygon,
-.c14:focus:not(:focus-visible) >polyline,
-.c14:focus:not(:focus-visible) >rect {
+.c13:focus:not(:focus-visible) >circle,
+.c13:focus:not(:focus-visible) >ellipse,
+.c13:focus:not(:focus-visible) >line,
+.c13:focus:not(:focus-visible) >path,
+.c13:focus:not(:focus-visible) >polygon,
+.c13:focus:not(:focus-visible) >polyline,
+.c13:focus:not(:focus-visible) >rect {
   outline: none;
   box-shadow: none;
 }
 
-.c14:focus:not(:focus-visible) ::-moz-focus-inner {
+.c13:focus:not(:focus-visible) ::-moz-focus-inner {
   border: 0;
 }
 
@@ -16027,7 +15923,7 @@ exports[`Select search 2`] = `
   width: 100%;
 }
 
-.c15 {
+.c14 {
   background-color: #7D4CDB;
   color: #FFFFFF;
   display: block;
@@ -16125,7 +16021,8 @@ exports[`Select search 2`] = `
           class="c12"
         >
           <span
-            class="c13"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             one
           </span>
@@ -16135,7 +16032,7 @@ exports[`Select search 2`] = `
         aria-posinset="2"
         aria-selected="true"
         aria-setsize="2"
-        class="c14 c15"
+        class="c13 c14"
         role="option"
         tabindex="0"
         type="button"
@@ -16144,14 +16041,15 @@ exports[`Select search 2`] = `
           class="c12"
         >
           <span
-            class="c13"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             two
           </span>
         </div>
       </button>
       <div
-        class="c16"
+        class="c15"
       />
     </div>
   </div>
@@ -16516,7 +16414,7 @@ exports[`Select search and select 2`] = `
   padding: 12px;
 }
 
-.c14 {
+.c13 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -16545,12 +16443,6 @@ exports[`Select search and select 2`] = `
   transform-origin: top left;
   animation: kPQHBD 0.1s forwards;
   animation-delay: 0.01s;
-}
-
-.c13 {
-  margin: 0px;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 .c10 {
@@ -16797,7 +16689,8 @@ exports[`Select search and select 2`] = `
           class="c12"
         >
           <span
-            class="c13"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             one
           </span>
@@ -16816,14 +16709,15 @@ exports[`Select search and select 2`] = `
           class="c12"
         >
           <span
-            class="c13"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             two
           </span>
         </div>
       </button>
       <div
-        class="c14"
+        class="c13"
       />
     </div>
   </div>
@@ -19725,7 +19619,7 @@ exports[`Select small drop container height 1`] = `
   padding: 12px;
 }
 
-.c9 {
+.c8 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -19754,12 +19648,6 @@ exports[`Select small drop container height 1`] = `
   transform-origin: top left;
   animation: kPQHBD 0.1s forwards;
   animation-delay: 0.01s;
-}
-
-.c8 {
-  margin: 0px;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 .c5 {
@@ -19888,7 +19776,8 @@ exports[`Select small drop container height 1`] = `
           class="c7"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             one
           </span>
@@ -19907,14 +19796,15 @@ exports[`Select small drop container height 1`] = `
           class="c7"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             two
           </span>
         </div>
       </button>
       <div
-        class="c9"
+        class="c8"
       />
     </div>
   </div>
@@ -19996,7 +19886,7 @@ exports[`Select theme search pad 1`] = `
   padding: 12px;
 }
 
-.c14 {
+.c13 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -20025,12 +19915,6 @@ exports[`Select theme search pad 1`] = `
   transform-origin: top left;
   animation: kPQHBD 0.1s forwards;
   animation-delay: 0.01s;
-}
-
-.c13 {
-  margin: 0px;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 .c10 {
@@ -20277,7 +20161,8 @@ exports[`Select theme search pad 1`] = `
           class="c12"
         >
           <span
-            class="c13"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             one
           </span>
@@ -20296,14 +20181,15 @@ exports[`Select theme search pad 1`] = `
           class="c12"
         >
           <span
-            class="c13"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             two
           </span>
         </div>
       </button>
       <div
-        class="c14"
+        class="c13"
       />
     </div>
   </div>

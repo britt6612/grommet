@@ -40,13 +40,6 @@ exports[`NameValuePair should render name when name is JSX Element 1`] = `
   grid-gap: 24px 48px;
 }
 
-.c4 {
-  margin: 0px;
-  font-size: 18px;
-  line-height: 24px;
-  color: #444444;
-}
-
 @media only screen and (max-width: 768px) {
   .c3 {
     padding: 6px;
@@ -82,7 +75,8 @@ exports[`NameValuePair should render name when name is JSX Element 1`] = `
         </div>
       </dt>
       <dd
-        class="c4"
+        class="textRecipe_size_medium"
+        style="color: rgb(68, 68, 68); margin: 0px;"
       >
         entry
       </dd>
@@ -100,7 +94,8 @@ exports[`NameValuePair should render name when name is JSX Element 1`] = `
         </div>
       </dt>
       <dd
-        class="c4"
+        class="textRecipe_size_medium"
+        style="color: rgb(68, 68, 68); margin: 0px;"
       >
         San Francisco
       </dd>
@@ -118,7 +113,8 @@ exports[`NameValuePair should render name when name is JSX Element 1`] = `
         </div>
       </dt>
       <dd
-        class="c4"
+        class="textRecipe_size_medium"
+        style="color: rgb(68, 68, 68); margin: 0px;"
       >
         80
       </dd>
@@ -155,21 +151,6 @@ exports[`NameValuePair should render name when name is typeof string 1`] = `
   grid-gap: 24px 48px;
 }
 
-.c4 {
-  margin: 0px;
-  font-size: 18px;
-  line-height: 24px;
-  color: #444444;
-}
-
-.c3 {
-  margin-bottom: 3px;
-  font-size: 18px;
-  line-height: 24px;
-  color: #444444;
-  font-weight: bold;
-}
-
 @media only screen and (max-width: 768px) {
 
 }
@@ -190,12 +171,14 @@ exports[`NameValuePair should render name when name is typeof string 1`] = `
       class="c2"
     >
       <dt
-        class="c3"
+        class="textRecipe_size_medium"
+        style="color: rgb(68, 68, 68); font-weight: bold; margin-bottom: 3px;"
       >
         name
       </dt>
       <dd
-        class="c4"
+        class="textRecipe_size_medium"
+        style="color: rgb(68, 68, 68); margin: 0px;"
       >
         entry
       </dd>
@@ -204,12 +187,14 @@ exports[`NameValuePair should render name when name is typeof string 1`] = `
       class="c2"
     >
       <dt
-        class="c3"
+        class="textRecipe_size_medium"
+        style="color: rgb(68, 68, 68); font-weight: bold; margin-bottom: 3px;"
       >
         location
       </dt>
       <dd
-        class="c4"
+        class="textRecipe_size_medium"
+        style="color: rgb(68, 68, 68); margin: 0px;"
       >
         San Francisco
       </dd>
@@ -218,12 +203,14 @@ exports[`NameValuePair should render name when name is typeof string 1`] = `
       class="c2"
     >
       <dt
-        class="c3"
+        class="textRecipe_size_medium"
+        style="color: rgb(68, 68, 68); font-weight: bold; margin-bottom: 3px;"
       >
         health
       </dt>
       <dd
-        class="c4"
+        class="textRecipe_size_medium"
+        style="color: rgb(68, 68, 68); margin: 0px;"
       >
         80
       </dd>
@@ -260,21 +247,6 @@ exports[`NameValuePair should render value when provided as child of type \\n  s
   grid-gap: 24px 48px;
 }
 
-.c4 {
-  margin: 0px;
-  font-size: 18px;
-  line-height: 24px;
-  color: #444444;
-}
-
-.c3 {
-  margin-bottom: 3px;
-  font-size: 18px;
-  line-height: 24px;
-  color: #444444;
-  font-weight: bold;
-}
-
 @media only screen and (max-width: 768px) {
 
 }
@@ -295,12 +267,14 @@ exports[`NameValuePair should render value when provided as child of type \\n  s
       class="c2"
     >
       <dt
-        class="c3"
+        class="textRecipe_size_medium"
+        style="color: rgb(68, 68, 68); font-weight: bold; margin-bottom: 3px;"
       >
         name
       </dt>
       <dd
-        class="c4"
+        class="textRecipe_size_medium"
+        style="color: rgb(68, 68, 68); margin: 0px;"
       >
         entry
       </dd>
@@ -309,12 +283,14 @@ exports[`NameValuePair should render value when provided as child of type \\n  s
       class="c2"
     >
       <dt
-        class="c3"
+        class="textRecipe_size_medium"
+        style="color: rgb(68, 68, 68); font-weight: bold; margin-bottom: 3px;"
       >
         location
       </dt>
       <dd
-        class="c4"
+        class="textRecipe_size_medium"
+        style="color: rgb(68, 68, 68); margin: 0px;"
       >
         San Francisco
       </dd>
@@ -323,12 +299,14 @@ exports[`NameValuePair should render value when provided as child of type \\n  s
       class="c2"
     >
       <dt
-        class="c3"
+        class="textRecipe_size_medium"
+        style="color: rgb(68, 68, 68); font-weight: bold; margin-bottom: 3px;"
       >
         health
       </dt>
       <dd
-        class="c4"
+        class="textRecipe_size_medium"
+        style="color: rgb(68, 68, 68); margin: 0px;"
       >
         80
       </dd>
@@ -338,7 +316,7 @@ exports[`NameValuePair should render value when provided as child of type \\n  s
 `;
 
 exports[`NameValuePair should render value when provided as child of type JSX Element 1`] = `
-.c5 {
+.c3 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -367,12 +345,12 @@ exports[`NameValuePair should render value when provided as child of type JSX El
   -webkit-font-smoothing: antialiased;
 }
 
-.c6 {
+.c4 {
   max-width: 100%;
   overflow: hidden;
 }
 
-.c6 path {
+.c4 path {
   transition: stroke 0.3s,stroke-width 0.3s;
 }
 
@@ -384,23 +362,8 @@ exports[`NameValuePair should render value when provided as child of type JSX El
   grid-gap: 24px 48px;
 }
 
-.c4 {
-  margin: 0px;
-  font-size: 18px;
-  line-height: 24px;
-  color: #444444;
-}
-
-.c3 {
-  margin-bottom: 3px;
-  font-size: 18px;
-  line-height: 24px;
-  color: #444444;
-  font-weight: bold;
-}
-
 @media only screen and (max-width: 768px) {
-  .c5 {
+  .c3 {
     margin: 0px;
   }
 }
@@ -425,12 +388,14 @@ exports[`NameValuePair should render value when provided as child of type JSX El
       class="c2"
     >
       <dt
-        class="c3"
+        class="textRecipe_size_medium"
+        style="color: rgb(68, 68, 68); font-weight: bold; margin-bottom: 3px;"
       >
         name
       </dt>
       <dd
-        class="c4"
+        class="textRecipe_size_medium"
+        style="color: rgb(68, 68, 68); margin: 0px;"
       >
         entry
       </dd>
@@ -439,12 +404,14 @@ exports[`NameValuePair should render value when provided as child of type JSX El
       class="c2"
     >
       <dt
-        class="c3"
+        class="textRecipe_size_medium"
+        style="color: rgb(68, 68, 68); font-weight: bold; margin-bottom: 3px;"
       >
         location
       </dt>
       <dd
-        class="c4"
+        class="textRecipe_size_medium"
+        style="color: rgb(68, 68, 68); margin: 0px;"
       >
         San Francisco
       </dd>
@@ -453,16 +420,17 @@ exports[`NameValuePair should render value when provided as child of type JSX El
       class="c2"
     >
       <dt
-        class="c3"
+        class="textRecipe_size_medium"
+        style="color: rgb(68, 68, 68); font-weight: bold; margin-bottom: 3px;"
       >
         health
       </dt>
       <dd
-        class="c5"
+        class="c3"
       >
         <svg
           aria-label="Bar meter with value 80 out of 100"
-          class="c6"
+          class="c4"
           height="24"
           preserveAspectRatio="none"
           viewBox="0 0 384 24"

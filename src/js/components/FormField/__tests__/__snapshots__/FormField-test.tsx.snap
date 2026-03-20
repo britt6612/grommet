@@ -11,7 +11,7 @@ exports[`FormField Custom theme TextInput FormField container 1`] = `
   flex-direction: column;
 }
 
-.c3 {
+.c2 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -21,147 +21,6 @@ exports[`FormField Custom theme TextInput FormField container 1`] = `
   min-width: 0;
   min-height: 0;
   flex-direction: column;
-}
-
-.c2 {
-  margin-left: 12px;
-  margin-right: 12px;
-  margin-top: 6px;
-  margin-bottom: 6px;
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.c6 {
-  box-sizing: border-box;
-  font-size: inherit;
-  font-family: inherit;
-  border: none;
-  -webkit-appearance: none;
-  background: transparent;
-  color: inherit;
-  width: 100%;
-  padding: 11px;
-  font-weight: 600;
-  margin: 0;
-  border: 1px solid rgba(0, 0, 0, 0.33);
-  border-radius: 4px;
-  outline: none;
-  border: none;
-}
-
-.c6::-webkit-input-placeholder {
-  color: #AAAAAA;
-}
-
-.c6::-moz-placeholder {
-  color: #AAAAAA;
-}
-
-.c6:-ms-input-placeholder {
-  color: #AAAAAA;
-}
-
-.c6 ::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
-
-.c6::-moz-focus-inner {
-  border: none;
-  outline: none;
-}
-
-.c6:-moz-placeholder,
-.c6::-moz-placeholder {
-  opacity: 1;
-}
-
-.c5 {
-  position: relative;
-  width: 100%;
-}
-
-.c4 {
-  color: green;
-}
-
-.c0 {
-  font-size: 18px;
-  line-height: 24px;
-  box-sizing: border-box;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-}
-
-@media only screen and (max-width: 768px) {
-  .c1 {
-    margin-bottom: 6px;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .c3 {
-    border-bottom: solid 1px rgba(0, 0, 0, 0.33);
-  }
-}
-
-<div
-  class="c0"
->
-  <div
-    class="c1 "
-  >
-    <label
-      class="c2"
-    >
-      Label
-    </label>
-    <div
-      class="c3 c4"
-    >
-      <div
-        class="c5"
-      >
-        <input
-          autocomplete="off"
-          class="c6"
-        />
-      </div>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`FormField Field with null as child 1`] = `
-.c1 {
-  display: flex;
-  box-sizing: border-box;
-  max-width: 100%;
-  margin-bottom: 12px;
-  min-width: 0;
-  min-height: 0;
-  flex-direction: column;
-}
-
-.c3 {
-  display: flex;
-  box-sizing: border-box;
-  max-width: 100%;
-  border-bottom: solid 1px rgba(0, 0, 0, 0.33);
-  min-width: 0;
-  min-height: 0;
-  flex-direction: column;
-}
-
-.c2 {
-  margin-left: 12px;
-  margin-right: 12px;
-  margin-top: 6px;
-  margin-bottom: 6px;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 .c5 {
@@ -213,6 +72,10 @@ exports[`FormField Field with null as child 1`] = `
   width: 100%;
 }
 
+.c3 {
+  color: green;
+}
+
 .c0 {
   font-size: 18px;
   line-height: 24px;
@@ -230,7 +93,7 @@ exports[`FormField Field with null as child 1`] = `
 }
 
 @media only screen and (max-width: 768px) {
-  .c3 {
+  .c2 {
     border-bottom: solid 1px rgba(0, 0, 0, 0.33);
   }
 }
@@ -242,12 +105,13 @@ exports[`FormField Field with null as child 1`] = `
     class="c1 "
   >
     <label
-      class="c2"
+      class="textRecipe_size_medium"
+      style="margin: 6px 12px 6px 12px;"
     >
       Label
     </label>
     <div
-      class="c3 "
+      class="c2 c3"
     >
       <div
         class="c4"
@@ -255,6 +119,126 @@ exports[`FormField Field with null as child 1`] = `
         <input
           autocomplete="off"
           class="c5"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FormField Field with null as child 1`] = `
+.c1 {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  margin-bottom: 12px;
+  min-width: 0;
+  min-height: 0;
+  flex-direction: column;
+}
+
+.c2 {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.33);
+  min-width: 0;
+  min-height: 0;
+  flex-direction: column;
+}
+
+.c4 {
+  box-sizing: border-box;
+  font-size: inherit;
+  font-family: inherit;
+  border: none;
+  -webkit-appearance: none;
+  background: transparent;
+  color: inherit;
+  width: 100%;
+  padding: 11px;
+  font-weight: 600;
+  margin: 0;
+  border: 1px solid rgba(0, 0, 0, 0.33);
+  border-radius: 4px;
+  outline: none;
+  border: none;
+}
+
+.c4::-webkit-input-placeholder {
+  color: #AAAAAA;
+}
+
+.c4::-moz-placeholder {
+  color: #AAAAAA;
+}
+
+.c4:-ms-input-placeholder {
+  color: #AAAAAA;
+}
+
+.c4 ::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+.c4::-moz-focus-inner {
+  border: none;
+  outline: none;
+}
+
+.c4:-moz-placeholder,
+.c4::-moz-placeholder {
+  opacity: 1;
+}
+
+.c3 {
+  position: relative;
+  width: 100%;
+}
+
+.c0 {
+  font-size: 18px;
+  line-height: 24px;
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media only screen and (max-width: 768px) {
+  .c1 {
+    margin-bottom: 6px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .c2 {
+    border-bottom: solid 1px rgba(0, 0, 0, 0.33);
+  }
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1 "
+  >
+    <label
+      class="textRecipe_size_medium"
+      style="margin: 6px 12px 6px 12px;"
+    >
+      Label
+    </label>
+    <div
+      class="c2 "
+    >
+      <div
+        class="c3"
+      >
+        <input
+          autocomplete="off"
+          class="c4"
         />
       </div>
     </div>
@@ -385,7 +369,7 @@ exports[`FormField checkbox pad is defined in formfield 1`] = `
   flex-direction: column;
 }
 
-.c3 {
+.c2 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -396,7 +380,7 @@ exports[`FormField checkbox pad is defined in formfield 1`] = `
   padding: 12px;
 }
 
-.c5 {
+.c4 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -408,7 +392,7 @@ exports[`FormField checkbox pad is defined in formfield 1`] = `
   justify-content: center;
 }
 
-.c8 {
+.c7 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -423,7 +407,7 @@ exports[`FormField checkbox pad is defined in formfield 1`] = `
   border-radius: 4px;
 }
 
-.c4 {
+.c3 {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -437,12 +421,12 @@ exports[`FormField checkbox pad is defined in formfield 1`] = `
   cursor: pointer;
 }
 
-.c4:hover input:not([disabled])+div,
-.c4:hover input:not([disabled])+span {
+.c3:hover input:not([disabled])+div,
+.c3:hover input:not([disabled])+span {
   border-color: #000000;
 }
 
-.c9 {
+.c8 {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -452,12 +436,12 @@ exports[`FormField checkbox pad is defined in formfield 1`] = `
   cursor: pointer;
 }
 
-.c9:hover input:not([disabled])+div,
-.c9:hover input:not([disabled])+span {
+.c8:hover input:not([disabled])+div,
+.c8:hover input:not([disabled])+span {
   border-color: #000000;
 }
 
-.c7 {
+.c6 {
   opacity: 0;
   -moz-appearance: none;
   width: 0;
@@ -466,22 +450,13 @@ exports[`FormField checkbox pad is defined in formfield 1`] = `
   cursor: pointer;
 }
 
-.c7:checked+span>span {
+.c6:checked+span>span {
   left: calc( 48px - 24px );
   background: #7D4CDB;
 }
 
-.c6 {
+.c5 {
   flex-shrink: 0;
-}
-
-.c2 {
-  margin-left: 12px;
-  margin-right: 12px;
-  margin-top: 6px;
-  margin-bottom: 6px;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 .c0 {
@@ -501,25 +476,25 @@ exports[`FormField checkbox pad is defined in formfield 1`] = `
 }
 
 @media only screen and (max-width: 768px) {
-  .c3 {
+  .c2 {
     border-bottom: solid 1px rgba(0, 0, 0, 0.33);
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c3 {
+  .c2 {
     padding: 6px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c5 {
+  .c4 {
     margin-right: 6px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c8 {
+  .c7 {
     border: solid 2px rgba(0, 0, 0, 0.15);
   }
 }
@@ -532,25 +507,26 @@ exports[`FormField checkbox pad is defined in formfield 1`] = `
       class="c1 "
     >
       <label
-        class="c2"
+        class="textRecipe_size_medium"
+        style="margin: 6px 12px 6px 12px;"
       >
         label
       </label>
       <div
-        class="c3 "
+        class="c2 "
       >
         <label
-          class="c4"
+          class="c3"
         >
           <div
-            class="c5 c6"
+            class="c4 c5"
           >
             <input
-              class="c7"
+              class="c6"
               type="checkbox"
             />
             <div
-              class="c8 "
+              class="c7 "
             />
           </div>
           <span>
@@ -560,17 +536,17 @@ exports[`FormField checkbox pad is defined in formfield 1`] = `
       </div>
     </div>
     <label
-      class="c9"
+      class="c8"
     >
       <div
-        class="c5 c6"
+        class="c4 c5"
       >
         <input
-          class="c7"
+          class="c6"
           type="checkbox"
         />
         <div
-          class="c8 "
+          class="c7 "
         />
       </div>
       <span>
@@ -592,7 +568,7 @@ exports[`FormField contentProps 1`] = `
   flex-direction: column;
 }
 
-.c3 {
+.c2 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -601,16 +577,7 @@ exports[`FormField contentProps 1`] = `
   flex-direction: column;
 }
 
-.c2 {
-  margin-left: 12px;
-  margin-right: 12px;
-  margin-top: 6px;
-  margin-bottom: 6px;
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.c5 {
+.c4 {
   box-sizing: border-box;
   font-size: inherit;
   font-family: inherit;
@@ -628,33 +595,33 @@ exports[`FormField contentProps 1`] = `
   border: none;
 }
 
-.c5::-webkit-input-placeholder {
+.c4::-webkit-input-placeholder {
   color: #AAAAAA;
 }
 
-.c5::-moz-placeholder {
+.c4::-moz-placeholder {
   color: #AAAAAA;
 }
 
-.c5:-ms-input-placeholder {
+.c4:-ms-input-placeholder {
   color: #AAAAAA;
 }
 
-.c5 ::-webkit-search-decoration {
+.c4 ::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-.c5::-moz-focus-inner {
+.c4::-moz-focus-inner {
   border: none;
   outline: none;
 }
 
-.c5:-moz-placeholder,
-.c5::-moz-placeholder {
+.c4:-moz-placeholder,
+.c4::-moz-placeholder {
   opacity: 1;
 }
 
-.c4 {
+.c3 {
   position: relative;
   width: 100%;
 }
@@ -683,19 +650,20 @@ exports[`FormField contentProps 1`] = `
       class="c1 "
     >
       <label
-        class="c2"
+        class="textRecipe_size_medium"
+        style="margin: 6px 12px 6px 12px;"
       >
         label
       </label>
       <div
-        class="c3 "
+        class="c2 "
       >
         <div
-          class="c4"
+          class="c3"
         >
           <input
             autocomplete="off"
-            class="c5"
+            class="c4"
           />
         </div>
       </div>
@@ -705,7 +673,7 @@ exports[`FormField contentProps 1`] = `
 `;
 
 exports[`FormField custom error and info icon and container 1`] = `
-.c8 {
+.c7 {
   display: inline-block;
   flex: 0 0 auto;
   width: 24px;
@@ -714,25 +682,25 @@ exports[`FormField custom error and info icon and container 1`] = `
   stroke: #666666;
 }
 
-.c8 g {
+.c7 g {
   fill: inherit;
   stroke: inherit;
 }
 
-.c8 *:not([stroke])[fill='none'] {
+.c7 *:not([stroke])[fill='none'] {
   stroke-width: 0;
 }
 
-.c8 *[stroke*='#'],
-.c8 *[STROKE*='#'] {
+.c7 *[stroke*='#'],
+.c7 *[STROKE*='#'] {
   stroke: inherit;
   fill: none;
 }
 
-.c8 *[fill-rule],
-.c8 *[FILL-RULE],
-.c8 *[fill*='#'],
-.c8 *[FILL*='#'] {
+.c7 *[fill-rule],
+.c7 *[FILL-RULE],
+.c7 *[fill*='#'],
+.c7 *[FILL*='#'] {
   fill: inherit;
   stroke: none;
 }
@@ -747,7 +715,7 @@ exports[`FormField custom error and info icon and container 1`] = `
   flex-direction: column;
 }
 
-.c3 {
+.c2 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -756,7 +724,7 @@ exports[`FormField custom error and info icon and container 1`] = `
   flex-direction: column;
 }
 
-.c6 {
+.c5 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -767,7 +735,7 @@ exports[`FormField custom error and info icon and container 1`] = `
   flex-direction: row;
 }
 
-.c7 {
+.c6 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -777,7 +745,7 @@ exports[`FormField custom error and info icon and container 1`] = `
   flex: 0 0 auto;
 }
 
-.c10 {
+.c8 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -788,36 +756,7 @@ exports[`FormField custom error and info icon and container 1`] = `
   padding-right: 48px;
 }
 
-.c2 {
-  margin-left: 12px;
-  margin-right: 12px;
-  margin-top: 6px;
-  margin-bottom: 6px;
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.c9 {
-  margin-left: 12px;
-  margin-right: 12px;
-  margin-top: 6px;
-  margin-bottom: 6px;
-  font-size: 18px;
-  line-height: 24px;
-  color: #EB0000;
-}
-
-.c11 {
-  margin-left: 12px;
-  margin-right: 12px;
-  margin-top: 6px;
-  margin-bottom: 6px;
-  font-size: 18px;
-  line-height: 24px;
-  color: #666666;
-}
-
-.c5 {
+.c4 {
   box-sizing: border-box;
   font-size: inherit;
   font-family: inherit;
@@ -835,33 +774,33 @@ exports[`FormField custom error and info icon and container 1`] = `
   border: none;
 }
 
-.c5::-webkit-input-placeholder {
+.c4::-webkit-input-placeholder {
   color: #AAAAAA;
 }
 
-.c5::-moz-placeholder {
+.c4::-moz-placeholder {
   color: #AAAAAA;
 }
 
-.c5:-ms-input-placeholder {
+.c4:-ms-input-placeholder {
   color: #AAAAAA;
 }
 
-.c5 ::-webkit-search-decoration {
+.c4 ::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-.c5::-moz-focus-inner {
+.c4::-moz-focus-inner {
   border: none;
   outline: none;
 }
 
-.c5:-moz-placeholder,
-.c5::-moz-placeholder {
+.c4:-moz-placeholder,
+.c4::-moz-placeholder {
   opacity: 1;
 }
 
-.c4 {
+.c3 {
   position: relative;
   width: 100%;
 }
@@ -883,7 +822,7 @@ exports[`FormField custom error and info icon and container 1`] = `
 }
 
 @media only screen and (max-width: 768px) {
-  .c10 {
+  .c8 {
     padding-left: 24px;
     padding-right: 24px;
   }
@@ -897,32 +836,33 @@ exports[`FormField custom error and info icon and container 1`] = `
       class="c1 "
     >
       <label
-        class="c2"
+        class="textRecipe_size_medium"
+        style="margin: 6px 12px 6px 12px;"
       >
         label
       </label>
       <div
-        class="c3 "
+        class="c2 "
       >
         <div
-          class="c4"
+          class="c3"
         >
           <input
             aria-invalid="true"
             autocomplete="off"
-            class="c5"
+            class="c4"
           />
         </div>
       </div>
       <div
-        class="c6 FormField__StyledMessageContainer-sc-m9hood-3"
+        class="c5 FormField__StyledMessageContainer-sc-m9hood-3"
       >
         <div
-          class="c7"
+          class="c6"
         >
           <svg
             aria-label="Alert"
-            class="c8"
+            class="c7"
             viewBox="0 0 24 24"
           >
             <path
@@ -934,20 +874,23 @@ exports[`FormField custom error and info icon and container 1`] = `
           </svg>
         </div>
         <span
-          class="c9"
+          class="textRecipe_size_medium"
+          container="[object Object]"
+          icon="[object Object]"
+          style="color: rgb(235, 0, 0); margin: 6px 12px 6px 12px;"
         >
           This is an error message.
         </span>
       </div>
       <div
-        class="c10 FormField__StyledMessageContainer-sc-m9hood-3"
+        class="c8 FormField__StyledMessageContainer-sc-m9hood-3"
       >
         <div
-          class="c7"
+          class="c6"
         >
           <svg
             aria-label="Information Status"
-            class="c8"
+            class="c7"
             viewBox="0 0 24 24"
           >
             <path
@@ -959,7 +902,10 @@ exports[`FormField custom error and info icon and container 1`] = `
           </svg>
         </div>
         <span
-          class="c11"
+          class="textRecipe_size_medium"
+          container="[object Object]"
+          icon="[object Object]"
+          style="color: rgb(102, 102, 102); margin: 6px 12px 6px 12px;"
         >
           Here is a little added info on FormField.
         </span>
@@ -1040,7 +986,7 @@ exports[`FormField custom input margin 1`] = `
   flex-direction: column;
 }
 
-.c3 {
+.c2 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1052,16 +998,7 @@ exports[`FormField custom input margin 1`] = `
   flex-direction: column;
 }
 
-.c2 {
-  margin-left: 12px;
-  margin-right: 12px;
-  margin-top: 6px;
-  margin-bottom: 6px;
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.c5 {
+.c4 {
   box-sizing: border-box;
   font-size: inherit;
   font-family: inherit;
@@ -1079,33 +1016,33 @@ exports[`FormField custom input margin 1`] = `
   border: none;
 }
 
-.c5::-webkit-input-placeholder {
+.c4::-webkit-input-placeholder {
   color: #AAAAAA;
 }
 
-.c5::-moz-placeholder {
+.c4::-moz-placeholder {
   color: #AAAAAA;
 }
 
-.c5:-ms-input-placeholder {
+.c4:-ms-input-placeholder {
   color: #AAAAAA;
 }
 
-.c5 ::-webkit-search-decoration {
+.c4 ::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-.c5::-moz-focus-inner {
+.c4::-moz-focus-inner {
   border: none;
   outline: none;
 }
 
-.c5:-moz-placeholder,
-.c5::-moz-placeholder {
+.c4:-moz-placeholder,
+.c4::-moz-placeholder {
   opacity: 1;
 }
 
-.c4 {
+.c3 {
   position: relative;
   width: 100%;
 }
@@ -1127,14 +1064,14 @@ exports[`FormField custom input margin 1`] = `
 }
 
 @media only screen and (max-width: 768px) {
-  .c3 {
+  .c2 {
     margin-top: 24px;
     margin-bottom: 24px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c3 {
+  .c2 {
     border-bottom: solid 1px rgba(0, 0, 0, 0.33);
   }
 }
@@ -1147,19 +1084,20 @@ exports[`FormField custom input margin 1`] = `
       class="c1 "
     >
       <label
-        class="c2"
+        class="textRecipe_size_medium"
+        style="margin: 6px 12px 6px 12px;"
       >
         label
       </label>
       <div
-        class="c3 "
+        class="c2 "
       >
         <div
-          class="c4"
+          class="c3"
         >
           <input
             autocomplete="off"
-            class="c5"
+            class="c4"
           />
         </div>
       </div>
@@ -1179,7 +1117,7 @@ exports[`FormField custom label 1`] = `
   flex-direction: column;
 }
 
-.c3 {
+.c2 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1189,15 +1127,7 @@ exports[`FormField custom label 1`] = `
   flex-direction: column;
 }
 
-.c2 {
-  margin: 6px;
-  font-size: 14px;
-  line-height: 20px;
-  color: red;
-  font-weight: 600;
-}
-
-.c5 {
+.c4 {
   box-sizing: border-box;
   font-size: inherit;
   font-family: inherit;
@@ -1215,33 +1145,33 @@ exports[`FormField custom label 1`] = `
   border: none;
 }
 
-.c5::-webkit-input-placeholder {
+.c4::-webkit-input-placeholder {
   color: #AAAAAA;
 }
 
-.c5::-moz-placeholder {
+.c4::-moz-placeholder {
   color: #AAAAAA;
 }
 
-.c5:-ms-input-placeholder {
+.c4:-ms-input-placeholder {
   color: #AAAAAA;
 }
 
-.c5 ::-webkit-search-decoration {
+.c4 ::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-.c5::-moz-focus-inner {
+.c4::-moz-focus-inner {
   border: none;
   outline: none;
 }
 
-.c5:-moz-placeholder,
-.c5::-moz-placeholder {
+.c4:-moz-placeholder,
+.c4::-moz-placeholder {
   opacity: 1;
 }
 
-.c4 {
+.c3 {
   position: relative;
   width: 100%;
 }
@@ -1263,7 +1193,7 @@ exports[`FormField custom label 1`] = `
 }
 
 @media only screen and (max-width: 768px) {
-  .c3 {
+  .c2 {
     border-bottom: solid 1px rgba(0, 0, 0, 0.33);
   }
 }
@@ -1276,19 +1206,20 @@ exports[`FormField custom label 1`] = `
       class="c1 "
     >
       <label
-        class="c2"
+        class="textRecipe_size_small"
+        style="color: red; font-weight: 600; margin: 6px;"
       >
         label
       </label>
       <div
-        class="c3 "
+        class="c2 "
       >
         <div
-          class="c4"
+          class="c3"
         >
           <input
             autocomplete="off"
-            class="c5"
+            class="c4"
           />
         </div>
       </div>
@@ -1600,7 +1531,7 @@ exports[`FormField disabled with custom label for help and info 1`] = `
   flex-direction: column;
 }
 
-.c4 {
+.c2 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1612,32 +1543,7 @@ exports[`FormField disabled with custom label for help and info 1`] = `
   flex-direction: column;
 }
 
-.c2 {
-  margin: 6px;
-  font-size: 14px;
-  line-height: 20px;
-  color: teal;
-  font-weight: 600;
-}
-
-.c3 {
-  margin-inline-start: 12px;
-  font-size: 18px;
-  line-height: 24px;
-  color: blue;
-}
-
-.c7 {
-  margin-left: 12px;
-  margin-right: 12px;
-  margin-top: 6px;
-  margin-bottom: 6px;
-  font-size: 18px;
-  line-height: 24px;
-  color: green;
-}
-
-.c6 {
+.c4 {
   box-sizing: border-box;
   font-size: inherit;
   font-family: inherit;
@@ -1655,33 +1561,33 @@ exports[`FormField disabled with custom label for help and info 1`] = `
   border: none;
 }
 
-.c6::-webkit-input-placeholder {
+.c4::-webkit-input-placeholder {
   color: #AAAAAA;
 }
 
-.c6::-moz-placeholder {
+.c4::-moz-placeholder {
   color: #AAAAAA;
 }
 
-.c6:-ms-input-placeholder {
+.c4:-ms-input-placeholder {
   color: #AAAAAA;
 }
 
-.c6 ::-webkit-search-decoration {
+.c4 ::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-.c6::-moz-focus-inner {
+.c4::-moz-focus-inner {
   border: none;
   outline: none;
 }
 
-.c6:-moz-placeholder,
-.c6::-moz-placeholder {
+.c4:-moz-placeholder,
+.c4::-moz-placeholder {
   opacity: 1;
 }
 
-.c5 {
+.c3 {
   position: relative;
   width: 100%;
 }
@@ -1703,7 +1609,7 @@ exports[`FormField disabled with custom label for help and info 1`] = `
 }
 
 @media only screen and (max-width: 768px) {
-  .c4 {
+  .c2 {
     border-bottom: solid 1px rgba(0, 0, 0, 0.33);
   }
 }
@@ -1716,26 +1622,28 @@ exports[`FormField disabled with custom label for help and info 1`] = `
       class="c1 "
     >
       <label
-        class="c2"
+        class="textRecipe_size_small"
         for="text-input"
         id="grommet-text-input__label"
+        style="color: teal; font-weight: 600; margin: 6px;"
       >
         label
       </label>
       <span
-        class="c3"
+        class="textRecipe_size_medium"
+        style="color: blue;"
       >
         Text to help the user know what is possible
       </span>
       <div
-        class="c4 "
+        class="c2 "
       >
         <div
-          class="c5"
+          class="c3"
         >
           <input
             autocomplete="off"
-            class="c6"
+            class="c4"
             id="text-input"
             placeholder="placeholder"
             value="Value"
@@ -1743,7 +1651,8 @@ exports[`FormField disabled with custom label for help and info 1`] = `
         </div>
       </div>
       <span
-        class="c7"
+        class="textRecipe_size_medium"
+        style="color: green; margin: 6px 12px 6px 12px;"
       >
         Additional contextual information
       </span>
@@ -2286,16 +2195,6 @@ exports[`FormField error 1`] = `
   flex-direction: column;
 }
 
-.c3 {
-  margin-left: 12px;
-  margin-right: 12px;
-  margin-top: 6px;
-  margin-bottom: 6px;
-  font-size: 18px;
-  line-height: 24px;
-  color: #EB0000;
-}
-
 .c0 {
   font-size: 18px;
   line-height: 24px;
@@ -2328,7 +2227,8 @@ exports[`FormField error 1`] = `
       class="c2 "
     />
     <span
-      class="c3"
+      class="textRecipe_size_medium"
+      style="color: rgb(235, 0, 0); margin: 6px 12px 6px 12px;"
     >
       test error
     </span>
@@ -2347,7 +2247,7 @@ exports[`FormField help 1`] = `
   flex-direction: column;
 }
 
-.c3 {
+.c2 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -2355,13 +2255,6 @@ exports[`FormField help 1`] = `
   min-width: 0;
   min-height: 0;
   flex-direction: column;
-}
-
-.c2 {
-  margin-inline-start: 12px;
-  font-size: 18px;
-  line-height: 24px;
-  color: #555555;
 }
 
 .c0 {
@@ -2381,7 +2274,7 @@ exports[`FormField help 1`] = `
 }
 
 @media only screen and (max-width: 768px) {
-  .c3 {
+  .c2 {
     border-bottom: solid 1px rgba(0, 0, 0, 0.33);
   }
 }
@@ -2393,12 +2286,13 @@ exports[`FormField help 1`] = `
     class="c1 "
   >
     <span
-      class="c2"
+      class="textRecipe_size_medium"
+      style="color: rgb(85, 85, 85);"
     >
       test help
     </span>
     <div
-      class="c3 "
+      class="c2 "
     />
   </div>
 </div>
@@ -2481,16 +2375,6 @@ exports[`FormField info 1`] = `
   flex-direction: column;
 }
 
-.c3 {
-  margin-left: 12px;
-  margin-right: 12px;
-  margin-top: 6px;
-  margin-bottom: 6px;
-  font-size: 18px;
-  line-height: 24px;
-  color: #666666;
-}
-
 .c0 {
   font-size: 18px;
   line-height: 24px;
@@ -2523,7 +2407,8 @@ exports[`FormField info 1`] = `
       class="c2 "
     />
     <span
-      class="c3"
+      class="textRecipe_size_medium"
+      style="color: rgb(102, 102, 102); margin: 6px 12px 6px 12px;"
     >
       test info
     </span>
@@ -2542,7 +2427,7 @@ exports[`FormField info and help label colors 1`] = `
   flex-direction: column;
 }
 
-.c4 {
+.c2 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -2552,31 +2437,6 @@ exports[`FormField info and help label colors 1`] = `
   min-width: 0;
   min-height: 0;
   flex-direction: column;
-}
-
-.c2 {
-  margin-left: 12px;
-  margin-right: 12px;
-  margin-top: 6px;
-  margin-bottom: 6px;
-  font-size: 18px;
-  line-height: 24px;
-  color: teal;
-}
-
-.c3 {
-  margin-inline-start: 12px;
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.c5 {
-  margin-left: 12px;
-  margin-right: 12px;
-  margin-top: 6px;
-  margin-bottom: 6px;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 .c0 {
@@ -2596,7 +2456,7 @@ exports[`FormField info and help label colors 1`] = `
 }
 
 @media only screen and (max-width: 768px) {
-  .c4 {
+  .c2 {
     border-bottom: solid 1px rgba(0, 0, 0, 0.33);
   }
 }
@@ -2608,20 +2468,22 @@ exports[`FormField info and help label colors 1`] = `
     class="c1 "
   >
     <label
-      class="c2"
+      class="textRecipe_size_medium"
+      style="color: teal; margin: 6px 12px 6px 12px;"
     >
       Label
     </label>
     <span
-      class="c3"
+      class="textRecipe_size_medium"
     >
       Text to help the user know what is possible
     </span>
     <div
-      class="c4 "
+      class="c2 "
     />
     <span
-      class="c5"
+      class="textRecipe_size_medium"
+      style="margin: 6px 12px 6px 12px;"
     >
       Additional contextual information
     </span>
@@ -2640,7 +2502,7 @@ exports[`FormField label 1`] = `
   flex-direction: column;
 }
 
-.c3 {
+.c2 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -2648,15 +2510,6 @@ exports[`FormField label 1`] = `
   min-width: 0;
   min-height: 0;
   flex-direction: column;
-}
-
-.c2 {
-  margin-left: 12px;
-  margin-right: 12px;
-  margin-top: 6px;
-  margin-bottom: 6px;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 .c0 {
@@ -2676,7 +2529,7 @@ exports[`FormField label 1`] = `
 }
 
 @media only screen and (max-width: 768px) {
-  .c3 {
+  .c2 {
     border-bottom: solid 1px rgba(0, 0, 0, 0.33);
   }
 }
@@ -2688,12 +2541,13 @@ exports[`FormField label 1`] = `
     class="c1 "
   >
     <label
-      class="c2"
+      class="textRecipe_size_medium"
+      style="margin: 6px 12px 6px 12px;"
     >
       test label
     </label>
     <div
-      class="c3 "
+      class="c2 "
     />
   </div>
 </div>
@@ -2766,7 +2620,7 @@ exports[`FormField max and threshold validation 1`] = `
   flex-direction: column;
 }
 
-.c3 {
+.c2 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -2776,16 +2630,7 @@ exports[`FormField max and threshold validation 1`] = `
   flex-direction: column;
 }
 
-.c2 {
-  margin-left: 12px;
-  margin-right: 12px;
-  margin-top: 6px;
-  margin-bottom: 6px;
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.c5 {
+.c4 {
   box-sizing: border-box;
   font-size: inherit;
   font-family: inherit;
@@ -2803,33 +2648,33 @@ exports[`FormField max and threshold validation 1`] = `
   border: none;
 }
 
-.c5::-webkit-input-placeholder {
+.c4::-webkit-input-placeholder {
   color: #AAAAAA;
 }
 
-.c5::-moz-placeholder {
+.c4::-moz-placeholder {
   color: #AAAAAA;
 }
 
-.c5:-ms-input-placeholder {
+.c4:-ms-input-placeholder {
   color: #AAAAAA;
 }
 
-.c5 ::-webkit-search-decoration {
+.c4 ::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-.c5::-moz-focus-inner {
+.c4::-moz-focus-inner {
   border: none;
   outline: none;
 }
 
-.c5:-moz-placeholder,
-.c5::-moz-placeholder {
+.c4:-moz-placeholder,
+.c4::-moz-placeholder {
   opacity: 1;
 }
 
-.c4 {
+.c3 {
   position: relative;
   width: 100%;
 }
@@ -2851,7 +2696,7 @@ exports[`FormField max and threshold validation 1`] = `
 }
 
 @media only screen and (max-width: 768px) {
-  .c3 {
+  .c2 {
     border-bottom: solid 1px rgba(0, 0, 0, 0.33);
   }
 }
@@ -2864,21 +2709,22 @@ exports[`FormField max and threshold validation 1`] = `
       class="c1 "
     >
       <label
-        class="c2"
+        class="textRecipe_size_medium"
         for="issue-description"
         id="grommet-issue-description__label"
+        style="margin: 6px 12px 6px 12px;"
       >
         label
       </label>
       <div
-        class="c3 "
+        class="c2 "
       >
         <div
-          class="c4"
+          class="c3"
         >
           <input
             autocomplete="off"
-            class="c5"
+            class="c4"
             id="issue-description"
             name="issue-description"
             placeholder="placeholder"
@@ -2964,7 +2810,7 @@ exports[`FormField pad with border undefined 1`] = `
   flex-direction: column;
 }
 
-.c3 {
+.c2 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -2974,16 +2820,7 @@ exports[`FormField pad with border undefined 1`] = `
   padding: 48px;
 }
 
-.c2 {
-  margin-left: 12px;
-  margin-right: 12px;
-  margin-top: 6px;
-  margin-bottom: 6px;
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.c5 {
+.c4 {
   box-sizing: border-box;
   font-size: inherit;
   font-family: inherit;
@@ -3001,33 +2838,33 @@ exports[`FormField pad with border undefined 1`] = `
   border: none;
 }
 
-.c5::-webkit-input-placeholder {
+.c4::-webkit-input-placeholder {
   color: #AAAAAA;
 }
 
-.c5::-moz-placeholder {
+.c4::-moz-placeholder {
   color: #AAAAAA;
 }
 
-.c5:-ms-input-placeholder {
+.c4:-ms-input-placeholder {
   color: #AAAAAA;
 }
 
-.c5 ::-webkit-search-decoration {
+.c4 ::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-.c5::-moz-focus-inner {
+.c4::-moz-focus-inner {
   border: none;
   outline: none;
 }
 
-.c5:-moz-placeholder,
-.c5::-moz-placeholder {
+.c4:-moz-placeholder,
+.c4::-moz-placeholder {
   opacity: 1;
 }
 
-.c4 {
+.c3 {
   position: relative;
   width: 100%;
 }
@@ -3049,7 +2886,7 @@ exports[`FormField pad with border undefined 1`] = `
 }
 
 @media only screen and (max-width: 768px) {
-  .c3 {
+  .c2 {
     padding: 24px;
   }
 }
@@ -3062,19 +2899,20 @@ exports[`FormField pad with border undefined 1`] = `
       class="c1 "
     >
       <label
-        class="c2"
+        class="textRecipe_size_medium"
+        style="margin: 6px 12px 6px 12px;"
       >
         label
       </label>
       <div
-        class="c3 FormField__StyledContentsBox-sc-m9hood-2"
+        class="c2 FormField__StyledContentsBox-sc-m9hood-2"
       >
         <div
-          class="c4"
+          class="c3"
         >
           <input
             autocomplete="off"
-            class="c5"
+            class="c4"
           />
         </div>
       </div>

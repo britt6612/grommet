@@ -1832,16 +1832,6 @@ exports[`Form uncontrolled errors 1`] = `
   flex-direction: column;
 }
 
-.c5 {
-  margin-left: 12px;
-  margin-right: 12px;
-  margin-top: 6px;
-  margin-bottom: 6px;
-  font-size: 18px;
-  line-height: 24px;
-  color: #EB0000;
-}
-
 .c4 {
   box-sizing: border-box;
   font-size: inherit;
@@ -1925,7 +1915,8 @@ exports[`Form uncontrolled errors 1`] = `
         </div>
       </div>
       <span
-        class="c5"
+        class="textRecipe_size_medium"
+        style="color: rgb(235, 0, 0); margin: 6px 12px 6px 12px;"
       >
         missing
       </span>
@@ -1963,16 +1954,6 @@ exports[`Form uncontrolled infos 1`] = `
   min-width: 0;
   min-height: 0;
   flex-direction: column;
-}
-
-.c5 {
-  margin-left: 12px;
-  margin-right: 12px;
-  margin-top: 6px;
-  margin-bottom: 6px;
-  font-size: 18px;
-  line-height: 24px;
-  color: #666666;
 }
 
 .c4 {
@@ -2057,7 +2038,8 @@ exports[`Form uncontrolled infos 1`] = `
         </div>
       </div>
       <span
-        class="c5"
+        class="textRecipe_size_medium"
+        style="color: rgb(102, 102, 102); margin: 6px 12px 6px 12px;"
       >
         missing
       </span>
@@ -2067,16 +2049,6 @@ exports[`Form uncontrolled infos 1`] = `
 `;
 
 exports[`Form uncontrolled regexp validation 1`] = `
-.c0 {
-  margin-left: 12px;
-  margin-right: 12px;
-  margin-top: 6px;
-  margin-bottom: 6px;
-  font-size: 18px;
-  line-height: 24px;
-  color: #EB0000;
-}
-
 @media only screen and (max-width: 768px) {
 
 }
@@ -2090,7 +2062,8 @@ exports[`Form uncontrolled regexp validation 1`] = `
 }
 
 <span
-  class="c0"
+  class="textRecipe_size_medium"
+  style="color: rgb(235, 0, 0); margin: 6px 12px 6px 12px;"
 >
   invalid
 </span>
@@ -2098,17 +2071,7 @@ exports[`Form uncontrolled regexp validation 1`] = `
 
 exports[`Form uncontrolled regexp validation with status 1`] = `
 [
-  .c0 {
-  margin-left: 12px;
-  margin-right: 12px;
-  margin-top: 6px;
-  margin-bottom: 6px;
-  font-size: 18px;
-  line-height: 24px;
-  color: #EB0000;
-}
-
-@media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
 
 }
 
@@ -2117,21 +2080,12 @@ exports[`Form uncontrolled regexp validation with status 1`] = `
 }
 
 <span
-    class="c0"
+    class="textRecipe_size_medium"
+    style="color: rgb(235, 0, 0); margin: 6px 12px 6px 12px;"
   >
     invalid
   </span>,
-  .c0 {
-  margin-left: 12px;
-  margin-right: 12px;
-  margin-top: 6px;
-  margin-bottom: 6px;
-  font-size: 18px;
-  line-height: 24px;
-  color: #666666;
-}
-
-@media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
 
 }
 
@@ -2140,7 +2094,8 @@ exports[`Form uncontrolled regexp validation with status 1`] = `
 }
 
 <span
-    class="c0"
+    class="textRecipe_size_medium"
+    style="color: rgb(102, 102, 102); margin: 6px 12px 6px 12px;"
   >
     invalid
   </span>,
@@ -2148,16 +2103,6 @@ exports[`Form uncontrolled regexp validation with status 1`] = `
 `;
 
 exports[`Form uncontrolled required validation 1`] = `
-.c0 {
-  margin-left: 12px;
-  margin-right: 12px;
-  margin-top: 6px;
-  margin-bottom: 6px;
-  font-size: 18px;
-  line-height: 24px;
-  color: #EB0000;
-}
-
 @media only screen and (max-width: 768px) {
 
 }
@@ -2171,14 +2116,15 @@ exports[`Form uncontrolled required validation 1`] = `
 }
 
 <span
-  class="c0"
+  class="textRecipe_size_medium"
+  style="color: rgb(235, 0, 0); margin: 6px 12px 6px 12px;"
 >
   required
 </span>
 `;
 
 exports[`Form uncontrolled reset clears select, checkbox, radiobuttongroup 1`] = `
-.c11 {
+.c10 {
   display: inline-block;
   flex: 0 0 auto;
   width: 24px;
@@ -2187,25 +2133,25 @@ exports[`Form uncontrolled reset clears select, checkbox, radiobuttongroup 1`] =
   stroke: #7D4CDB;
 }
 
-.c11 g {
+.c10 g {
   fill: inherit;
   stroke: inherit;
 }
 
-.c11 *:not([stroke])[fill='none'] {
+.c10 *:not([stroke])[fill='none'] {
   stroke-width: 0;
 }
 
-.c11 *[stroke*='#'],
-.c11 *[STROKE*='#'] {
+.c10 *[stroke*='#'],
+.c10 *[STROKE*='#'] {
   stroke: inherit;
   fill: none;
 }
 
-.c11 *[fill-rule],
-.c11 *[FILL-RULE],
-.c11 *[fill*='#'],
-.c11 *[FILL*='#'] {
+.c10 *[fill-rule],
+.c10 *[FILL-RULE],
+.c10 *[fill*='#'],
+.c10 *[FILL*='#'] {
   fill: inherit;
   stroke: none;
 }
@@ -2230,7 +2176,7 @@ exports[`Form uncontrolled reset clears select, checkbox, radiobuttongroup 1`] =
   flex-direction: column;
 }
 
-.c3 {
+.c2 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -2240,7 +2186,7 @@ exports[`Form uncontrolled reset clears select, checkbox, radiobuttongroup 1`] =
   flex-direction: column;
 }
 
-.c5 {
+.c4 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -2251,7 +2197,7 @@ exports[`Form uncontrolled reset clears select, checkbox, radiobuttongroup 1`] =
   justify-content: space-between;
 }
 
-.c6 {
+.c5 {
   display: flex;
   box-sizing: border-box;
   min-width: 0;
@@ -2261,7 +2207,7 @@ exports[`Form uncontrolled reset clears select, checkbox, radiobuttongroup 1`] =
   flex-basis: auto;
 }
 
-.c10 {
+.c9 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -2273,7 +2219,7 @@ exports[`Form uncontrolled reset clears select, checkbox, radiobuttongroup 1`] =
   flex: 0 0 auto;
 }
 
-.c12 {
+.c11 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -2284,7 +2230,7 @@ exports[`Form uncontrolled reset clears select, checkbox, radiobuttongroup 1`] =
   padding: 12px;
 }
 
-.c14 {
+.c13 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -2296,7 +2242,7 @@ exports[`Form uncontrolled reset clears select, checkbox, radiobuttongroup 1`] =
   justify-content: center;
 }
 
-.c19 {
+.c18 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -2305,7 +2251,7 @@ exports[`Form uncontrolled reset clears select, checkbox, radiobuttongroup 1`] =
   flex-direction: column;
 }
 
-.c21 {
+.c20 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -2316,7 +2262,7 @@ exports[`Form uncontrolled reset clears select, checkbox, radiobuttongroup 1`] =
   flex: 0 0 auto;
 }
 
-.c23 {
+.c22 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -2331,7 +2277,7 @@ exports[`Form uncontrolled reset clears select, checkbox, radiobuttongroup 1`] =
   border-radius: 100%;
 }
 
-.c17 {
+.c16 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -2346,7 +2292,7 @@ exports[`Form uncontrolled reset clears select, checkbox, radiobuttongroup 1`] =
   border-radius: 4px;
 }
 
-.c26 {
+.c25 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -2361,13 +2307,13 @@ exports[`Form uncontrolled reset clears select, checkbox, radiobuttongroup 1`] =
   border-radius: 100%;
 }
 
-.c25 {
+.c24 {
   flex: 0 0 auto;
   align-self: stretch;
   height: 12px;
 }
 
-.c18 {
+.c17 {
   box-sizing: border-box;
   stroke-width: 4px;
   stroke: #7D4CDB;
@@ -2375,7 +2321,7 @@ exports[`Form uncontrolled reset clears select, checkbox, radiobuttongroup 1`] =
   height: 24px;
 }
 
-.c13 {
+.c12 {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -2385,12 +2331,12 @@ exports[`Form uncontrolled reset clears select, checkbox, radiobuttongroup 1`] =
   cursor: pointer;
 }
 
-.c13:hover input:not([disabled])+div,
-.c13:hover input:not([disabled])+span {
+.c12:hover input:not([disabled])+div,
+.c12:hover input:not([disabled])+span {
   border-color: #000000;
 }
 
-.c16 {
+.c15 {
   opacity: 0;
   -moz-appearance: none;
   width: 0;
@@ -2399,16 +2345,16 @@ exports[`Form uncontrolled reset clears select, checkbox, radiobuttongroup 1`] =
   cursor: pointer;
 }
 
-.c16:checked+span>span {
+.c15:checked+span>span {
   left: calc( 48px - 24px );
   background: #7D4CDB;
 }
 
-.c15 {
+.c14 {
   flex-shrink: 0;
 }
 
-.c20 {
+.c19 {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -2417,12 +2363,12 @@ exports[`Form uncontrolled reset clears select, checkbox, radiobuttongroup 1`] =
   cursor: pointer;
 }
 
-.c20:hover input:not([disabled])+div,
-.c20:hover input:not([disabled])+span {
+.c19:hover input:not([disabled])+div,
+.c19:hover input:not([disabled])+span {
   border-color: #000000;
 }
 
-.c22 {
+.c21 {
   opacity: 0;
   -moz-appearance: none;
   width: 0;
@@ -2431,7 +2377,7 @@ exports[`Form uncontrolled reset clears select, checkbox, radiobuttongroup 1`] =
   cursor: pointer;
 }
 
-.c27 {
+.c26 {
   box-sizing: border-box;
   width: 24px;
   height: 24px;
@@ -2439,20 +2385,11 @@ exports[`Form uncontrolled reset clears select, checkbox, radiobuttongroup 1`] =
   transform: scale(1);
 }
 
-.c24 {
+.c23 {
   transform: scale(1);
 }
 
-.c2 {
-  margin-left: 12px;
-  margin-right: 12px;
-  margin-top: 6px;
-  margin-bottom: 6px;
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.c4 {
+.c3 {
   display: inline-block;
   box-sizing: border-box;
   cursor: pointer;
@@ -2469,27 +2406,27 @@ exports[`Form uncontrolled reset clears select, checkbox, radiobuttongroup 1`] =
   text-align: inherit;
 }
 
-.c4:focus:not(:focus-visible) {
+.c3:focus:not(:focus-visible) {
   outline: none;
   box-shadow: none;
 }
 
-.c4:focus:not(:focus-visible) >circle,
-.c4:focus:not(:focus-visible) >ellipse,
-.c4:focus:not(:focus-visible) >line,
-.c4:focus:not(:focus-visible) >path,
-.c4:focus:not(:focus-visible) >polygon,
-.c4:focus:not(:focus-visible) >polyline,
-.c4:focus:not(:focus-visible) >rect {
+.c3:focus:not(:focus-visible) >circle,
+.c3:focus:not(:focus-visible) >ellipse,
+.c3:focus:not(:focus-visible) >line,
+.c3:focus:not(:focus-visible) >path,
+.c3:focus:not(:focus-visible) >polygon,
+.c3:focus:not(:focus-visible) >polyline,
+.c3:focus:not(:focus-visible) >rect {
   outline: none;
   box-shadow: none;
 }
 
-.c4:focus:not(:focus-visible) ::-moz-focus-inner {
+.c3:focus:not(:focus-visible) ::-moz-focus-inner {
   border: 0;
 }
 
-.c28 {
+.c27 {
   display: inline-block;
   box-sizing: border-box;
   cursor: pointer;
@@ -2513,51 +2450,51 @@ exports[`Form uncontrolled reset clears select, checkbox, radiobuttongroup 1`] =
   transition-timing-function: ease-in-out;
 }
 
-.c28:hover {
+.c27:hover {
   box-shadow: 0px 0px 0px 2px #7D4CDB;
 }
 
-.c28:focus {
+.c27:focus {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c28:focus >circle,
-.c28:focus >ellipse,
-.c28:focus >line,
-.c28:focus >path,
-.c28:focus >polygon,
-.c28:focus >polyline,
-.c28:focus >rect {
+.c27:focus >circle,
+.c27:focus >ellipse,
+.c27:focus >line,
+.c27:focus >path,
+.c27:focus >polygon,
+.c27:focus >polyline,
+.c27:focus >rect {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c28:focus ::-moz-focus-inner {
+.c27:focus ::-moz-focus-inner {
   border: 0;
 }
 
-.c28:focus:not(:focus-visible) {
+.c27:focus:not(:focus-visible) {
   outline: none;
   box-shadow: none;
 }
 
-.c28:focus:not(:focus-visible) >circle,
-.c28:focus:not(:focus-visible) >ellipse,
-.c28:focus:not(:focus-visible) >line,
-.c28:focus:not(:focus-visible) >path,
-.c28:focus:not(:focus-visible) >polygon,
-.c28:focus:not(:focus-visible) >polyline,
-.c28:focus:not(:focus-visible) >rect {
+.c27:focus:not(:focus-visible) >circle,
+.c27:focus:not(:focus-visible) >ellipse,
+.c27:focus:not(:focus-visible) >line,
+.c27:focus:not(:focus-visible) >path,
+.c27:focus:not(:focus-visible) >polygon,
+.c27:focus:not(:focus-visible) >polyline,
+.c27:focus:not(:focus-visible) >rect {
   outline: none;
   box-shadow: none;
 }
 
-.c28:focus:not(:focus-visible) ::-moz-focus-inner {
+.c27:focus:not(:focus-visible) ::-moz-focus-inner {
   border: 0;
 }
 
-.c8 {
+.c7 {
   box-sizing: border-box;
   font-size: inherit;
   font-family: inherit;
@@ -2576,38 +2513,38 @@ exports[`Form uncontrolled reset clears select, checkbox, radiobuttongroup 1`] =
   border: none;
 }
 
-.c8::-webkit-input-placeholder {
+.c7::-webkit-input-placeholder {
   color: #AAAAAA;
 }
 
-.c8::-moz-placeholder {
+.c7::-moz-placeholder {
   color: #AAAAAA;
 }
 
-.c8:-ms-input-placeholder {
+.c7:-ms-input-placeholder {
   color: #AAAAAA;
 }
 
-.c8 ::-webkit-search-decoration {
+.c7 ::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-.c8::-moz-focus-inner {
+.c7::-moz-focus-inner {
   border: none;
   outline: none;
 }
 
-.c8:-moz-placeholder,
-.c8::-moz-placeholder {
+.c7:-moz-placeholder,
+.c7::-moz-placeholder {
   opacity: 1;
 }
 
-.c7 {
+.c6 {
   position: relative;
   width: 100%;
 }
 
-.c9 {
+.c8 {
   cursor: pointer;
 }
 
@@ -2618,32 +2555,32 @@ exports[`Form uncontrolled reset clears select, checkbox, radiobuttongroup 1`] =
 }
 
 @media only screen and (max-width: 768px) {
-  .c3 {
+  .c2 {
     border-bottom: solid 1px rgba(0, 0, 0, 0.33);
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c10 {
+  .c9 {
     margin-left: 6px;
     margin-right: 6px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c12 {
+  .c11 {
     border-bottom: solid 1px rgba(0, 0, 0, 0.33);
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c12 {
+  .c11 {
     padding: 6px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c14 {
+  .c13 {
     margin-right: 6px;
   }
 }
@@ -2653,13 +2590,13 @@ exports[`Form uncontrolled reset clears select, checkbox, radiobuttongroup 1`] =
 }
 
 @media only screen and (max-width: 768px) {
-  .c21 {
+  .c20 {
     margin-right: 6px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c23 {
+  .c22 {
     border: solid 2px rgba(0, 0, 0, 0.15);
   }
 }
@@ -2669,19 +2606,19 @@ exports[`Form uncontrolled reset clears select, checkbox, radiobuttongroup 1`] =
 }
 
 @media only screen and (max-width: 768px) {
-  .c17 {
-    border: solid 2px #7D4CDB;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .c26 {
+  .c16 {
     border: solid 2px #7D4CDB;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .c25 {
+    border: solid 2px #7D4CDB;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .c24 {
     height: 6px;
   }
 }
@@ -2702,35 +2639,36 @@ exports[`Form uncontrolled reset clears select, checkbox, radiobuttongroup 1`] =
       class="c1 "
     >
       <label
-        class="c2"
+        class="textRecipe_size_medium"
         for="test-select__input"
         id="grommet-test-select__input__label"
+        style="margin: 6px 12px 6px 12px;"
       >
         Select Size
       </label>
       <div
-        class="c3 "
+        class="c2 "
       >
         <button
           aria-expanded="false"
           aria-haspopup="listbox"
           aria-label="test select; Selected: small"
-          class="c4 "
+          class="c3 "
           id="test-select"
           type="button"
         >
           <div
-            class="c5"
+            class="c4"
           >
             <div
-              class="c6"
+              class="c5"
             >
               <div
-                class="c7"
+                class="c6"
               >
                 <input
                   autocomplete="off"
-                  class="c8 c9"
+                  class="c7 c8"
                   id="test-select__input"
                   inert=""
                   name="test-select"
@@ -2743,12 +2681,12 @@ exports[`Form uncontrolled reset clears select, checkbox, radiobuttongroup 1`] =
               </div>
             </div>
             <div
-              class="c10"
+              class="c9"
               style="min-width: auto;"
             >
               <svg
                 aria-label="FormDown"
-                class="c11"
+                class="c10"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -2767,33 +2705,34 @@ exports[`Form uncontrolled reset clears select, checkbox, radiobuttongroup 1`] =
       class="c1 "
     >
       <label
-        class="c2"
+        class="textRecipe_size_medium"
         for="test-checkbox"
         id="grommet-test-checkbox__label"
+        style="margin: 6px 12px 6px 12px;"
       >
         CheckBox
       </label>
       <div
-        class="c12 "
+        class="c11 "
       >
         <label
-          class="c13"
+          class="c12"
           for="test-checkbox"
         >
           <div
-            class="c14 c15"
+            class="c13 c14"
           >
             <input
-              class="c16"
+              class="c15"
               id="test-checkbox"
               name="test-checkbox"
               type="checkbox"
             />
             <div
-              class="c17 "
+              class="c16 "
             >
               <svg
-                class="c18"
+                class="c17"
                 preserveAspectRatio="xMidYMid meet"
                 viewBox="0 0 24 24"
               >
@@ -2814,30 +2753,31 @@ exports[`Form uncontrolled reset clears select, checkbox, radiobuttongroup 1`] =
       class="c1 "
     >
       <label
-        class="c2"
+        class="textRecipe_size_medium"
         for="test-radiobuttongroup"
         id="grommet-test-radiobuttongroup__label"
+        style="margin: 6px 12px 6px 12px;"
       >
         RadioButtonGroup
       </label>
       <div
-        class="c12 "
+        class="c11 "
       >
         <div
           aria-labelledby="grommet-test-radiobuttongroup__label"
-          class="c19"
+          class="c18"
           id="test-radiobuttongroup"
           role="radiogroup"
         >
           <label
-            class="c20"
+            class="c19"
             for="test-radiobuttongroup-one"
           >
             <div
-              class="c21 "
+              class="c20 "
             >
               <input
-                class="c22"
+                class="c21"
                 id="test-radiobuttongroup-one"
                 name="test-radiobuttongroup"
                 tabindex="-1"
@@ -2845,7 +2785,7 @@ exports[`Form uncontrolled reset clears select, checkbox, radiobuttongroup 1`] =
                 value="one"
               />
               <div
-                class="c23 c24"
+                class="c22 c23"
               />
             </div>
             <span
@@ -2855,17 +2795,17 @@ exports[`Form uncontrolled reset clears select, checkbox, radiobuttongroup 1`] =
             </span>
           </label>
           <div
-            class="c25"
+            class="c24"
           />
           <label
-            class="c20"
+            class="c19"
             for="test-radiobuttongroup-two"
           >
             <div
-              class="c21 "
+              class="c20 "
             >
               <input
-                class="c22"
+                class="c21"
                 id="test-radiobuttongroup-two"
                 name="test-radiobuttongroup"
                 tabindex="0"
@@ -2873,10 +2813,10 @@ exports[`Form uncontrolled reset clears select, checkbox, radiobuttongroup 1`] =
                 value="two"
               />
               <div
-                class="c26 c24"
+                class="c25 c23"
               >
                 <svg
-                  class="c27"
+                  class="c26"
                   preserveAspectRatio="xMidYMid meet"
                   viewBox="0 0 24 24"
                 >
@@ -2895,17 +2835,17 @@ exports[`Form uncontrolled reset clears select, checkbox, radiobuttongroup 1`] =
             </span>
           </label>
           <div
-            class="c25"
+            class="c24"
           />
           <label
-            class="c20"
+            class="c19"
             for="test-radiobuttongroup-three"
           >
             <div
-              class="c21 "
+              class="c20 "
             >
               <input
-                class="c22"
+                class="c21"
                 id="test-radiobuttongroup-three"
                 name="test-radiobuttongroup"
                 tabindex="-1"
@@ -2913,7 +2853,7 @@ exports[`Form uncontrolled reset clears select, checkbox, radiobuttongroup 1`] =
                 value="three"
               />
               <div
-                class="c23 c24"
+                class="c22 c23"
               />
             </div>
             <span
@@ -2926,7 +2866,7 @@ exports[`Form uncontrolled reset clears select, checkbox, radiobuttongroup 1`] =
       </div>
     </div>
     <button
-      class="c28"
+      class="c27"
       type="reset"
     >
       Reset
@@ -2944,9 +2884,10 @@ exports[`Form uncontrolled reset clears select, checkbox, radiobuttongroup 2`] =
       class="StyledBox-sc-13pk1d4-0 cavIHi FormField__FormFieldBox-sc-m9hood-0 Qrvlw"
     >
       <label
-        class="StyledText-sc-1sadyjn-0 bUzfUv"
+        class="textRecipe_size_medium"
         for="test-select__input"
         id="grommet-test-select__input__label"
+        style="margin: 6px 12px 6px 12px;"
       >
         Select Size
       </label>
@@ -3009,9 +2950,10 @@ exports[`Form uncontrolled reset clears select, checkbox, radiobuttongroup 2`] =
       class="StyledBox-sc-13pk1d4-0 cavIHi FormField__FormFieldBox-sc-m9hood-0 Qrvlw"
     >
       <label
-        class="StyledText-sc-1sadyjn-0 bUzfUv"
+        class="textRecipe_size_medium"
         for="test-checkbox"
         id="grommet-test-checkbox__label"
+        style="margin: 6px 12px 6px 12px;"
       >
         CheckBox
       </label>
@@ -3045,9 +2987,10 @@ exports[`Form uncontrolled reset clears select, checkbox, radiobuttongroup 2`] =
       class="StyledBox-sc-13pk1d4-0 cavIHi FormField__FormFieldBox-sc-m9hood-0 Qrvlw"
     >
       <label
-        class="StyledText-sc-1sadyjn-0 bUzfUv"
+        class="textRecipe_size_medium"
         for="test-radiobuttongroup"
         id="grommet-test-radiobuttongroup__label"
+        style="margin: 6px 12px 6px 12px;"
       >
         RadioButtonGroup
       </label>
@@ -3626,17 +3569,7 @@ exports[`Form uncontrolled uncontrolled onValidate 2`] = `
           />
         </div>
       </div>
-      .c0 {
-  margin-left: 12px;
-  margin-right: 12px;
-  margin-top: 6px;
-  margin-bottom: 6px;
-  font-size: 18px;
-  line-height: 24px;
-  color: #EB0000;
-}
-
-@media only screen and (max-width: 768px) {
+      @media only screen and (max-width: 768px) {
 
 }
 
@@ -3649,7 +3582,8 @@ exports[`Form uncontrolled uncontrolled onValidate 2`] = `
 }
 
 <span
-        class="c0"
+        class="textRecipe_size_medium"
+        style="color: rgb(235, 0, 0); margin: 6px 12px 6px 12px;"
       >
         required
       </span>
@@ -3878,17 +3812,7 @@ exports[`Form uncontrolled uncontrolled onValidate custom error 2`] = `
           />
         </div>
       </div>
-      .c0 {
-  margin-left: 12px;
-  margin-right: 12px;
-  margin-top: 6px;
-  margin-bottom: 6px;
-  font-size: 18px;
-  line-height: 24px;
-  color: #EB0000;
-}
-
-@media only screen and (max-width: 768px) {
+      @media only screen and (max-width: 768px) {
 
 }
 
@@ -3901,7 +3825,8 @@ exports[`Form uncontrolled uncontrolled onValidate custom error 2`] = `
 }
 
 <span
-        class="c0"
+        class="textRecipe_size_medium"
+        style="color: rgb(235, 0, 0); margin: 6px 12px 6px 12px;"
       >
         One uppercase letter
       </span>
@@ -4130,17 +4055,7 @@ exports[`Form uncontrolled uncontrolled onValidate custom info 2`] = `
           />
         </div>
       </div>
-      .c0 {
-  margin-left: 12px;
-  margin-right: 12px;
-  margin-top: 6px;
-  margin-bottom: 6px;
-  font-size: 18px;
-  line-height: 24px;
-  color: #666666;
-}
-
-@media only screen and (max-width: 768px) {
+      @media only screen and (max-width: 768px) {
 
 }
 
@@ -4149,7 +4064,8 @@ exports[`Form uncontrolled uncontrolled onValidate custom info 2`] = `
 }
 
 <span
-        class="c0"
+        class="textRecipe_size_medium"
+        style="color: rgb(102, 102, 102); margin: 6px 12px 6px 12px;"
       >
         One uppercase letter
       </span>
@@ -4375,16 +4291,6 @@ exports[`Form uncontrolled update 1`] = `
 `;
 
 exports[`Form uncontrolled validate 1`] = `
-.c0 {
-  margin-left: 12px;
-  margin-right: 12px;
-  margin-top: 6px;
-  margin-bottom: 6px;
-  font-size: 18px;
-  line-height: 24px;
-  color: #EB0000;
-}
-
 @media only screen and (max-width: 768px) {
 
 }
@@ -4398,18 +4304,14 @@ exports[`Form uncontrolled validate 1`] = `
 }
 
 <span
-  class="c0"
+  class="textRecipe_size_medium"
+  style="color: rgb(235, 0, 0); margin: 6px 12px 6px 12px;"
 >
   simple string
 </span>
 `;
 
 exports[`Form uncontrolled validate 2`] = `
-.c0 {
-  font-size: 18px;
-  line-height: 24px;
-}
-
 @media only screen and (max-width: 768px) {
 
 }
@@ -4431,23 +4333,13 @@ exports[`Form uncontrolled validate 2`] = `
 }
 
 <span
-  class="c0"
+  class="textRecipe_size_medium"
 >
    ReactNode 
 </span>
 `;
 
 exports[`Form uncontrolled validate 3`] = `
-.c0 {
-  margin-left: 12px;
-  margin-right: 12px;
-  margin-top: 6px;
-  margin-bottom: 6px;
-  font-size: 18px;
-  line-height: 24px;
-  color: #EB0000;
-}
-
 @media only screen and (max-width: 768px) {
 
 }
@@ -4469,23 +4361,14 @@ exports[`Form uncontrolled validate 3`] = `
 }
 
 <span
-  class="c0"
+  class="textRecipe_size_medium"
+  style="color: rgb(235, 0, 0); margin: 6px 12px 6px 12px;"
 >
   status error
 </span>
 `;
 
 exports[`Form uncontrolled validate 4`] = `
-.c0 {
-  margin-left: 12px;
-  margin-right: 12px;
-  margin-top: 6px;
-  margin-bottom: 6px;
-  font-size: 18px;
-  line-height: 24px;
-  color: #666666;
-}
-
 @media only screen and (max-width: 768px) {
 
 }
@@ -4507,7 +4390,8 @@ exports[`Form uncontrolled validate 4`] = `
 }
 
 <span
-  class="c0"
+  class="textRecipe_size_medium"
+  style="color: rgb(102, 102, 102); margin: 6px 12px 6px 12px;"
 >
   status info
 </span>

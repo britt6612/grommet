@@ -32,7 +32,7 @@ exports[`DataSummary renders 1`] = `
   overflow: auto;
 }
 
-.c6 {
+.c5 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -45,14 +45,7 @@ exports[`DataSummary renders 1`] = `
   justify-content: space-between;
 }
 
-.c5 {
-  margin-top: 6px;
-  margin-bottom: 6px;
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.c7 {
+.c6 {
   display: inline-block;
   box-sizing: border-box;
   cursor: pointer;
@@ -76,47 +69,47 @@ exports[`DataSummary renders 1`] = `
   transition-timing-function: ease-in-out;
 }
 
-.c7:hover {
+.c6:hover {
   box-shadow: 0px 0px 0px 2px #7D4CDB;
 }
 
-.c7:focus {
+.c6:focus {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c7:focus >circle,
-.c7:focus >ellipse,
-.c7:focus >line,
-.c7:focus >path,
-.c7:focus >polygon,
-.c7:focus >polyline,
-.c7:focus >rect {
+.c6:focus >circle,
+.c6:focus >ellipse,
+.c6:focus >line,
+.c6:focus >path,
+.c6:focus >polygon,
+.c6:focus >polyline,
+.c6:focus >rect {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c7:focus ::-moz-focus-inner {
+.c6:focus ::-moz-focus-inner {
   border: 0;
 }
 
-.c7:focus:not(:focus-visible) {
+.c6:focus:not(:focus-visible) {
   outline: none;
   box-shadow: none;
 }
 
-.c7:focus:not(:focus-visible) >circle,
-.c7:focus:not(:focus-visible) >ellipse,
-.c7:focus:not(:focus-visible) >line,
-.c7:focus:not(:focus-visible) >path,
-.c7:focus:not(:focus-visible) >polygon,
-.c7:focus:not(:focus-visible) >polyline,
-.c7:focus:not(:focus-visible) >rect {
+.c6:focus:not(:focus-visible) >circle,
+.c6:focus:not(:focus-visible) >ellipse,
+.c6:focus:not(:focus-visible) >line,
+.c6:focus:not(:focus-visible) >path,
+.c6:focus:not(:focus-visible) >polygon,
+.c6:focus:not(:focus-visible) >polyline,
+.c6:focus:not(:focus-visible) >rect {
   outline: none;
   box-shadow: none;
 }
 
-.c7:focus:not(:focus-visible) ::-moz-focus-inner {
+.c6:focus:not(:focus-visible) ::-moz-focus-inner {
   border: 0;
 }
 
@@ -135,7 +128,7 @@ exports[`DataSummary renders 1`] = `
 }
 
 @media only screen and (max-width: 768px) {
-  .c6 {
+  .c5 {
     margin-top: 12px;
   }
 }
@@ -160,17 +153,18 @@ exports[`DataSummary renders 1`] = `
             class="c1"
           >
             <span
-              class="c5"
+              class="textRecipe_size_medium"
+              style="margin-top: 6px; margin-bottom: 6px;"
             >
               2 items
             </span>
           </div>
         </div>
         <footer
-          class="c6"
+          class="c5"
         >
           <button
-            class="c7"
+            class="c6"
             type="submit"
           >
             Apply filters
@@ -215,7 +209,7 @@ exports[`DataSummary renders filtered message correctly when 0 results but only 
   overflow: auto;
 }
 
-.c6 {
+.c5 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -228,14 +222,7 @@ exports[`DataSummary renders filtered message correctly when 0 results but only 
   justify-content: space-between;
 }
 
-.c5 {
-  margin-top: 6px;
-  margin-bottom: 6px;
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.c7 {
+.c6 {
   display: inline-block;
   box-sizing: border-box;
   cursor: pointer;
@@ -259,47 +246,47 @@ exports[`DataSummary renders filtered message correctly when 0 results but only 
   transition-timing-function: ease-in-out;
 }
 
-.c7:hover {
+.c6:hover {
   box-shadow: 0px 0px 0px 2px #7D4CDB;
 }
 
-.c7:focus {
+.c6:focus {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c7:focus >circle,
-.c7:focus >ellipse,
-.c7:focus >line,
-.c7:focus >path,
-.c7:focus >polygon,
-.c7:focus >polyline,
-.c7:focus >rect {
+.c6:focus >circle,
+.c6:focus >ellipse,
+.c6:focus >line,
+.c6:focus >path,
+.c6:focus >polygon,
+.c6:focus >polyline,
+.c6:focus >rect {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c7:focus ::-moz-focus-inner {
+.c6:focus ::-moz-focus-inner {
   border: 0;
 }
 
-.c7:focus:not(:focus-visible) {
+.c6:focus:not(:focus-visible) {
   outline: none;
   box-shadow: none;
 }
 
-.c7:focus:not(:focus-visible) >circle,
-.c7:focus:not(:focus-visible) >ellipse,
-.c7:focus:not(:focus-visible) >line,
-.c7:focus:not(:focus-visible) >path,
-.c7:focus:not(:focus-visible) >polygon,
-.c7:focus:not(:focus-visible) >polyline,
-.c7:focus:not(:focus-visible) >rect {
+.c6:focus:not(:focus-visible) >circle,
+.c6:focus:not(:focus-visible) >ellipse,
+.c6:focus:not(:focus-visible) >line,
+.c6:focus:not(:focus-visible) >path,
+.c6:focus:not(:focus-visible) >polygon,
+.c6:focus:not(:focus-visible) >polyline,
+.c6:focus:not(:focus-visible) >rect {
   outline: none;
   box-shadow: none;
 }
 
-.c7:focus:not(:focus-visible) ::-moz-focus-inner {
+.c6:focus:not(:focus-visible) ::-moz-focus-inner {
   border: 0;
 }
 
@@ -318,7 +305,7 @@ exports[`DataSummary renders filtered message correctly when 0 results but only 
 }
 
 @media only screen and (max-width: 768px) {
-  .c6 {
+  .c5 {
     margin-top: 12px;
   }
 }
@@ -343,17 +330,18 @@ exports[`DataSummary renders filtered message correctly when 0 results but only 
               class="c1"
             >
               <span
-                class="c5"
+                class="textRecipe_size_medium"
+                style="margin-top: 6px; margin-bottom: 6px;"
               >
                 0 results of 1 item
               </span>
             </div>
           </div>
           <footer
-            class="c6"
+            class="c5"
           >
             <button
-              class="c7"
+              class="c6"
               type="submit"
             >
               Apply filters
@@ -399,7 +387,7 @@ exports[`DataSummary renders total message correctly when only 1 item 1`] = `
   overflow: auto;
 }
 
-.c6 {
+.c5 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -412,14 +400,7 @@ exports[`DataSummary renders total message correctly when only 1 item 1`] = `
   justify-content: space-between;
 }
 
-.c5 {
-  margin-top: 6px;
-  margin-bottom: 6px;
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.c7 {
+.c6 {
   display: inline-block;
   box-sizing: border-box;
   cursor: pointer;
@@ -443,47 +424,47 @@ exports[`DataSummary renders total message correctly when only 1 item 1`] = `
   transition-timing-function: ease-in-out;
 }
 
-.c7:hover {
+.c6:hover {
   box-shadow: 0px 0px 0px 2px #7D4CDB;
 }
 
-.c7:focus {
+.c6:focus {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c7:focus >circle,
-.c7:focus >ellipse,
-.c7:focus >line,
-.c7:focus >path,
-.c7:focus >polygon,
-.c7:focus >polyline,
-.c7:focus >rect {
+.c6:focus >circle,
+.c6:focus >ellipse,
+.c6:focus >line,
+.c6:focus >path,
+.c6:focus >polygon,
+.c6:focus >polyline,
+.c6:focus >rect {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c7:focus ::-moz-focus-inner {
+.c6:focus ::-moz-focus-inner {
   border: 0;
 }
 
-.c7:focus:not(:focus-visible) {
+.c6:focus:not(:focus-visible) {
   outline: none;
   box-shadow: none;
 }
 
-.c7:focus:not(:focus-visible) >circle,
-.c7:focus:not(:focus-visible) >ellipse,
-.c7:focus:not(:focus-visible) >line,
-.c7:focus:not(:focus-visible) >path,
-.c7:focus:not(:focus-visible) >polygon,
-.c7:focus:not(:focus-visible) >polyline,
-.c7:focus:not(:focus-visible) >rect {
+.c6:focus:not(:focus-visible) >circle,
+.c6:focus:not(:focus-visible) >ellipse,
+.c6:focus:not(:focus-visible) >line,
+.c6:focus:not(:focus-visible) >path,
+.c6:focus:not(:focus-visible) >polygon,
+.c6:focus:not(:focus-visible) >polyline,
+.c6:focus:not(:focus-visible) >rect {
   outline: none;
   box-shadow: none;
 }
 
-.c7:focus:not(:focus-visible) ::-moz-focus-inner {
+.c6:focus:not(:focus-visible) ::-moz-focus-inner {
   border: 0;
 }
 
@@ -502,7 +483,7 @@ exports[`DataSummary renders total message correctly when only 1 item 1`] = `
 }
 
 @media only screen and (max-width: 768px) {
-  .c6 {
+  .c5 {
     margin-top: 12px;
   }
 }
@@ -527,17 +508,18 @@ exports[`DataSummary renders total message correctly when only 1 item 1`] = `
               class="c1"
             >
               <span
-                class="c5"
+                class="textRecipe_size_medium"
+                style="margin-top: 6px; margin-bottom: 6px;"
               >
                 1 item
               </span>
             </div>
           </div>
           <footer
-            class="c6"
+            class="c5"
           >
             <button
-              class="c7"
+              class="c6"
               type="submit"
             >
               Apply filters
@@ -583,7 +565,7 @@ exports[`DataSummary theme separator margin and dataSummary margin 1`] = `
   overflow: auto;
 }
 
-.c8 {
+.c5 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -596,7 +578,7 @@ exports[`DataSummary theme separator margin and dataSummary margin 1`] = `
   justify-content: space-between;
 }
 
-.c14 {
+.c11 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -607,7 +589,7 @@ exports[`DataSummary theme separator margin and dataSummary margin 1`] = `
   justify-content: center;
 }
 
-.c18 {
+.c15 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -617,7 +599,7 @@ exports[`DataSummary theme separator margin and dataSummary margin 1`] = `
   justify-content: center;
 }
 
-.c20 {
+.c17 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -628,7 +610,7 @@ exports[`DataSummary theme separator margin and dataSummary margin 1`] = `
   justify-content: center;
 }
 
-.c23 {
+.c20 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -643,7 +625,7 @@ exports[`DataSummary theme separator margin and dataSummary margin 1`] = `
   border-radius: 4px;
 }
 
-.c26 {
+.c23 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -652,7 +634,7 @@ exports[`DataSummary theme separator margin and dataSummary margin 1`] = `
   flex-direction: column;
 }
 
-.c28 {
+.c24 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -667,32 +649,7 @@ exports[`DataSummary theme separator margin and dataSummary margin 1`] = `
   border-radius: 4px;
 }
 
-.c5 {
-  margin-top: 48px;
-  margin-bottom: 48px;
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.c27 {
-  font-size: 18px;
-  line-height: 24px;
-  font-weight: bold;
-}
-
-.c7 {
-  font-size: 18px;
-  line-height: 24px;
-}
-
 .c6 {
-  margin-left: 48px;
-  margin-right: 48px;
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.c9 {
   display: inline-block;
   box-sizing: border-box;
   cursor: pointer;
@@ -716,47 +673,47 @@ exports[`DataSummary theme separator margin and dataSummary margin 1`] = `
   transition-timing-function: ease-in-out;
 }
 
-.c9:hover {
+.c6:hover {
   box-shadow: 0px 0px 0px 2px #7D4CDB;
 }
 
-.c9:focus {
+.c6:focus {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c9:focus >circle,
-.c9:focus >ellipse,
-.c9:focus >line,
-.c9:focus >path,
-.c9:focus >polygon,
-.c9:focus >polyline,
-.c9:focus >rect {
+.c6:focus >circle,
+.c6:focus >ellipse,
+.c6:focus >line,
+.c6:focus >path,
+.c6:focus >polygon,
+.c6:focus >polyline,
+.c6:focus >rect {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c9:focus ::-moz-focus-inner {
+.c6:focus ::-moz-focus-inner {
   border: 0;
 }
 
-.c9:focus:not(:focus-visible) {
+.c6:focus:not(:focus-visible) {
   outline: none;
   box-shadow: none;
 }
 
-.c9:focus:not(:focus-visible) >circle,
-.c9:focus:not(:focus-visible) >ellipse,
-.c9:focus:not(:focus-visible) >line,
-.c9:focus:not(:focus-visible) >path,
-.c9:focus:not(:focus-visible) >polygon,
-.c9:focus:not(:focus-visible) >polyline,
-.c9:focus:not(:focus-visible) >rect {
+.c6:focus:not(:focus-visible) >circle,
+.c6:focus:not(:focus-visible) >ellipse,
+.c6:focus:not(:focus-visible) >line,
+.c6:focus:not(:focus-visible) >path,
+.c6:focus:not(:focus-visible) >polygon,
+.c6:focus:not(:focus-visible) >polyline,
+.c6:focus:not(:focus-visible) >rect {
   outline: none;
   box-shadow: none;
 }
 
-.c9:focus:not(:focus-visible) ::-moz-focus-inner {
+.c6:focus:not(:focus-visible) ::-moz-focus-inner {
   border: 0;
 }
 
@@ -764,7 +721,7 @@ exports[`DataSummary theme separator margin and dataSummary margin 1`] = `
   max-width: 100%;
 }
 
-.c24 {
+.c21 {
   box-sizing: border-box;
   stroke-width: 4px;
   stroke: #7D4CDB;
@@ -772,7 +729,7 @@ exports[`DataSummary theme separator margin and dataSummary margin 1`] = `
   height: 24px;
 }
 
-.c19 {
+.c16 {
   display: flex;
   flex-direction: row;
   user-select: none;
@@ -786,12 +743,12 @@ exports[`DataSummary theme separator margin and dataSummary margin 1`] = `
   cursor: default;
 }
 
-.c19:hover input:not([disabled])+div,
-.c19:hover input:not([disabled])+span {
+.c16:hover input:not([disabled])+div,
+.c16:hover input:not([disabled])+span {
   border-color: #000000;
 }
 
-.c22 {
+.c19 {
   opacity: 0;
   -moz-appearance: none;
   width: 0;
@@ -799,16 +756,16 @@ exports[`DataSummary theme separator margin and dataSummary margin 1`] = `
   margin: 0;
 }
 
-.c22:checked+span>span {
+.c19:checked+span>span {
   left: calc( 48px - 24px );
   background: #7D4CDB;
 }
 
-.c21 {
+.c18 {
   flex-shrink: 0;
 }
 
-.c12 {
+.c9 {
   margin: 0;
   padding: 0;
   font-weight: inherit;
@@ -817,100 +774,100 @@ exports[`DataSummary theme separator margin and dataSummary margin 1`] = `
   overflow: hidden;
   text-align: start;
   border-bottom: solid 1px rgba(0, 0, 0, 0.33);
-}
-
-.c13 {
-  margin: 0;
-  padding: 0;
-  font-weight: inherit;
-  text-align: inherit;
-  text-align: start;
-  border-bottom: solid 1px rgba(0, 0, 0, 0.33);
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-top: 6px;
-  padding-bottom: 6px;
-}
-
-.c17 {
-  margin: 0;
-  padding: 0;
-  font-weight: inherit;
-  text-align: inherit;
-  width: 1px;
-  overflow: hidden;
-  text-align: start;
-}
-
-.c25 {
-  margin: 0;
-  padding: 0;
-  font-weight: inherit;
-  text-align: inherit;
-  text-align: start;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-top: 6px;
-  padding-bottom: 6px;
 }
 
 .c10 {
+  margin: 0;
+  padding: 0;
+  font-weight: inherit;
+  text-align: inherit;
+  text-align: start;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.33);
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.c14 {
+  margin: 0;
+  padding: 0;
+  font-weight: inherit;
+  text-align: inherit;
+  width: 1px;
+  overflow: hidden;
+  text-align: start;
+}
+
+.c22 {
+  margin: 0;
+  padding: 0;
+  font-weight: inherit;
+  text-align: inherit;
+  text-align: start;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.c7 {
   border-spacing: 0;
   border-collapse: collapse;
   width: inherit;
 }
 
-.c11 {
+.c8 {
   position: relative;
   border-spacing: 0;
   border-collapse: separate;
 }
 
-.c16:focus {
+.c13:focus {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c16:focus >circle,
-.c16:focus >ellipse,
-.c16:focus >line,
-.c16:focus >path,
-.c16:focus >polygon,
-.c16:focus >polyline,
-.c16:focus >rect {
+.c13:focus >circle,
+.c13:focus >ellipse,
+.c13:focus >line,
+.c13:focus >path,
+.c13:focus >polygon,
+.c13:focus >polyline,
+.c13:focus >rect {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c16:focus ::-moz-focus-inner {
+.c13:focus ::-moz-focus-inner {
   border: 0;
 }
 
-.c16:focus:not(:focus-visible) {
+.c13:focus:not(:focus-visible) {
   outline: none;
   box-shadow: none;
 }
 
-.c16:focus:not(:focus-visible) >circle,
-.c16:focus:not(:focus-visible) >ellipse,
-.c16:focus:not(:focus-visible) >line,
-.c16:focus:not(:focus-visible) >path,
-.c16:focus:not(:focus-visible) >polygon,
-.c16:focus:not(:focus-visible) >polyline,
-.c16:focus:not(:focus-visible) >rect {
+.c13:focus:not(:focus-visible) >circle,
+.c13:focus:not(:focus-visible) >ellipse,
+.c13:focus:not(:focus-visible) >line,
+.c13:focus:not(:focus-visible) >path,
+.c13:focus:not(:focus-visible) >polygon,
+.c13:focus:not(:focus-visible) >polyline,
+.c13:focus:not(:focus-visible) >rect {
   outline: none;
   box-shadow: none;
 }
 
-.c16:focus:not(:focus-visible) ::-moz-focus-inner {
+.c13:focus:not(:focus-visible) ::-moz-focus-inner {
   border: 0;
 }
 
-.c15:focus {
+.c12:focus {
   outline: 2px solid #6FFFB0;
 }
 
-.c15:focus:not(:focus-visible) {
+.c12:focus:not(:focus-visible) {
   outline: none;
 }
 
@@ -925,19 +882,19 @@ exports[`DataSummary theme separator margin and dataSummary margin 1`] = `
 }
 
 @media only screen and (max-width: 768px) {
-  .c8 {
+  .c5 {
     margin-top: 12px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c23 {
+  .c20 {
     border: solid 2px #7D4CDB;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c28 {
+  .c24 {
     border: solid 2px rgba(0, 0, 0, 0.15);
   }
 }
@@ -962,16 +919,18 @@ exports[`DataSummary theme separator margin and dataSummary margin 1`] = `
               class="c1"
             >
               <span
-                class="c5"
+                class="textRecipe_size_medium"
+                style="margin-top: 48px; margin-bottom: 48px;"
               >
                 2 items
                 <span
-                  class="c6"
+                  class="textRecipe_size_medium"
+                  style="margin-left: 48px; margin-right: 48px;"
                 >
                   |
                 </span>
                 <span
-                  class="c7"
+                  class="textRecipe_size_medium"
                 >
                   1 selected
                 </span>
@@ -979,10 +938,10 @@ exports[`DataSummary theme separator margin and dataSummary margin 1`] = `
             </div>
           </div>
           <footer
-            class="c8"
+            class="c5"
           >
             <button
-              class="c9"
+              class="c6"
               type="submit"
             >
               Apply filters
@@ -991,7 +950,7 @@ exports[`DataSummary theme separator margin and dataSummary margin 1`] = `
         </div>
       </form>
       <table
-        class="c10 c11"
+        class="c7 c8"
       >
         <thead
           class="StyledTable__StyledTableHeader-sc-1m3u5g-4 StyledDataTable__StyledDataTableHeader-sc-xrlyjm-5"
@@ -1000,64 +959,64 @@ exports[`DataSummary theme separator margin and dataSummary margin 1`] = `
             class="StyledTable__StyledTableRow-sc-1m3u5g-2 "
           >
             <th
-              class="c12 "
+              class="c9 "
               scope="col"
             />
             <th
-              class="c13 "
+              class="c10 "
               id="grommet-data-table-header-name"
               scope="col"
             >
               <div
-                class="c14"
+                class="c11"
               />
             </th>
             <th
-              class="c13 "
+              class="c10 "
               id="grommet-data-table-header-percent"
               scope="col"
             >
               <div
-                class="c14"
+                class="c11"
               />
             </th>
           </tr>
         </thead>
         <tbody
-          class="StyledTable__StyledTableBody-sc-1m3u5g-3 c15"
+          class="StyledTable__StyledTableBody-sc-1m3u5g-3 c12"
         >
           <tr
-            class="StyledTable__StyledTableRow-sc-1m3u5g-2 c16"
+            class="StyledTable__StyledTableRow-sc-1m3u5g-2 c13"
           >
             <td
               aria-disabled="true"
-              class="c17 "
+              class="c14 "
             >
               <div
-                class="c18"
+                class="c15"
                 style="height: 0px;"
               >
                 <label
-                  class="c19"
+                  class="c16"
                   disabled=""
                 >
                   <div
-                    class="c20 c21"
+                    class="c17 c18"
                     disabled=""
                   >
                     <input
                       aria-label="unselect Alan"
                       checked=""
-                      class="c22"
+                      class="c19"
                       disabled=""
                       type="checkbox"
                     />
                     <div
-                      class="c23 "
+                      class="c20 "
                       disabled=""
                     >
                       <svg
-                        class="c24"
+                        class="c21"
                         disabled=""
                         preserveAspectRatio="xMidYMid meet"
                         viewBox="0 0 24 24"
@@ -1077,27 +1036,28 @@ exports[`DataSummary theme separator margin and dataSummary margin 1`] = `
               </div>
             </td>
             <th
-              class="c25 "
+              class="c22 "
               scope="row"
             >
               <div
-                class="c26"
+                class="c23"
               >
                 <span
-                  class="c27"
+                  class="textRecipe_size_medium"
+                  style="font-weight: bold;"
                 >
                   Alan
                 </span>
               </div>
             </th>
             <td
-              class="c25 "
+              class="c22 "
             >
               <div
-                class="c26"
+                class="c23"
               >
                 <span
-                  class="c7"
+                  class="textRecipe_size_medium"
                 >
                   20
                 </span>
@@ -1105,32 +1065,32 @@ exports[`DataSummary theme separator margin and dataSummary margin 1`] = `
             </td>
           </tr>
           <tr
-            class="StyledTable__StyledTableRow-sc-1m3u5g-2 c16"
+            class="StyledTable__StyledTableRow-sc-1m3u5g-2 c13"
           >
             <td
               aria-disabled="true"
-              class="c17 "
+              class="c14 "
             >
               <div
-                class="c18"
+                class="c15"
                 style="height: 0px;"
               >
                 <label
-                  class="c19"
+                  class="c16"
                   disabled=""
                 >
                   <div
-                    class="c20 c21"
+                    class="c17 c18"
                     disabled=""
                   >
                     <input
                       aria-label="select Bryan"
-                      class="c22"
+                      class="c19"
                       disabled=""
                       type="checkbox"
                     />
                     <div
-                      class="c28 "
+                      class="c24 "
                       disabled=""
                     />
                   </div>
@@ -1138,27 +1098,28 @@ exports[`DataSummary theme separator margin and dataSummary margin 1`] = `
               </div>
             </td>
             <th
-              class="c25 "
+              class="c22 "
               scope="row"
             >
               <div
-                class="c26"
+                class="c23"
               >
                 <span
-                  class="c27"
+                  class="textRecipe_size_medium"
+                  style="font-weight: bold;"
                 >
                   Bryan
                 </span>
               </div>
             </th>
             <td
-              class="c25 "
+              class="c22 "
             >
               <div
-                class="c26"
+                class="c23"
               >
                 <span
-                  class="c7"
+                  class="textRecipe_size_medium"
                 >
                   30
                 </span>

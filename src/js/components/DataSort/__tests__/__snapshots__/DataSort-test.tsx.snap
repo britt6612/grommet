@@ -227,7 +227,7 @@ exports[`DataSort properties 1`] = `
   padding: 12px;
 }
 
-.c5 {
+.c4 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -236,12 +236,6 @@ exports[`DataSort properties 1`] = `
   flex-direction: column;
   height: 0px;
   flex: 0 0 auto;
-}
-
-.c4 {
-  margin: 0px;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 .c1 {
@@ -382,7 +376,8 @@ exports[`DataSort properties 1`] = `
       class="c3"
     >
       <span
-        class="c4"
+        class="textRecipe_size_medium"
+        style="margin: 0px;"
       >
         Location
       </span>
@@ -401,14 +396,15 @@ exports[`DataSort properties 1`] = `
       class="c3"
     >
       <span
-        class="c4"
+        class="textRecipe_size_medium"
+        style="margin: 0px;"
       >
         My Name
       </span>
     </div>
   </button>
   <div
-    class="c5"
+    class="c4"
   />
 </div>
 `;
@@ -455,7 +451,7 @@ exports[`DataSort renders 1`] = `
   flex-direction: column;
 }
 
-.c7 {
+.c6 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -465,7 +461,7 @@ exports[`DataSort renders 1`] = `
   flex-direction: column;
 }
 
-.c9 {
+.c8 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -476,7 +472,7 @@ exports[`DataSort renders 1`] = `
   justify-content: space-between;
 }
 
-.c10 {
+.c9 {
   display: flex;
   box-sizing: border-box;
   min-width: 0;
@@ -486,7 +482,7 @@ exports[`DataSort renders 1`] = `
   flex-basis: auto;
 }
 
-.c14 {
+.c13 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -498,7 +494,7 @@ exports[`DataSort renders 1`] = `
   flex: 0 0 auto;
 }
 
-.c16 {
+.c15 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -509,7 +505,7 @@ exports[`DataSort renders 1`] = `
   padding: 12px;
 }
 
-.c17 {
+.c16 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -518,7 +514,7 @@ exports[`DataSort renders 1`] = `
   flex-direction: column;
 }
 
-.c19 {
+.c18 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -529,7 +525,7 @@ exports[`DataSort renders 1`] = `
   flex: 0 0 auto;
 }
 
-.c21 {
+.c20 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -544,7 +540,7 @@ exports[`DataSort renders 1`] = `
   border-radius: 100%;
 }
 
-.c24 {
+.c23 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -557,13 +553,13 @@ exports[`DataSort renders 1`] = `
   justify-content: space-between;
 }
 
-.c23 {
+.c22 {
   flex: 0 0 auto;
   align-self: stretch;
   height: 12px;
 }
 
-.c15 {
+.c14 {
   display: inline-block;
   flex: 0 0 auto;
   width: 24px;
@@ -572,39 +568,30 @@ exports[`DataSort renders 1`] = `
   stroke: #7D4CDB;
 }
 
-.c15 g {
+.c14 g {
   fill: inherit;
   stroke: inherit;
 }
 
-.c15 *:not([stroke])[fill='none'] {
+.c14 *:not([stroke])[fill='none'] {
   stroke-width: 0;
 }
 
-.c15 *[stroke*='#'],
-.c15 *[STROKE*='#'] {
+.c14 *[stroke*='#'],
+.c14 *[STROKE*='#'] {
   stroke: inherit;
   fill: none;
 }
 
-.c15 *[fill-rule],
-.c15 *[FILL-RULE],
-.c15 *[fill*='#'],
-.c15 *[FILL*='#'] {
+.c14 *[fill-rule],
+.c14 *[FILL-RULE],
+.c14 *[fill*='#'],
+.c14 *[FILL*='#'] {
   fill: inherit;
   stroke: none;
 }
 
-.c6 {
-  margin-left: 12px;
-  margin-right: 12px;
-  margin-top: 6px;
-  margin-bottom: 6px;
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.c8 {
+.c7 {
   display: inline-block;
   box-sizing: border-box;
   cursor: pointer;
@@ -621,27 +608,27 @@ exports[`DataSort renders 1`] = `
   text-align: inherit;
 }
 
-.c8:focus:not(:focus-visible) {
+.c7:focus:not(:focus-visible) {
   outline: none;
   box-shadow: none;
 }
 
-.c8:focus:not(:focus-visible) >circle,
-.c8:focus:not(:focus-visible) >ellipse,
-.c8:focus:not(:focus-visible) >line,
-.c8:focus:not(:focus-visible) >path,
-.c8:focus:not(:focus-visible) >polygon,
-.c8:focus:not(:focus-visible) >polyline,
-.c8:focus:not(:focus-visible) >rect {
+.c7:focus:not(:focus-visible) >circle,
+.c7:focus:not(:focus-visible) >ellipse,
+.c7:focus:not(:focus-visible) >line,
+.c7:focus:not(:focus-visible) >path,
+.c7:focus:not(:focus-visible) >polygon,
+.c7:focus:not(:focus-visible) >polyline,
+.c7:focus:not(:focus-visible) >rect {
   outline: none;
   box-shadow: none;
 }
 
-.c8:focus:not(:focus-visible) ::-moz-focus-inner {
+.c7:focus:not(:focus-visible) ::-moz-focus-inner {
   border: 0;
 }
 
-.c25 {
+.c24 {
   display: inline-block;
   box-sizing: border-box;
   cursor: pointer;
@@ -665,47 +652,47 @@ exports[`DataSort renders 1`] = `
   transition-timing-function: ease-in-out;
 }
 
-.c25:hover {
+.c24:hover {
   box-shadow: 0px 0px 0px 2px #7D4CDB;
 }
 
-.c25:focus {
+.c24:focus {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c25:focus >circle,
-.c25:focus >ellipse,
-.c25:focus >line,
-.c25:focus >path,
-.c25:focus >polygon,
-.c25:focus >polyline,
-.c25:focus >rect {
+.c24:focus >circle,
+.c24:focus >ellipse,
+.c24:focus >line,
+.c24:focus >path,
+.c24:focus >polygon,
+.c24:focus >polyline,
+.c24:focus >rect {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c25:focus ::-moz-focus-inner {
+.c24:focus ::-moz-focus-inner {
   border: 0;
 }
 
-.c25:focus:not(:focus-visible) {
+.c24:focus:not(:focus-visible) {
   outline: none;
   box-shadow: none;
 }
 
-.c25:focus:not(:focus-visible) >circle,
-.c25:focus:not(:focus-visible) >ellipse,
-.c25:focus:not(:focus-visible) >line,
-.c25:focus:not(:focus-visible) >path,
-.c25:focus:not(:focus-visible) >polygon,
-.c25:focus:not(:focus-visible) >polyline,
-.c25:focus:not(:focus-visible) >rect {
+.c24:focus:not(:focus-visible) >circle,
+.c24:focus:not(:focus-visible) >ellipse,
+.c24:focus:not(:focus-visible) >line,
+.c24:focus:not(:focus-visible) >path,
+.c24:focus:not(:focus-visible) >polygon,
+.c24:focus:not(:focus-visible) >polyline,
+.c24:focus:not(:focus-visible) >rect {
   outline: none;
   box-shadow: none;
 }
 
-.c25:focus:not(:focus-visible) ::-moz-focus-inner {
+.c24:focus:not(:focus-visible) ::-moz-focus-inner {
   border: 0;
 }
 
@@ -713,7 +700,7 @@ exports[`DataSort renders 1`] = `
   max-width: 100%;
 }
 
-.c18 {
+.c17 {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -722,12 +709,12 @@ exports[`DataSort renders 1`] = `
   cursor: pointer;
 }
 
-.c18:hover input:not([disabled])+div,
-.c18:hover input:not([disabled])+span {
+.c17:hover input:not([disabled])+div,
+.c17:hover input:not([disabled])+span {
   border-color: #000000;
 }
 
-.c20 {
+.c19 {
   opacity: 0;
   -moz-appearance: none;
   width: 0;
@@ -736,11 +723,11 @@ exports[`DataSort renders 1`] = `
   cursor: pointer;
 }
 
-.c22 {
+.c21 {
   transform: scale(1);
 }
 
-.c12 {
+.c11 {
   box-sizing: border-box;
   font-size: inherit;
   font-family: inherit;
@@ -759,38 +746,38 @@ exports[`DataSort renders 1`] = `
   border: none;
 }
 
-.c12::-webkit-input-placeholder {
+.c11::-webkit-input-placeholder {
   color: #AAAAAA;
 }
 
-.c12::-moz-placeholder {
+.c11::-moz-placeholder {
   color: #AAAAAA;
 }
 
-.c12:-ms-input-placeholder {
+.c11:-ms-input-placeholder {
   color: #AAAAAA;
 }
 
-.c12 ::-webkit-search-decoration {
+.c11 ::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-.c12::-moz-focus-inner {
+.c11::-moz-focus-inner {
   border: none;
   outline: none;
 }
 
-.c12:-moz-placeholder,
-.c12::-moz-placeholder {
+.c11:-moz-placeholder,
+.c11::-moz-placeholder {
   opacity: 1;
 }
 
-.c11 {
+.c10 {
   position: relative;
   width: 100%;
 }
 
-.c13 {
+.c12 {
   cursor: pointer;
 }
 
@@ -811,50 +798,50 @@ exports[`DataSort renders 1`] = `
 }
 
 @media only screen and (max-width: 768px) {
-  .c7 {
+  .c6 {
     border-bottom: solid 1px rgba(0, 0, 0, 0.33);
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c14 {
+  .c13 {
     margin-left: 6px;
     margin-right: 6px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c16 {
+  .c15 {
     border-bottom: solid 1px rgba(0, 0, 0, 0.33);
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c16 {
+  .c15 {
     padding: 6px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c19 {
+  .c18 {
     margin-right: 6px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c21 {
+  .c20 {
     border: solid 2px rgba(0, 0, 0, 0.15);
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c24 {
+  .c23 {
     margin-top: 12px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c23 {
+  .c22 {
     height: 6px;
   }
 }
@@ -882,36 +869,37 @@ exports[`DataSort renders 1`] = `
               class="c5 "
             >
               <label
-                class="c6"
+                class="textRecipe_size_medium"
                 for="data--sort-property__input"
                 id="grommet-data--sort-property__input__label"
+                style="margin: 6px 12px 6px 12px;"
               >
                 Sort by
               </label>
               <div
-                class="c7 "
+                class="c6 "
               >
                 <button
                   aria-expanded="false"
                   aria-haspopup="listbox"
                   aria-label="Open Drop"
                   aria-labelledby="grommet-data--sort-property__input__label data--sort-property"
-                  class="c8 "
+                  class="c7 "
                   id="data--sort-property"
                   type="button"
                 >
                   <div
-                    class="c9"
+                    class="c8"
                   >
                     <div
-                      class="c10"
+                      class="c9"
                     >
                       <div
-                        class="c11"
+                        class="c10"
                       >
                         <input
                           autocomplete="off"
-                          class="c12 c13"
+                          class="c11 c12"
                           id="data--sort-property__input"
                           inert=""
                           name="_sort.property"
@@ -923,12 +911,12 @@ exports[`DataSort renders 1`] = `
                       </div>
                     </div>
                     <div
-                      class="c14"
+                      class="c13"
                       style="min-width: auto;"
                     >
                       <svg
                         aria-label="FormDown"
-                        class="c15"
+                        class="c14"
                         viewBox="0 0 24 24"
                       >
                         <path
@@ -947,36 +935,37 @@ exports[`DataSort renders 1`] = `
               class="c5 "
             >
               <label
-                class="c6"
+                class="textRecipe_size_medium"
                 for="data--sort-direction"
                 id="grommet-data--sort-direction__label"
+                style="margin: 6px 12px 6px 12px;"
               >
                 Sort direction
               </label>
               <div
-                class="c16 "
+                class="c15 "
               >
                 <div
                   aria-labelledby="grommet-data--sort-direction__label"
-                  class="c17"
+                  class="c16"
                   id="data--sort-direction"
                   role="radiogroup"
                 >
                   <label
-                    class="c18"
+                    class="c17"
                   >
                     <div
-                      class="c19 "
+                      class="c18 "
                     >
                       <input
-                        class="c20"
+                        class="c19"
                         name="_sort.direction"
                         tabindex="0"
                         type="radio"
                         value="asc"
                       />
                       <div
-                        class="c21 c22"
+                        class="c20 c21"
                       />
                     </div>
                     <span
@@ -986,23 +975,23 @@ exports[`DataSort renders 1`] = `
                     </span>
                   </label>
                   <div
-                    class="c23"
+                    class="c22"
                   />
                   <label
-                    class="c18"
+                    class="c17"
                   >
                     <div
-                      class="c19 "
+                      class="c18 "
                     >
                       <input
-                        class="c20"
+                        class="c19"
                         name="_sort.direction"
                         tabindex="-1"
                         type="radio"
                         value="desc"
                       />
                       <div
-                        class="c21 c22"
+                        class="c20 c21"
                       />
                     </div>
                     <span
@@ -1017,10 +1006,10 @@ exports[`DataSort renders 1`] = `
           </div>
         </div>
         <footer
-          class="c24"
+          class="c23"
         >
           <button
-            class="c25"
+            class="c24"
             type="submit"
           >
             Apply filters
@@ -1053,7 +1042,7 @@ exports[`DataSort sort when data array is empty 1`] = `
   flex-direction: column;
 }
 
-.c5 {
+.c4 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1063,7 +1052,7 @@ exports[`DataSort sort when data array is empty 1`] = `
   flex-direction: column;
 }
 
-.c7 {
+.c6 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1074,7 +1063,7 @@ exports[`DataSort sort when data array is empty 1`] = `
   justify-content: space-between;
 }
 
-.c8 {
+.c7 {
   display: flex;
   box-sizing: border-box;
   min-width: 0;
@@ -1084,7 +1073,7 @@ exports[`DataSort sort when data array is empty 1`] = `
   flex-basis: auto;
 }
 
-.c12 {
+.c11 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1096,7 +1085,7 @@ exports[`DataSort sort when data array is empty 1`] = `
   flex: 0 0 auto;
 }
 
-.c14 {
+.c13 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1107,7 +1096,7 @@ exports[`DataSort sort when data array is empty 1`] = `
   padding: 12px;
 }
 
-.c15 {
+.c14 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1116,7 +1105,7 @@ exports[`DataSort sort when data array is empty 1`] = `
   flex-direction: column;
 }
 
-.c17 {
+.c16 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1127,7 +1116,7 @@ exports[`DataSort sort when data array is empty 1`] = `
   flex: 0 0 auto;
 }
 
-.c19 {
+.c18 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1142,13 +1131,13 @@ exports[`DataSort sort when data array is empty 1`] = `
   border-radius: 100%;
 }
 
-.c21 {
+.c20 {
   flex: 0 0 auto;
   align-self: stretch;
   height: 12px;
 }
 
-.c13 {
+.c12 {
   display: inline-block;
   flex: 0 0 auto;
   width: 24px;
@@ -1157,39 +1146,30 @@ exports[`DataSort sort when data array is empty 1`] = `
   stroke: #7D4CDB;
 }
 
-.c13 g {
+.c12 g {
   fill: inherit;
   stroke: inherit;
 }
 
-.c13 *:not([stroke])[fill='none'] {
+.c12 *:not([stroke])[fill='none'] {
   stroke-width: 0;
 }
 
-.c13 *[stroke*='#'],
-.c13 *[STROKE*='#'] {
+.c12 *[stroke*='#'],
+.c12 *[STROKE*='#'] {
   stroke: inherit;
   fill: none;
 }
 
-.c13 *[fill-rule],
-.c13 *[FILL-RULE],
-.c13 *[fill*='#'],
-.c13 *[FILL*='#'] {
+.c12 *[fill-rule],
+.c12 *[FILL-RULE],
+.c12 *[fill*='#'],
+.c12 *[FILL*='#'] {
   fill: inherit;
   stroke: none;
 }
 
-.c4 {
-  margin-left: 12px;
-  margin-right: 12px;
-  margin-top: 6px;
-  margin-bottom: 6px;
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.c6 {
+.c5 {
   display: inline-block;
   box-sizing: border-box;
   cursor: pointer;
@@ -1206,23 +1186,23 @@ exports[`DataSort sort when data array is empty 1`] = `
   text-align: inherit;
 }
 
-.c6:focus:not(:focus-visible) {
+.c5:focus:not(:focus-visible) {
   outline: none;
   box-shadow: none;
 }
 
-.c6:focus:not(:focus-visible) >circle,
-.c6:focus:not(:focus-visible) >ellipse,
-.c6:focus:not(:focus-visible) >line,
-.c6:focus:not(:focus-visible) >path,
-.c6:focus:not(:focus-visible) >polygon,
-.c6:focus:not(:focus-visible) >polyline,
-.c6:focus:not(:focus-visible) >rect {
+.c5:focus:not(:focus-visible) >circle,
+.c5:focus:not(:focus-visible) >ellipse,
+.c5:focus:not(:focus-visible) >line,
+.c5:focus:not(:focus-visible) >path,
+.c5:focus:not(:focus-visible) >polygon,
+.c5:focus:not(:focus-visible) >polyline,
+.c5:focus:not(:focus-visible) >rect {
   outline: none;
   box-shadow: none;
 }
 
-.c6:focus:not(:focus-visible) ::-moz-focus-inner {
+.c5:focus:not(:focus-visible) ::-moz-focus-inner {
   border: 0;
 }
 
@@ -1230,7 +1210,7 @@ exports[`DataSort sort when data array is empty 1`] = `
   max-width: 100%;
 }
 
-.c16 {
+.c15 {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -1239,12 +1219,12 @@ exports[`DataSort sort when data array is empty 1`] = `
   cursor: pointer;
 }
 
-.c16:hover input:not([disabled])+div,
-.c16:hover input:not([disabled])+span {
+.c15:hover input:not([disabled])+div,
+.c15:hover input:not([disabled])+span {
   border-color: #000000;
 }
 
-.c18 {
+.c17 {
   opacity: 0;
   -moz-appearance: none;
   width: 0;
@@ -1253,11 +1233,11 @@ exports[`DataSort sort when data array is empty 1`] = `
   cursor: pointer;
 }
 
-.c20 {
+.c19 {
   transform: scale(1);
 }
 
-.c10 {
+.c9 {
   box-sizing: border-box;
   font-size: inherit;
   font-family: inherit;
@@ -1276,38 +1256,38 @@ exports[`DataSort sort when data array is empty 1`] = `
   border: none;
 }
 
-.c10::-webkit-input-placeholder {
+.c9::-webkit-input-placeholder {
   color: #AAAAAA;
 }
 
-.c10::-moz-placeholder {
+.c9::-moz-placeholder {
   color: #AAAAAA;
 }
 
-.c10:-ms-input-placeholder {
+.c9:-ms-input-placeholder {
   color: #AAAAAA;
 }
 
-.c10 ::-webkit-search-decoration {
+.c9 ::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-.c10::-moz-focus-inner {
+.c9::-moz-focus-inner {
   border: none;
   outline: none;
 }
 
-.c10:-moz-placeholder,
-.c10::-moz-placeholder {
+.c9:-moz-placeholder,
+.c9::-moz-placeholder {
   opacity: 1;
 }
 
-.c9 {
+.c8 {
   position: relative;
   width: 100%;
 }
 
-.c11 {
+.c10 {
   cursor: pointer;
 }
 
@@ -1328,44 +1308,44 @@ exports[`DataSort sort when data array is empty 1`] = `
 }
 
 @media only screen and (max-width: 768px) {
-  .c5 {
+  .c4 {
     border-bottom: solid 1px rgba(0, 0, 0, 0.33);
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c12 {
+  .c11 {
     margin-left: 6px;
     margin-right: 6px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c14 {
+  .c13 {
     border-bottom: solid 1px rgba(0, 0, 0, 0.33);
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c14 {
+  .c13 {
     padding: 6px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c17 {
+  .c16 {
     margin-right: 6px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c19 {
+  .c18 {
     border: solid 2px rgba(0, 0, 0, 0.15);
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c21 {
+  .c20 {
     height: 6px;
   }
 }
@@ -1384,36 +1364,37 @@ exports[`DataSort sort when data array is empty 1`] = `
         class="c3 "
       >
         <label
-          class="c4"
+          class="textRecipe_size_medium"
           for="test-data--sort-property__input"
           id="grommet-test-data--sort-property__input__label"
+          style="margin: 6px 12px 6px 12px;"
         >
           Sort by
         </label>
         <div
-          class="c5 "
+          class="c4 "
         >
           <button
             aria-expanded="false"
             aria-haspopup="listbox"
             aria-label="Open Drop"
             aria-labelledby="grommet-test-data--sort-property__input__label test-data--sort-property"
-            class="c6 "
+            class="c5 "
             id="test-data--sort-property"
             type="button"
           >
             <div
-              class="c7"
+              class="c6"
             >
               <div
-                class="c8"
+                class="c7"
               >
                 <div
-                  class="c9"
+                  class="c8"
                 >
                   <input
                     autocomplete="off"
-                    class="c10 c11"
+                    class="c9 c10"
                     id="test-data--sort-property__input"
                     inert=""
                     name="_sort.property"
@@ -1425,12 +1406,12 @@ exports[`DataSort sort when data array is empty 1`] = `
                 </div>
               </div>
               <div
-                class="c12"
+                class="c11"
                 style="min-width: auto;"
               >
                 <svg
                   aria-label="FormDown"
-                  class="c13"
+                  class="c12"
                   viewBox="0 0 24 24"
                 >
                   <path
@@ -1449,36 +1430,37 @@ exports[`DataSort sort when data array is empty 1`] = `
         class="c3 "
       >
         <label
-          class="c4"
+          class="textRecipe_size_medium"
           for="test-data--sort-direction"
           id="grommet-test-data--sort-direction__label"
+          style="margin: 6px 12px 6px 12px;"
         >
           Sort direction
         </label>
         <div
-          class="c14 "
+          class="c13 "
         >
           <div
             aria-labelledby="grommet-test-data--sort-direction__label"
-            class="c15"
+            class="c14"
             id="test-data--sort-direction"
             role="radiogroup"
           >
             <label
-              class="c16"
+              class="c15"
             >
               <div
-                class="c17 "
+                class="c16 "
               >
                 <input
-                  class="c18"
+                  class="c17"
                   name="_sort.direction"
                   tabindex="0"
                   type="radio"
                   value="asc"
                 />
                 <div
-                  class="c19 c20"
+                  class="c18 c19"
                 />
               </div>
               <span
@@ -1488,23 +1470,23 @@ exports[`DataSort sort when data array is empty 1`] = `
               </span>
             </label>
             <div
-              class="c21"
+              class="c20"
             />
             <label
-              class="c16"
+              class="c15"
             >
               <div
-                class="c17 "
+                class="c16 "
               >
                 <input
-                  class="c18"
+                  class="c17"
                   name="_sort.direction"
                   tabindex="-1"
                   type="radio"
                   value="desc"
                 />
                 <div
-                  class="c19 c20"
+                  class="c18 c19"
                 />
               </div>
               <span
