@@ -793,7 +793,7 @@ exports[`Select Controlled multiple onChange toggle with valueKey reduce 2`] = `
   padding: 12px;
 }
 
-.c11 {
+.c10 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -825,12 +825,6 @@ exports[`Select Controlled multiple onChange toggle with valueKey reduce 2`] = `
 }
 
 .c8 {
-  margin: 0px;
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.c9 {
   display: inline-block;
   box-sizing: border-box;
   cursor: pointer;
@@ -847,43 +841,43 @@ exports[`Select Controlled multiple onChange toggle with valueKey reduce 2`] = `
   text-align: inherit;
 }
 
-.c9:focus {
+.c8:focus {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c9:focus >circle,
-.c9:focus >ellipse,
-.c9:focus >line,
-.c9:focus >path,
-.c9:focus >polygon,
-.c9:focus >polyline,
-.c9:focus >rect {
+.c8:focus >circle,
+.c8:focus >ellipse,
+.c8:focus >line,
+.c8:focus >path,
+.c8:focus >polygon,
+.c8:focus >polyline,
+.c8:focus >rect {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c9:focus ::-moz-focus-inner {
+.c8:focus ::-moz-focus-inner {
   border: 0;
 }
 
-.c9:focus:not(:focus-visible) {
+.c8:focus:not(:focus-visible) {
   outline: none;
   box-shadow: none;
 }
 
-.c9:focus:not(:focus-visible) >circle,
-.c9:focus:not(:focus-visible) >ellipse,
-.c9:focus:not(:focus-visible) >line,
-.c9:focus:not(:focus-visible) >path,
-.c9:focus:not(:focus-visible) >polygon,
-.c9:focus:not(:focus-visible) >polyline,
-.c9:focus:not(:focus-visible) >rect {
+.c8:focus:not(:focus-visible) >circle,
+.c8:focus:not(:focus-visible) >ellipse,
+.c8:focus:not(:focus-visible) >line,
+.c8:focus:not(:focus-visible) >path,
+.c8:focus:not(:focus-visible) >polygon,
+.c8:focus:not(:focus-visible) >polyline,
+.c8:focus:not(:focus-visible) >rect {
   outline: none;
   box-shadow: none;
 }
 
-.c9:focus:not(:focus-visible) ::-moz-focus-inner {
+.c8:focus:not(:focus-visible) ::-moz-focus-inner {
   border: 0;
 }
 
@@ -962,7 +956,7 @@ exports[`Select Controlled multiple onChange toggle with valueKey reduce 2`] = `
   width: 100%;
 }
 
-.c10 {
+.c9 {
   display: block;
   width: 100%;
 }
@@ -1021,7 +1015,8 @@ exports[`Select Controlled multiple onChange toggle with valueKey reduce 2`] = `
           class="c7"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             Value1
           </span>
@@ -1031,7 +1026,7 @@ exports[`Select Controlled multiple onChange toggle with valueKey reduce 2`] = `
         aria-posinset="2"
         aria-selected="false"
         aria-setsize="2"
-        class="c9 c10"
+        class="c8 c9"
         role="option"
         tabindex="-1"
         type="button"
@@ -1040,14 +1035,15 @@ exports[`Select Controlled multiple onChange toggle with valueKey reduce 2`] = `
           class="c7"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             Value2
           </span>
         </div>
       </button>
       <div
-        class="c11"
+        class="c10"
       />
     </div>
   </div>
@@ -1349,7 +1345,7 @@ exports[`Select Controlled multiple onChange with valueKey reduce 2`] = `
   padding: 12px;
 }
 
-.c9 {
+.c8 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1378,12 +1374,6 @@ exports[`Select Controlled multiple onChange with valueKey reduce 2`] = `
   transform-origin: top left;
   animation: kPQHBD 0.1s forwards;
   animation-delay: 0.01s;
-}
-
-.c8 {
-  margin: 0px;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 .c5 {
@@ -1513,7 +1503,8 @@ exports[`Select Controlled multiple onChange with valueKey reduce 2`] = `
           class="c7"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             Value1
           </span>
@@ -1532,14 +1523,15 @@ exports[`Select Controlled multiple onChange with valueKey reduce 2`] = `
           class="c7"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             Value2
           </span>
         </div>
       </button>
       <div
-        class="c9"
+        class="c8"
       />
     </div>
   </div>
@@ -1841,7 +1833,7 @@ exports[`Select Controlled multiple onChange with valueKey string 2`] = `
   padding: 12px;
 }
 
-.c9 {
+.c8 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1870,12 +1862,6 @@ exports[`Select Controlled multiple onChange with valueKey string 2`] = `
   transform-origin: top left;
   animation: kPQHBD 0.1s forwards;
   animation-delay: 0.01s;
-}
-
-.c8 {
-  margin: 0px;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 .c5 {
@@ -2005,7 +1991,8 @@ exports[`Select Controlled multiple onChange with valueKey string 2`] = `
           class="c7"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             Value1
           </span>
@@ -2024,14 +2011,15 @@ exports[`Select Controlled multiple onChange with valueKey string 2`] = `
           class="c7"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             Value2
           </span>
         </div>
       </button>
       <div
-        class="c9"
+        class="c8"
       />
     </div>
   </div>
@@ -2335,7 +2323,7 @@ exports[`Select Controlled multiple onChange without labelKey 2`] = `
   padding: 12px;
 }
 
-.c9 {
+.c8 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -2364,12 +2352,6 @@ exports[`Select Controlled multiple onChange without labelKey 2`] = `
   transform-origin: top left;
   animation: kPQHBD 0.1s forwards;
   animation-delay: 0.01s;
-}
-
-.c8 {
-  margin: 0px;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 .c5 {
@@ -2499,7 +2481,8 @@ exports[`Select Controlled multiple onChange without labelKey 2`] = `
           class="c7"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             1
           </span>
@@ -2518,14 +2501,15 @@ exports[`Select Controlled multiple onChange without labelKey 2`] = `
           class="c7"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             2
           </span>
         </div>
       </button>
       <div
-        class="c9"
+        class="c8"
       />
     </div>
   </div>
@@ -2573,7 +2557,8 @@ exports[`Select Controlled multiple onChange without labelKey 4`] = `
           class="StyledBox-sc-13pk1d4-0 dPAImr"
         >
           <span
-            class="StyledText-sc-1sadyjn-0 jQsnaU"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             1
           </span>
@@ -2592,7 +2577,8 @@ exports[`Select Controlled multiple onChange without labelKey 4`] = `
           class="StyledBox-sc-13pk1d4-0 dPAImr"
         >
           <span
-            class="StyledText-sc-1sadyjn-0 jQsnaU"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             2
           </span>
@@ -2647,7 +2633,8 @@ exports[`Select Controlled multiple onChange without labelKey 6`] = `
           class="StyledBox-sc-13pk1d4-0 dPAImr"
         >
           <span
-            class="StyledText-sc-1sadyjn-0 jQsnaU"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             1
           </span>
@@ -2666,7 +2653,8 @@ exports[`Select Controlled multiple onChange without labelKey 6`] = `
           class="StyledBox-sc-13pk1d4-0 dPAImr"
         >
           <span
-            class="StyledText-sc-1sadyjn-0 jQsnaU"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             2
           </span>
@@ -3243,7 +3231,7 @@ exports[`Select Controlled multiple onChange without valueKey 2`] = `
   padding: 12px;
 }
 
-.c9 {
+.c8 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -3272,12 +3260,6 @@ exports[`Select Controlled multiple onChange without valueKey 2`] = `
   transform-origin: top left;
   animation: kPQHBD 0.1s forwards;
   animation-delay: 0.01s;
-}
-
-.c8 {
-  margin: 0px;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 .c5 {
@@ -3407,7 +3389,8 @@ exports[`Select Controlled multiple onChange without valueKey 2`] = `
           class="c7"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             Value1
           </span>
@@ -3426,14 +3409,15 @@ exports[`Select Controlled multiple onChange without valueKey 2`] = `
           class="c7"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             Value2
           </span>
         </div>
       </button>
       <div
-        class="c9"
+        class="c8"
       />
     </div>
   </div>
@@ -3481,7 +3465,8 @@ exports[`Select Controlled multiple onChange without valueKey 4`] = `
           class="StyledBox-sc-13pk1d4-0 dPAImr"
         >
           <span
-            class="StyledText-sc-1sadyjn-0 jQsnaU"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             Value1
           </span>
@@ -3500,7 +3485,8 @@ exports[`Select Controlled multiple onChange without valueKey 4`] = `
           class="StyledBox-sc-13pk1d4-0 dPAImr"
         >
           <span
-            class="StyledText-sc-1sadyjn-0 jQsnaU"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             Value2
           </span>
@@ -3555,7 +3541,8 @@ exports[`Select Controlled multiple onChange without valueKey 6`] = `
           class="StyledBox-sc-13pk1d4-0 dPAImr"
         >
           <span
-            class="StyledText-sc-1sadyjn-0 jQsnaU"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             Value1
           </span>
@@ -3574,7 +3561,8 @@ exports[`Select Controlled multiple onChange without valueKey 6`] = `
           class="StyledBox-sc-13pk1d4-0 dPAImr"
         >
           <span
-            class="StyledText-sc-1sadyjn-0 jQsnaU"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             Value2
           </span>
@@ -4153,7 +4141,7 @@ exports[`Select Controlled multiple onChange without valueKey or labelKey 2`] = 
   padding: 12px;
 }
 
-.c9 {
+.c8 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -4182,12 +4170,6 @@ exports[`Select Controlled multiple onChange without valueKey or labelKey 2`] = 
   transform-origin: top left;
   animation: kPQHBD 0.1s forwards;
   animation-delay: 0.01s;
-}
-
-.c8 {
-  margin: 0px;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 .c5 {
@@ -4317,7 +4299,8 @@ exports[`Select Controlled multiple onChange without valueKey or labelKey 2`] = 
           class="c7"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             1
           </span>
@@ -4336,14 +4319,15 @@ exports[`Select Controlled multiple onChange without valueKey or labelKey 2`] = 
           class="c7"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             2
           </span>
         </div>
       </button>
       <div
-        class="c9"
+        class="c8"
       />
     </div>
   </div>
@@ -4390,7 +4374,8 @@ exports[`Select Controlled multiple onChange without valueKey or labelKey 4`] = 
           class="StyledBox-sc-13pk1d4-0 dPAImr"
         >
           <span
-            class="StyledText-sc-1sadyjn-0 jQsnaU"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             1
           </span>
@@ -4408,7 +4393,8 @@ exports[`Select Controlled multiple onChange without valueKey or labelKey 4`] = 
           class="StyledBox-sc-13pk1d4-0 dPAImr"
         >
           <span
-            class="StyledText-sc-1sadyjn-0 jQsnaU"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             2
           </span>
@@ -4462,7 +4448,8 @@ exports[`Select Controlled multiple onChange without valueKey or labelKey 6`] = 
           class="StyledBox-sc-13pk1d4-0 dPAImr"
         >
           <span
-            class="StyledText-sc-1sadyjn-0 jQsnaU"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             1
           </span>
@@ -4480,7 +4467,8 @@ exports[`Select Controlled multiple onChange without valueKey or labelKey 6`] = 
           class="StyledBox-sc-13pk1d4-0 dPAImr"
         >
           <span
-            class="StyledText-sc-1sadyjn-0 jQsnaU"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             2
           </span>
@@ -5113,7 +5101,7 @@ exports[`Select Controlled multiple values 3`] = `
   padding: 12px;
 }
 
-.c9 {
+.c8 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -5142,12 +5130,6 @@ exports[`Select Controlled multiple values 3`] = `
   transform-origin: top left;
   animation: kPQHBD 0.1s forwards;
   animation-delay: 0.01s;
-}
-
-.c8 {
-  margin: 0px;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 .c5 {
@@ -5279,7 +5261,8 @@ exports[`Select Controlled multiple values 3`] = `
           class="c7"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             one
           </span>
@@ -5298,14 +5281,15 @@ exports[`Select Controlled multiple values 3`] = `
           class="c7"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             two
           </span>
         </div>
       </button>
       <div
-        class="c9"
+        class="c8"
       />
     </div>
   </div>
@@ -5607,7 +5591,7 @@ exports[`Select Controlled multiple with empty results 2`] = `
   padding: 12px;
 }
 
-.c9 {
+.c8 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -5636,12 +5620,6 @@ exports[`Select Controlled multiple with empty results 2`] = `
   transform-origin: top left;
   animation: kPQHBD 0.1s forwards;
   animation-delay: 0.01s;
-}
-
-.c8 {
-  margin: 0px;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 .c5 {
@@ -5771,7 +5749,8 @@ exports[`Select Controlled multiple with empty results 2`] = `
           class="c7"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             one
           </span>
@@ -5790,14 +5769,15 @@ exports[`Select Controlled multiple with empty results 2`] = `
           class="c7"
         >
           <span
-            class="c8"
+            class="textRecipe_size_medium"
+            style="margin: 0px;"
           >
             two
           </span>
         </div>
       </button>
       <div
-        class="c9"
+        class="c8"
       />
     </div>
   </div>

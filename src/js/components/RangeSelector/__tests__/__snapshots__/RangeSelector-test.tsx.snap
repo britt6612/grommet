@@ -1828,7 +1828,7 @@ exports[`RangeSelector label 1`] = `
   height: 100%;
 }
 
-.c3 {
+.c2 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1841,7 +1841,7 @@ exports[`RangeSelector label 1`] = `
   cursor: pointer;
 }
 
-.c5 {
+.c4 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1852,7 +1852,7 @@ exports[`RangeSelector label 1`] = `
   width: 100%;
 }
 
-.c6 {
+.c5 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1865,7 +1865,7 @@ exports[`RangeSelector label 1`] = `
   overflow: visible;
 }
 
-.c8 {
+.c7 {
   display: flex;
   box-sizing: border-box;
   align-items: center;
@@ -1877,7 +1877,7 @@ exports[`RangeSelector label 1`] = `
   justify-content: center;
 }
 
-.c9 {
+.c8 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1891,7 +1891,7 @@ exports[`RangeSelector label 1`] = `
   border-radius: 100%;
 }
 
-.c10 {
+.c9 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1904,7 +1904,7 @@ exports[`RangeSelector label 1`] = `
   width: 100%;
 }
 
-.c7 {
+.c6 {
   position: absolute;
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
@@ -1914,22 +1914,7 @@ exports[`RangeSelector label 1`] = `
   width: 1px;
 }
 
-.c2 {
-  margin-left: 12px;
-  margin-right: 12px;
-  font-size: 14px;
-  line-height: 20px;
-  text-align: right;
-}
-
-.c11 {
-  margin-left: 12px;
-  margin-right: 12px;
-  font-size: 14px;
-  line-height: 20px;
-}
-
-.c4 {
+.c3 {
   user-select: none;
 }
 
@@ -1940,21 +1925,21 @@ exports[`RangeSelector label 1`] = `
     class="c1"
   >
     <span
-      class="c2"
-      style="width: 0px;"
+      class="textRecipe_size_small"
+      style="text-align: right; margin-left: 12px; margin-right: 12px; width: 0px;"
     >
       20
     </span>
     <div
-      class="c3 c4"
+      class="c2 c3"
       tabindex="-1"
     >
       <div
-        class="c5"
+        class="c4"
         style="flex: 20 0 0px;"
       />
       <div
-        class="c6"
+        class="c5"
         style="flex: 0 0 1px;"
       >
         <input
@@ -1962,7 +1947,7 @@ exports[`RangeSelector label 1`] = `
           aria-valuemax="100"
           aria-valuemin="0"
           aria-valuenow="20"
-          class="c7"
+          class="c6"
           max="100"
           min="0"
           readonly=""
@@ -1971,21 +1956,21 @@ exports[`RangeSelector label 1`] = `
           value="20"
         />
         <div
-          class="c8"
+          class="c7"
           style="cursor: col-resize; outline: none; min-width: 12px; min-height: 12px; z-index: 1;"
           tabindex="-1"
         >
           <div
-            class="c9 EdgeControl__StyledBox-sc-1xo2yt9-1"
+            class="c8 EdgeControl__StyledBox-sc-1xo2yt9-1"
           />
         </div>
       </div>
       <div
-        class="c10"
+        class="c9"
         style="flex: 11 0 0px; cursor: ew-resize;"
       />
       <div
-        class="c6"
+        class="c5"
         style="flex: 0 0 1px;"
       >
         <input
@@ -1993,7 +1978,7 @@ exports[`RangeSelector label 1`] = `
           aria-valuemax="100"
           aria-valuemin="0"
           aria-valuenow="30"
-          class="c7"
+          class="c6"
           max="100"
           min="0"
           readonly=""
@@ -2002,23 +1987,23 @@ exports[`RangeSelector label 1`] = `
           value="30"
         />
         <div
-          class="c8"
+          class="c7"
           style="cursor: col-resize; outline: none; min-width: 12px; min-height: 12px; z-index: 1;"
           tabindex="-1"
         >
           <div
-            class="c9 EdgeControl__StyledBox-sc-1xo2yt9-1"
+            class="c8 EdgeControl__StyledBox-sc-1xo2yt9-1"
           />
         </div>
       </div>
       <div
-        class="c5"
+        class="c4"
         style="flex: 70 0 0px;"
       />
     </div>
     <span
-      class="c11"
-      style="width: 0px;"
+      class="textRecipe_size_small"
+      style="margin-left: 12px; margin-right: 12px; width: 0px;"
     >
       30
     </span>
@@ -2027,21 +2012,21 @@ exports[`RangeSelector label 1`] = `
     class="c1"
   >
     <span
-      class="c2"
-      style="width: 0px;"
+      class="textRecipe_size_small"
+      style="text-align: right; margin-left: 12px; margin-right: 12px; width: 0px;"
     >
       20%
     </span>
     <div
-      class="c3 c4"
+      class="c2 c3"
       tabindex="-1"
     >
       <div
-        class="c5"
+        class="c4"
         style="flex: 20 0 0px;"
       />
       <div
-        class="c6"
+        class="c5"
         style="flex: 0 0 1px;"
       >
         <input
@@ -2049,7 +2034,7 @@ exports[`RangeSelector label 1`] = `
           aria-valuemax="100"
           aria-valuemin="0"
           aria-valuenow="20"
-          class="c7"
+          class="c6"
           max="100"
           min="0"
           readonly=""
@@ -2058,21 +2043,21 @@ exports[`RangeSelector label 1`] = `
           value="20"
         />
         <div
-          class="c8"
+          class="c7"
           style="cursor: col-resize; outline: none; min-width: 12px; min-height: 12px; z-index: 1;"
           tabindex="-1"
         >
           <div
-            class="c9 EdgeControl__StyledBox-sc-1xo2yt9-1"
+            class="c8 EdgeControl__StyledBox-sc-1xo2yt9-1"
           />
         </div>
       </div>
       <div
-        class="c10"
+        class="c9"
         style="flex: 11 0 0px; cursor: ew-resize;"
       />
       <div
-        class="c6"
+        class="c5"
         style="flex: 0 0 1px;"
       >
         <input
@@ -2080,7 +2065,7 @@ exports[`RangeSelector label 1`] = `
           aria-valuemax="100"
           aria-valuemin="0"
           aria-valuenow="30"
-          class="c7"
+          class="c6"
           max="100"
           min="0"
           readonly=""
@@ -2089,23 +2074,23 @@ exports[`RangeSelector label 1`] = `
           value="30"
         />
         <div
-          class="c8"
+          class="c7"
           style="cursor: col-resize; outline: none; min-width: 12px; min-height: 12px; z-index: 1;"
           tabindex="-1"
         >
           <div
-            class="c9 EdgeControl__StyledBox-sc-1xo2yt9-1"
+            class="c8 EdgeControl__StyledBox-sc-1xo2yt9-1"
           />
         </div>
       </div>
       <div
-        class="c5"
+        class="c4"
         style="flex: 70 0 0px;"
       />
     </div>
     <span
-      class="c11"
-      style="width: 0px;"
+      class="textRecipe_size_small"
+      style="margin-left: 12px; margin-right: 12px; width: 0px;"
     >
       30%
     </span>
@@ -5625,7 +5610,7 @@ exports[`RangeSelector theme label margin 1`] = `
   height: 100%;
 }
 
-.c3 {
+.c2 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -5638,7 +5623,7 @@ exports[`RangeSelector theme label margin 1`] = `
   cursor: pointer;
 }
 
-.c5 {
+.c4 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -5649,7 +5634,7 @@ exports[`RangeSelector theme label margin 1`] = `
   width: 100%;
 }
 
-.c6 {
+.c5 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -5662,7 +5647,7 @@ exports[`RangeSelector theme label margin 1`] = `
   overflow: visible;
 }
 
-.c8 {
+.c7 {
   display: flex;
   box-sizing: border-box;
   align-items: center;
@@ -5674,7 +5659,7 @@ exports[`RangeSelector theme label margin 1`] = `
   justify-content: center;
 }
 
-.c9 {
+.c8 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -5688,7 +5673,7 @@ exports[`RangeSelector theme label margin 1`] = `
   border-radius: 100%;
 }
 
-.c10 {
+.c9 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -5701,7 +5686,7 @@ exports[`RangeSelector theme label margin 1`] = `
   width: 100%;
 }
 
-.c7 {
+.c6 {
   position: absolute;
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
@@ -5711,22 +5696,7 @@ exports[`RangeSelector theme label margin 1`] = `
   width: 1px;
 }
 
-.c2 {
-  margin-left: 48px;
-  margin-right: 48px;
-  font-size: 14px;
-  line-height: 20px;
-  text-align: right;
-}
-
-.c11 {
-  margin-left: 48px;
-  margin-right: 48px;
-  font-size: 14px;
-  line-height: 20px;
-}
-
-.c4 {
+.c3 {
   user-select: none;
 }
 
@@ -5737,21 +5707,21 @@ exports[`RangeSelector theme label margin 1`] = `
     class="c1"
   >
     <span
-      class="c2"
-      style="width: 0px;"
+      class="textRecipe_size_small"
+      style="text-align: right; margin-left: 48px; margin-right: 48px; width: 0px;"
     >
       20
     </span>
     <div
-      class="c3 c4"
+      class="c2 c3"
       tabindex="-1"
     >
       <div
-        class="c5"
+        class="c4"
         style="flex: 20 0 0px;"
       />
       <div
-        class="c6"
+        class="c5"
         style="flex: 0 0 1px;"
       >
         <input
@@ -5759,7 +5729,7 @@ exports[`RangeSelector theme label margin 1`] = `
           aria-valuemax="100"
           aria-valuemin="0"
           aria-valuenow="20"
-          class="c7"
+          class="c6"
           max="100"
           min="0"
           readonly=""
@@ -5768,21 +5738,21 @@ exports[`RangeSelector theme label margin 1`] = `
           value="20"
         />
         <div
-          class="c8"
+          class="c7"
           style="cursor: col-resize; outline: none; min-width: 12px; min-height: 12px; z-index: 1;"
           tabindex="-1"
         >
           <div
-            class="c9 EdgeControl__StyledBox-sc-1xo2yt9-1"
+            class="c8 EdgeControl__StyledBox-sc-1xo2yt9-1"
           />
         </div>
       </div>
       <div
-        class="c10"
+        class="c9"
         style="flex: 11 0 0px; cursor: ew-resize;"
       />
       <div
-        class="c6"
+        class="c5"
         style="flex: 0 0 1px;"
       >
         <input
@@ -5790,7 +5760,7 @@ exports[`RangeSelector theme label margin 1`] = `
           aria-valuemax="100"
           aria-valuemin="0"
           aria-valuenow="30"
-          class="c7"
+          class="c6"
           max="100"
           min="0"
           readonly=""
@@ -5799,23 +5769,23 @@ exports[`RangeSelector theme label margin 1`] = `
           value="30"
         />
         <div
-          class="c8"
+          class="c7"
           style="cursor: col-resize; outline: none; min-width: 12px; min-height: 12px; z-index: 1;"
           tabindex="-1"
         >
           <div
-            class="c9 EdgeControl__StyledBox-sc-1xo2yt9-1"
+            class="c8 EdgeControl__StyledBox-sc-1xo2yt9-1"
           />
         </div>
       </div>
       <div
-        class="c5"
+        class="c4"
         style="flex: 70 0 0px;"
       />
     </div>
     <span
-      class="c11"
-      style="width: 0px;"
+      class="textRecipe_size_small"
+      style="margin-left: 48px; margin-right: 48px; width: 0px;"
     >
       30
     </span>

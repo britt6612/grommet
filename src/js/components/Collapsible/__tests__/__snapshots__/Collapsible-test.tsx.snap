@@ -26,11 +26,6 @@ exports[`Collapsible onClick open default 1`] = `
   -webkit-font-smoothing: antialiased;
 }
 
-.c3 {
-  font-size: 18px;
-  line-height: 24px;
-}
-
 <div
   class="c0"
 >
@@ -40,7 +35,7 @@ exports[`Collapsible onClick open default 1`] = `
     open=""
   >
     <span
-      class="c3"
+      class="textRecipe_size_medium"
     >
       Example
     </span>
@@ -58,7 +53,7 @@ exports[`Collapsible onClick open default 2`] = `
     style="max-height: 0px;"
   >
     <span
-      class="StyledText-sc-1sadyjn-0 cejToA"
+      class="textRecipe_size_medium"
     >
       Example
     </span>
@@ -92,11 +87,6 @@ exports[`Collapsible open 1`] = `
   -webkit-font-smoothing: antialiased;
 }
 
-.c3 {
-  font-size: 18px;
-  line-height: 24px;
-}
-
 <div
   class="c0"
 >
@@ -106,7 +96,7 @@ exports[`Collapsible open 1`] = `
     open=""
   >
     <span
-      class="c3"
+      class="textRecipe_size_medium"
     >
       Example
     </span>
@@ -130,18 +120,13 @@ exports[`Collapsible open outside grommet wrapper 1`] = `
   overflow: visible;
 }
 
-.c2 {
-  font-size: 18px;
-  line-height: 24px;
-}
-
 <div
   aria-hidden="false"
   class="c0 c1"
   open=""
 >
   <span
-    class="c2"
+    class="textRecipe_size_medium"
   >
     Example
   </span>

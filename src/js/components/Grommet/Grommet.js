@@ -1,5 +1,9 @@
 import React, { forwardRef, useEffect, useMemo, useRef, useState } from 'react';
-import { createGlobalStyle } from 'styled-components';
+// ThemeProvider is kept here during the migration period so that all
+// Styled*.js components (not yet migrated to VE) continue to receive the
+// theme via styled-components' own context. Once all Styled*.js files are
+// deleted, this import and the wrapper below can be removed.
+import { ThemeProvider } from 'styled-components';
 
 import {
   ContainerTargetContext,
@@ -24,9 +28,12 @@ import defaultMessages from '../../languages/default.json';
 import { GrommetPropTypes } from './propTypes';
 import { AnalyticsProvider } from '../../contexts/AnalyticsContext';
 
-const FullGlobalStyle = createGlobalStyle`
-  body { margin: 0; }
-`;
+// Inlined global style — previously used createGlobalStyle from styled-components.
+// Injected as a plain <style> tag to remove the SC dependency from Grommet.js.
+const FullGlobalStyle = () => (
+  // eslint-disable-next-line react/no-danger
+  <style dangerouslySetInnerHTML={{ __html: 'body { margin: 0; }' }} />
+);
 
 const defaultOptions = {};
 
@@ -133,24 +140,29 @@ const Grommet = forwardRef((props, ref) => {
   const rootsContextValue = useMemo(() => ({ roots }), []);
 
   return (
-    <ThemeContext.Provider value={theme}>
-      <ResponsiveContext.Provider value={responsive}>
-        <RootsContext.Provider value={rootsContextValue}>
-          <ContainerTargetContext.Provider value={containerTarget}>
-            <OptionsContext.Provider value={options}>
-              <MessageContext.Provider value={messages}>
-                <AnalyticsProvider onAnalytics={onAnalytics}>
-                  <StyledGrommet full={full} {...rest} ref={grommetRef}>
-                    {children}
-                  </StyledGrommet>
-                  {full && <FullGlobalStyle />}
-                </AnalyticsProvider>
-              </MessageContext.Provider>
-            </OptionsContext.Provider>
-          </ContainerTargetContext.Provider>
-        </RootsContext.Provider>
-      </ResponsiveContext.Provider>
-    </ThemeContext.Provider>
+    // GrommetThemeContext: our new SC-free context for migrated VE components.
+    // ThemeProvider: kept during migration so un-migrated Styled*.js files still
+    // receive the theme. Remove once all Styled*.js files are deleted.
+    <ThemeProvider theme={theme}>
+      <ThemeContext.Provider value={theme}>
+        <ResponsiveContext.Provider value={responsive}>
+          <RootsContext.Provider value={rootsContextValue}>
+            <ContainerTargetContext.Provider value={containerTarget}>
+              <OptionsContext.Provider value={options}>
+                <MessageContext.Provider value={messages}>
+                  <AnalyticsProvider onAnalytics={onAnalytics}>
+                    <StyledGrommet full={full} {...rest} ref={grommetRef}>
+                      {children}
+                    </StyledGrommet>
+                    {full && <FullGlobalStyle />}
+                  </AnalyticsProvider>
+                </MessageContext.Provider>
+              </OptionsContext.Provider>
+            </ContainerTargetContext.Provider>
+          </RootsContext.Provider>
+        </ResponsiveContext.Provider>
+      </ThemeContext.Provider>
+    </ThemeProvider>
   );
 });
 

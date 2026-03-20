@@ -91,13 +91,6 @@ exports[`DataClearFilters clear filters should not clear search, sort, or step 1
   stroke: none;
 }
 
-.c11 {
-  margin-top: 6px;
-  margin-bottom: 6px;
-  font-size: 18px;
-  line-height: 24px;
-}
-
 .c10 {
   display: inline-block;
   box-sizing: border-box;
@@ -417,7 +410,8 @@ exports[`DataClearFilters clear filters should not clear search, sort, or step 1
         </div>
       </div>
       <span
-        class="c11"
+        class="textRecipe_size_medium"
+        style="margin-top: 6px; margin-bottom: 6px;"
       >
         3 results of undefined items
       </span>
@@ -439,13 +433,6 @@ exports[`DataClearFilters clears filters when clicked 1`] = `
 }
 
 .c2 {
-  margin-top: 6px;
-  margin-bottom: 6px;
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.c3 {
   display: inline-block;
   box-sizing: border-box;
   cursor: pointer;
@@ -466,47 +453,47 @@ exports[`DataClearFilters clears filters when clicked 1`] = `
   transition-timing-function: ease-in-out;
 }
 
-.c3:hover {
+.c2:hover {
   box-shadow: 0px 0px 0px 2px #7D4CDB;
 }
 
-.c3:focus {
+.c2:focus {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c3:focus >circle,
-.c3:focus >ellipse,
-.c3:focus >line,
-.c3:focus >path,
-.c3:focus >polygon,
-.c3:focus >polyline,
-.c3:focus >rect {
+.c2:focus >circle,
+.c2:focus >ellipse,
+.c2:focus >line,
+.c2:focus >path,
+.c2:focus >polygon,
+.c2:focus >polyline,
+.c2:focus >rect {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c3:focus ::-moz-focus-inner {
+.c2:focus ::-moz-focus-inner {
   border: 0;
 }
 
-.c3:focus:not(:focus-visible) {
+.c2:focus:not(:focus-visible) {
   outline: none;
   box-shadow: none;
 }
 
-.c3:focus:not(:focus-visible) >circle,
-.c3:focus:not(:focus-visible) >ellipse,
-.c3:focus:not(:focus-visible) >line,
-.c3:focus:not(:focus-visible) >path,
-.c3:focus:not(:focus-visible) >polygon,
-.c3:focus:not(:focus-visible) >polyline,
-.c3:focus:not(:focus-visible) >rect {
+.c2:focus:not(:focus-visible) >circle,
+.c2:focus:not(:focus-visible) >ellipse,
+.c2:focus:not(:focus-visible) >line,
+.c2:focus:not(:focus-visible) >path,
+.c2:focus:not(:focus-visible) >polygon,
+.c2:focus:not(:focus-visible) >polyline,
+.c2:focus:not(:focus-visible) >rect {
   outline: none;
   box-shadow: none;
 }
 
-.c3:focus:not(:focus-visible) ::-moz-focus-inner {
+.c2:focus:not(:focus-visible) ::-moz-focus-inner {
   border: 0;
 }
 
@@ -528,12 +515,13 @@ exports[`DataClearFilters clears filters when clicked 1`] = `
       id="data"
     >
       <span
-        class="c2"
+        class="textRecipe_size_medium"
+        style="margin-top: 6px; margin-bottom: 6px;"
       >
         3 items
       </span>
       <button
-        class="c3"
+        class="c2"
         type="button"
       >
         Clear filters
@@ -739,13 +727,6 @@ exports[`DataClearFilters renders custom message 1`] = `
   stroke: none;
 }
 
-.c11 {
-  margin-top: 6px;
-  margin-bottom: 6px;
-  font-size: 18px;
-  line-height: 24px;
-}
-
 .c10 {
   display: inline-block;
   box-sizing: border-box;
@@ -805,7 +786,7 @@ exports[`DataClearFilters renders custom message 1`] = `
   border: 0;
 }
 
-.c12 {
+.c11 {
   display: inline-block;
   box-sizing: border-box;
   cursor: pointer;
@@ -826,47 +807,47 @@ exports[`DataClearFilters renders custom message 1`] = `
   transition-timing-function: ease-in-out;
 }
 
-.c12:hover {
+.c11:hover {
   box-shadow: 0px 0px 0px 2px #7D4CDB;
 }
 
-.c12:focus {
+.c11:focus {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c12:focus >circle,
-.c12:focus >ellipse,
-.c12:focus >line,
-.c12:focus >path,
-.c12:focus >polygon,
-.c12:focus >polyline,
-.c12:focus >rect {
+.c11:focus >circle,
+.c11:focus >ellipse,
+.c11:focus >line,
+.c11:focus >path,
+.c11:focus >polygon,
+.c11:focus >polyline,
+.c11:focus >rect {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c12:focus ::-moz-focus-inner {
+.c11:focus ::-moz-focus-inner {
   border: 0;
 }
 
-.c12:focus:not(:focus-visible) {
+.c11:focus:not(:focus-visible) {
   outline: none;
   box-shadow: none;
 }
 
-.c12:focus:not(:focus-visible) >circle,
-.c12:focus:not(:focus-visible) >ellipse,
-.c12:focus:not(:focus-visible) >line,
-.c12:focus:not(:focus-visible) >path,
-.c12:focus:not(:focus-visible) >polygon,
-.c12:focus:not(:focus-visible) >polyline,
-.c12:focus:not(:focus-visible) >rect {
+.c11:focus:not(:focus-visible) >circle,
+.c11:focus:not(:focus-visible) >ellipse,
+.c11:focus:not(:focus-visible) >line,
+.c11:focus:not(:focus-visible) >path,
+.c11:focus:not(:focus-visible) >polygon,
+.c11:focus:not(:focus-visible) >polyline,
+.c11:focus:not(:focus-visible) >rect {
   outline: none;
   box-shadow: none;
 }
 
-.c12:focus:not(:focus-visible) ::-moz-focus-inner {
+.c11:focus:not(:focus-visible) ::-moz-focus-inner {
   border: 0;
 }
 
@@ -1050,12 +1031,13 @@ exports[`DataClearFilters renders custom message 1`] = `
         </div>
       </div>
       <span
-        class="c11"
+        class="textRecipe_size_medium"
+        style="margin-top: 6px; margin-bottom: 6px;"
       >
         3 items
       </span>
       <button
-        class="c12"
+        class="c11"
         type="button"
       >
         Remove all filters

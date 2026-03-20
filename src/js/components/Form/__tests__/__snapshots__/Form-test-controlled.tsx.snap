@@ -1149,17 +1149,7 @@ exports[`Form controlled controlled Array of Form Fields onValidate 2`] = `
             />
           </div>
         </div>
-        .c0 {
-  margin-left: 12px;
-  margin-right: 12px;
-  margin-top: 6px;
-  margin-bottom: 6px;
-  font-size: 18px;
-  line-height: 24px;
-  color: #EB0000;
-}
-
-@media only screen and (max-width: 768px) {
+        @media only screen and (max-width: 768px) {
 
 }
 
@@ -1172,7 +1162,8 @@ exports[`Form controlled controlled Array of Form Fields onValidate 2`] = `
 }
 
 <span
-          class="c0"
+          class="textRecipe_size_medium"
+          style="color: rgb(235, 0, 0); margin: 6px 12px 6px 12px;"
         >
           required
         </span>
@@ -1218,17 +1209,7 @@ exports[`Form controlled controlled Array of Form Fields onValidate 2`] = `
             />
           </div>
         </div>
-        .c0 {
-  margin-left: 12px;
-  margin-right: 12px;
-  margin-top: 6px;
-  margin-bottom: 6px;
-  font-size: 18px;
-  line-height: 24px;
-  color: #EB0000;
-}
-
-@media only screen and (max-width: 768px) {
+        @media only screen and (max-width: 768px) {
 
 }
 
@@ -1241,7 +1222,8 @@ exports[`Form controlled controlled Array of Form Fields onValidate 2`] = `
 }
 
 <span
-          class="c0"
+          class="textRecipe_size_medium"
+          style="color: rgb(235, 0, 0); margin: 6px 12px 6px 12px;"
         >
           required
         </span>
@@ -1613,17 +1595,7 @@ exports[`Form controlled controlled Array of Form Fields onValidate custom error
             />
           </div>
         </div>
-        .c0 {
-  margin-left: 12px;
-  margin-right: 12px;
-  margin-top: 6px;
-  margin-bottom: 6px;
-  font-size: 18px;
-  line-height: 24px;
-  color: #EB0000;
-}
-
-@media only screen and (max-width: 768px) {
+        @media only screen and (max-width: 768px) {
 
 }
 
@@ -1636,7 +1608,8 @@ exports[`Form controlled controlled Array of Form Fields onValidate custom error
 }
 
 <span
-          class="c0"
+          class="textRecipe_size_medium"
+          style="color: rgb(235, 0, 0); margin: 6px 12px 6px 12px;"
         >
           Only Numbers
         </span>
@@ -1692,7 +1665,7 @@ exports[`Form controlled controlled FormField deprecated 1`] = `
   flex-direction: column;
 }
 
-.c3 {
+.c2 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1702,16 +1675,7 @@ exports[`Form controlled controlled FormField deprecated 1`] = `
   flex-direction: column;
 }
 
-.c2 {
-  margin-left: 12px;
-  margin-right: 12px;
-  margin-top: 6px;
-  margin-bottom: 6px;
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.c6 {
+.c5 {
   display: inline-block;
   box-sizing: border-box;
   cursor: pointer;
@@ -1735,51 +1699,51 @@ exports[`Form controlled controlled FormField deprecated 1`] = `
   transition-timing-function: ease-in-out;
 }
 
-.c6:hover {
+.c5:hover {
   box-shadow: 0px 0px 0px 2px #7D4CDB;
 }
 
-.c6:focus {
+.c5:focus {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c6:focus >circle,
-.c6:focus >ellipse,
-.c6:focus >line,
-.c6:focus >path,
-.c6:focus >polygon,
-.c6:focus >polyline,
-.c6:focus >rect {
+.c5:focus >circle,
+.c5:focus >ellipse,
+.c5:focus >line,
+.c5:focus >path,
+.c5:focus >polygon,
+.c5:focus >polyline,
+.c5:focus >rect {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c6:focus ::-moz-focus-inner {
+.c5:focus ::-moz-focus-inner {
   border: 0;
 }
 
-.c6:focus:not(:focus-visible) {
+.c5:focus:not(:focus-visible) {
   outline: none;
   box-shadow: none;
 }
 
-.c6:focus:not(:focus-visible) >circle,
-.c6:focus:not(:focus-visible) >ellipse,
-.c6:focus:not(:focus-visible) >line,
-.c6:focus:not(:focus-visible) >path,
-.c6:focus:not(:focus-visible) >polygon,
-.c6:focus:not(:focus-visible) >polyline,
-.c6:focus:not(:focus-visible) >rect {
+.c5:focus:not(:focus-visible) >circle,
+.c5:focus:not(:focus-visible) >ellipse,
+.c5:focus:not(:focus-visible) >line,
+.c5:focus:not(:focus-visible) >path,
+.c5:focus:not(:focus-visible) >polygon,
+.c5:focus:not(:focus-visible) >polyline,
+.c5:focus:not(:focus-visible) >rect {
   outline: none;
   box-shadow: none;
 }
 
-.c6:focus:not(:focus-visible) ::-moz-focus-inner {
+.c5:focus:not(:focus-visible) ::-moz-focus-inner {
   border: 0;
 }
 
-.c5 {
+.c4 {
   box-sizing: border-box;
   font-size: inherit;
   font-family: inherit;
@@ -1797,33 +1761,33 @@ exports[`Form controlled controlled FormField deprecated 1`] = `
   border: none;
 }
 
-.c5::-webkit-input-placeholder {
+.c4::-webkit-input-placeholder {
   color: #AAAAAA;
 }
 
-.c5::-moz-placeholder {
+.c4::-moz-placeholder {
   color: #AAAAAA;
 }
 
-.c5:-ms-input-placeholder {
+.c4:-ms-input-placeholder {
   color: #AAAAAA;
 }
 
-.c5 ::-webkit-search-decoration {
+.c4 ::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-.c5::-moz-focus-inner {
+.c4::-moz-focus-inner {
   border: none;
   outline: none;
 }
 
-.c5:-moz-placeholder,
-.c5::-moz-placeholder {
+.c4:-moz-placeholder,
+.c4::-moz-placeholder {
   opacity: 1;
 }
 
-.c4 {
+.c3 {
   position: relative;
   width: 100%;
 }
@@ -1835,7 +1799,7 @@ exports[`Form controlled controlled FormField deprecated 1`] = `
 }
 
 @media only screen and (max-width: 768px) {
-  .c3 {
+  .c2 {
     border-bottom: solid 1px rgba(0, 0, 0, 0.33);
   }
 }
@@ -1848,21 +1812,22 @@ exports[`Form controlled controlled FormField deprecated 1`] = `
       class="c1 "
     >
       <label
-        class="c2"
+        class="textRecipe_size_medium"
         for="test"
         id="grommet-test__label"
+        style="margin: 6px 12px 6px 12px;"
       >
         test
       </label>
       <div
-        class="c3 "
+        class="c2 "
       >
         <div
-          class="c4"
+          class="c3"
         >
           <input
             autocomplete="off"
-            class="c5"
+            class="c4"
             id="test"
             name="test"
             value=""
@@ -1871,7 +1836,7 @@ exports[`Form controlled controlled FormField deprecated 1`] = `
       </div>
     </div>
     <button
-      class="c6"
+      class="c5"
       type="submit"
     >
       Submit
@@ -1889,9 +1854,10 @@ exports[`Form controlled controlled FormField deprecated 2`] = `
       class="StyledBox-sc-13pk1d4-0 cavIHi FormField__FormFieldBox-sc-m9hood-0 Qrvlw"
     >
       <label
-        class="StyledText-sc-1sadyjn-0 bUzfUv"
+        class="textRecipe_size_medium"
         for="test"
         id="grommet-test__label"
+        style="margin: 6px 12px 6px 12px;"
       >
         test
       </label>
@@ -1930,9 +1896,10 @@ exports[`Form controlled controlled FormField deprecated 3`] = `
       class="StyledBox-sc-13pk1d4-0 cavIHi FormField__FormFieldBox-sc-m9hood-0 Qrvlw"
     >
       <label
-        class="StyledText-sc-1sadyjn-0 bUzfUv"
+        class="textRecipe_size_medium"
         for="test"
         id="grommet-test__label"
+        style="margin: 6px 12px 6px 12px;"
       >
         test
       </label>
@@ -3154,17 +3121,7 @@ exports[`Form controlled controlled onValidate 2`] = `
           />
         </div>
       </div>
-      .c0 {
-  margin-left: 12px;
-  margin-right: 12px;
-  margin-top: 6px;
-  margin-bottom: 6px;
-  font-size: 18px;
-  line-height: 24px;
-  color: #EB0000;
-}
-
-@media only screen and (max-width: 768px) {
+      @media only screen and (max-width: 768px) {
 
 }
 
@@ -3177,7 +3134,8 @@ exports[`Form controlled controlled onValidate 2`] = `
 }
 
 <span
-        class="c0"
+        class="textRecipe_size_medium"
+        style="color: rgb(235, 0, 0); margin: 6px 12px 6px 12px;"
       >
         required
       </span>
@@ -3408,17 +3366,7 @@ exports[`Form controlled controlled onValidate custom error 2`] = `
           />
         </div>
       </div>
-      .c0 {
-  margin-left: 12px;
-  margin-right: 12px;
-  margin-top: 6px;
-  margin-bottom: 6px;
-  font-size: 18px;
-  line-height: 24px;
-  color: #EB0000;
-}
-
-@media only screen and (max-width: 768px) {
+      @media only screen and (max-width: 768px) {
 
 }
 
@@ -3431,7 +3379,8 @@ exports[`Form controlled controlled onValidate custom error 2`] = `
 }
 
 <span
-        class="c0"
+        class="textRecipe_size_medium"
+        style="color: rgb(235, 0, 0); margin: 6px 12px 6px 12px;"
       >
         One uppercase letter
       </span>
@@ -3662,17 +3611,7 @@ exports[`Form controlled controlled onValidate custom info 2`] = `
           />
         </div>
       </div>
-      .c0 {
-  margin-left: 12px;
-  margin-right: 12px;
-  margin-top: 6px;
-  margin-bottom: 6px;
-  font-size: 18px;
-  line-height: 24px;
-  color: #666666;
-}
-
-@media only screen and (max-width: 768px) {
+      @media only screen and (max-width: 768px) {
 
 }
 
@@ -3681,7 +3620,8 @@ exports[`Form controlled controlled onValidate custom info 2`] = `
 }
 
 <span
-        class="c0"
+        class="textRecipe_size_medium"
+        style="color: rgb(102, 102, 102); margin: 6px 12px 6px 12px;"
       >
         One uppercase letter
       </span>
@@ -3697,7 +3637,7 @@ exports[`Form controlled controlled onValidate custom info 2`] = `
 `;
 
 exports[`Form controlled custom theme 1`] = `
-.c9 {
+.c8 {
   display: inline-block;
   flex: 0 0 auto;
   width: 24px;
@@ -3706,25 +3646,25 @@ exports[`Form controlled custom theme 1`] = `
   stroke: #666666;
 }
 
-.c9 g {
+.c8 g {
   fill: inherit;
   stroke: inherit;
 }
 
-.c9 *:not([stroke])[fill='none'] {
+.c8 *:not([stroke])[fill='none'] {
   stroke-width: 0;
 }
 
-.c9 *[stroke*='#'],
-.c9 *[STROKE*='#'] {
+.c8 *[stroke*='#'],
+.c8 *[STROKE*='#'] {
   stroke: inherit;
   fill: none;
 }
 
-.c9 *[fill-rule],
-.c9 *[FILL-RULE],
-.c9 *[fill*='#'],
-.c9 *[FILL*='#'] {
+.c8 *[fill-rule],
+.c8 *[FILL-RULE],
+.c8 *[fill*='#'],
+.c8 *[FILL*='#'] {
   fill: inherit;
   stroke: none;
 }
@@ -3749,7 +3689,7 @@ exports[`Form controlled custom theme 1`] = `
   flex-direction: column;
 }
 
-.c3 {
+.c2 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -3759,7 +3699,7 @@ exports[`Form controlled custom theme 1`] = `
   flex-direction: column;
 }
 
-.c4 {
+.c3 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -3768,7 +3708,7 @@ exports[`Form controlled custom theme 1`] = `
   flex-direction: row;
 }
 
-.c6 {
+.c5 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -3778,7 +3718,7 @@ exports[`Form controlled custom theme 1`] = `
   flex: 0 0 auto;
 }
 
-.c8 {
+.c7 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -3787,13 +3727,13 @@ exports[`Form controlled custom theme 1`] = `
   flex-direction: column;
 }
 
-.c10 {
+.c9 {
   flex: 0 0 auto;
   align-self: stretch;
   width: 12px;
 }
 
-.c5 {
+.c4 {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -3802,26 +3742,18 @@ exports[`Form controlled custom theme 1`] = `
   cursor: pointer;
 }
 
-.c5:hover input:not([disabled])+div,
-.c5:hover input:not([disabled])+span {
+.c4:hover input:not([disabled])+div,
+.c4:hover input:not([disabled])+span {
   border-color: #000000;
 }
 
-.c7 {
+.c6 {
   opacity: 0;
   -moz-appearance: none;
   width: 0;
   height: 0;
   margin: 0;
   cursor: pointer;
-}
-
-.c2 {
-  margin-bottom: 6px;
-  font-size: 22px;
-  line-height: 28px;
-  color: red;
-  font-weight: 400;
 }
 
 @media only screen and (max-width: 768px) {
@@ -3831,13 +3763,13 @@ exports[`Form controlled custom theme 1`] = `
 }
 
 @media only screen and (max-width: 768px) {
-  .c3 {
+  .c2 {
     border-bottom: solid 1px rgba(0, 0, 0, 0.33);
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c10 {
+  .c9 {
     width: 6px;
   }
 }
@@ -3850,26 +3782,27 @@ exports[`Form controlled custom theme 1`] = `
       class="c1 "
     >
       <label
-        class="c2"
+        class="textRecipe_size_large"
+        style="color: red; font-weight: 400; margin-bottom: 6px;"
       >
         custom theme label
       </label>
       <div
-        class="c3 "
+        class="c2 "
       >
         <div
-          class="c4"
+          class="c3"
           role="radiogroup"
         >
           <label
-            class="c5"
+            class="c4"
             for="like"
           >
             <div
-              class="c6 "
+              class="c5 "
             >
               <input
-                class="c7"
+                class="c6"
                 id="like"
                 name="test"
                 tabindex="0"
@@ -3877,11 +3810,11 @@ exports[`Form controlled custom theme 1`] = `
                 value="like"
               />
               <div
-                class="c8 "
+                class="c7 "
               >
                 <svg
                   aria-label="Like"
-                  class="c9"
+                  class="c8"
                   viewBox="0 0 24 24"
                 >
                   <path
@@ -3895,17 +3828,17 @@ exports[`Form controlled custom theme 1`] = `
             </div>
           </label>
           <div
-            class="c10"
+            class="c9"
           />
           <label
-            class="c5"
+            class="c4"
             for="dislike"
           >
             <div
-              class="c6 "
+              class="c5 "
             >
               <input
-                class="c7"
+                class="c6"
                 id="dislike"
                 name="test"
                 tabindex="-1"
@@ -3913,11 +3846,11 @@ exports[`Form controlled custom theme 1`] = `
                 value="dislike"
               />
               <div
-                class="c8 "
+                class="c7 "
               >
                 <svg
                   aria-label="Dislike"
-                  class="c9"
+                  class="c8"
                   viewBox="0 0 24 24"
                 >
                   <path

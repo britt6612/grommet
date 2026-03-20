@@ -583,54 +583,6 @@ exports[`Avatar size 1`] = `
   -webkit-font-smoothing: antialiased;
 }
 
-.c11 {
-  align-self: center;
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.c12 {
-  align-self: center;
-  font-size: 22px;
-  line-height: 28px;
-}
-
-.c13 {
-  align-self: center;
-  font-size: 26px;
-  line-height: 32px;
-}
-
-.c14 {
-  align-self: center;
-  font-size: 34px;
-  line-height: 40px;
-}
-
-.c15 {
-  align-self: center;
-  font-size: 42px;
-  line-height: 48px;
-}
-
-.c16 {
-  align-self: center;
-  font-size: 54px;
-  line-height: 60px;
-}
-
-.c17 {
-  align-self: center;
-  font-size: 70px;
-  line-height: 76px;
-}
-
-.c18 {
-  align-self: center;
-  font-size: 90px;
-  line-height: 96px;
-}
-
 .c2 {
   flex: 1 1;
   overflow: hidden;
@@ -734,7 +686,8 @@ exports[`Avatar size 1`] = `
     class="c3 StyledAvatar-sc-1suyamb-1"
   >
     <span
-      class="c11 "
+      class="textRecipe_size_medium "
+      style="align-self: center;"
     >
       S
     </span>
@@ -743,7 +696,8 @@ exports[`Avatar size 1`] = `
     class="c4 StyledAvatar-sc-1suyamb-1"
   >
     <span
-      class="c12 "
+      class="textRecipe_size_large "
+      style="align-self: center;"
     >
       S
     </span>
@@ -752,7 +706,8 @@ exports[`Avatar size 1`] = `
     class="c5 StyledAvatar-sc-1suyamb-1"
   >
     <span
-      class="c13 "
+      class="textRecipe_size_xlarge "
+      style="align-self: center;"
     >
       S
     </span>
@@ -761,7 +716,8 @@ exports[`Avatar size 1`] = `
     class="c6 StyledAvatar-sc-1suyamb-1"
   >
     <span
-      class="c14 "
+      class="textRecipe_size_xxlarge "
+      style="align-self: center;"
     >
       S
     </span>
@@ -770,7 +726,8 @@ exports[`Avatar size 1`] = `
     class="c7 StyledAvatar-sc-1suyamb-1"
   >
     <span
-      class="c15 "
+      class="textRecipe_size_3xl "
+      style="align-self: center;"
     >
       S
     </span>
@@ -779,7 +736,8 @@ exports[`Avatar size 1`] = `
     class="c8 StyledAvatar-sc-1suyamb-1"
   >
     <span
-      class="c16 "
+      class="textRecipe_size_4xl "
+      style="align-self: center;"
     >
       S
     </span>
@@ -788,7 +746,8 @@ exports[`Avatar size 1`] = `
     class="c9 StyledAvatar-sc-1suyamb-1"
   >
     <span
-      class="c17 "
+      class="textRecipe_size_5xl "
+      style="align-self: center;"
     >
       S
     </span>
@@ -797,7 +756,8 @@ exports[`Avatar size 1`] = `
     class="c10 StyledAvatar-sc-1suyamb-1"
   >
     <span
-      class="c18 "
+      class="textRecipe_size_6xl "
+      style="align-self: center;"
     >
       S
     </span>
@@ -971,7 +931,7 @@ exports[`Avatar text renders 1`] = `
   overflow: hidden;
 }
 
-.c3 {
+.c2 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -998,12 +958,6 @@ exports[`Avatar text renders 1`] = `
   -webkit-font-smoothing: antialiased;
 }
 
-.c2 {
-  align-self: center;
-  font-size: 26px;
-  line-height: 32px;
-}
-
 <div
   class="c0"
 >
@@ -1011,16 +965,18 @@ exports[`Avatar text renders 1`] = `
     class="c1 StyledAvatar-sc-1suyamb-1"
   >
     <span
-      class="c2"
+      class="textRecipe_size_xlarge"
+      style="align-self: center;"
     >
       R
     </span>
   </div>
   <div
-    class="c3 StyledAvatar-sc-1suyamb-1"
+    class="c2 StyledAvatar-sc-1suyamb-1"
   >
     <span
-      class="c2"
+      class="textRecipe_size_xlarge"
+      style="align-self: center;"
     >
       SY
     </span>
@@ -1053,7 +1009,7 @@ exports[`Avatar text size changes according to theme 1`] = `
   overflow: hidden;
 }
 
-.c4 {
+.c3 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1068,7 +1024,7 @@ exports[`Avatar text size changes according to theme 1`] = `
   overflow: hidden;
 }
 
-.c6 {
+.c4 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1083,7 +1039,7 @@ exports[`Avatar text size changes according to theme 1`] = `
   overflow: hidden;
 }
 
-.c8 {
+.c5 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1108,30 +1064,6 @@ exports[`Avatar text size changes according to theme 1`] = `
   -webkit-font-smoothing: antialiased;
 }
 
-.c3 {
-  align-self: center;
-  font-size: 22px;
-  line-height: 28px;
-}
-
-.c5 {
-  align-self: center;
-  font-size: 30px;
-  line-height: normal;
-}
-
-.c7 {
-  align-self: center;
-  font-size: 14px;
-  line-height: 20px;
-}
-
-.c9 {
-  align-self: center;
-  font-size: 10px;
-  line-height: normal;
-}
-
 <div
   class="c0"
 >
@@ -1142,34 +1074,38 @@ exports[`Avatar text size changes according to theme 1`] = `
       class="c2 StyledAvatar-sc-1suyamb-1"
     >
       <span
-        class="c3 "
+        class="textRecipe_size_large "
+        style="align-self: center;"
       >
         T1
+      </span>
+    </div>
+    <div
+      class="c3 StyledAvatar-sc-1suyamb-1"
+    >
+      <span
+        class="textRecipe "
+        style="font-size: 30px; line-height: normal; align-self: center;"
+      >
+        T2
       </span>
     </div>
     <div
       class="c4 StyledAvatar-sc-1suyamb-1"
     >
       <span
-        class="c5 "
-      >
-        T2
-      </span>
-    </div>
-    <div
-      class="c6 StyledAvatar-sc-1suyamb-1"
-    >
-      <span
-        class="c7 "
+        class="textRecipe_size_small "
+        style="align-self: center;"
       >
         T3
       </span>
     </div>
     <div
-      class="c8 StyledAvatar-sc-1suyamb-1"
+      class="c5 StyledAvatar-sc-1suyamb-1"
     >
       <span
-        class="c9 "
+        class="textRecipe "
+        style="font-size: 10px; line-height: normal; align-self: center;"
       >
         T4
       </span>

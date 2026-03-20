@@ -17,6 +17,7 @@
       "grommet/utils": ["src/js/utils"]
     },
     "lib": ["dom", "es2017"],
+    "skipLibCheck": true,
     "types": ["jest"],
     "typeRoots": ["./node_modules/@types/", "./src/@types/"]
   },

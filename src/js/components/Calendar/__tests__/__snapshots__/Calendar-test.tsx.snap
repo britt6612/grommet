@@ -13745,7 +13745,7 @@ exports[`Calendar header 1`] = `
   justify-content: space-between;
 }
 
-.c7 {
+.c6 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -13754,11 +13754,6 @@ exports[`Calendar header 1`] = `
   flex-direction: column;
   width: 100%;
   height: 100%;
-}
-
-.c6 {
-  font-size: 14px;
-  line-height: 20px;
 }
 
 .c4 {
@@ -13824,35 +13819,35 @@ exports[`Calendar header 1`] = `
   width: 192px;
 }
 
-.c8 {
+.c7 {
   overflow: hidden;
   height: 164.57142857142856px;
 }
 
-.c9 {
+.c8 {
   position: relative;
 }
 
-.c10 {
+.c9 {
   display: flex;
   justify-content: space-between;
 }
 
-.c11 {
+.c10 {
   flex: 0 1 auto;
 }
 
-.c12 {
+.c11 {
   opacity: 0.3;
   cursor: default;
 }
 
-.c12:focus {
+.c11:focus {
   position: relative;
   z-index: 1;
 }
 
-.c13 {
+.c12 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13861,7 +13856,7 @@ exports[`Calendar header 1`] = `
   height: 27.428571428571427px;
 }
 
-.c14 {
+.c13 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13870,7 +13865,7 @@ exports[`Calendar header 1`] = `
   height: 27.428571428571427px;
 }
 
-.c15 {
+.c14 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13900,21 +13895,30 @@ exports[`Calendar header 1`] = `
 }
 
 @media only screen and (max-width: 192px) {
-  .c8 {
+  .c7 {
     height: auto;
     aspect-ratio: 7/6;
   }
 }
 
 @media only screen and (max-width: 192px) {
-  .c11 {
+  .c10 {
     width: 14.3%;
   }
 }
 
 @media only screen {
+  .c11 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 192px) {
   .c12 {
     width: 100%;
+    max-width: 27.428571428571427px;
+    height: auto;
+    aspect-ratio: 1;
   }
 }
 
@@ -13929,15 +13933,6 @@ exports[`Calendar header 1`] = `
 
 @media only screen and (max-width: 192px) {
   .c14 {
-    width: 100%;
-    max-width: 27.428571428571427px;
-    height: auto;
-    aspect-ratio: 1;
-  }
-}
-
-@media only screen and (max-width: 192px) {
-  .c15 {
     width: 100%;
     max-width: 27.428571428571427px;
     height: auto;
@@ -13979,7 +13974,7 @@ exports[`Calendar header 1`] = `
           </div>
         </button>
         <span
-          class="c6"
+          class="textRecipe_size_small"
         >
           <strong>
             January 2020
@@ -14008,35 +14003,35 @@ exports[`Calendar header 1`] = `
         </button>
       </div>
       <div
-        class="c7"
+        class="c6"
         role="grid"
       >
         <div
           aria-label="January 2020; Currently selected January 15, 2020;"
-          class="c8"
+          class="c7"
           role="rowgroup"
         >
           <div
-            class="c9"
+            class="c8"
           >
             <div
-              class="c10"
+              class="c9"
               role="row"
             >
               <div
                 aria-selected="false"
-                class="c11"
+                class="c10"
                 role="gridcell"
               >
                 <button
                   aria-disabled="true"
                   aria-label="Sun Dec 29 2019"
-                  class="c4 c12"
+                  class="c4 c11"
                   tabindex="-1"
                   type="button"
                 >
                   <div
-                    class="c13"
+                    class="c12"
                   >
                     29
                   </div>
@@ -14044,18 +14039,18 @@ exports[`Calendar header 1`] = `
               </div>
               <div
                 aria-selected="false"
-                class="c11"
+                class="c10"
                 role="gridcell"
               >
                 <button
                   aria-disabled="true"
                   aria-label="Mon Dec 30 2019"
-                  class="c4 c12"
+                  class="c4 c11"
                   tabindex="-1"
                   type="button"
                 >
                   <div
-                    class="c13"
+                    class="c12"
                   >
                     30
                   </div>
@@ -14063,18 +14058,18 @@ exports[`Calendar header 1`] = `
               </div>
               <div
                 aria-selected="false"
-                class="c11"
+                class="c10"
                 role="gridcell"
               >
                 <button
                   aria-disabled="true"
                   aria-label="Tue Dec 31 2019"
-                  class="c4 c12"
+                  class="c4 c11"
                   tabindex="-1"
                   type="button"
                 >
                   <div
-                    class="c13"
+                    class="c12"
                   >
                     31
                   </div>
@@ -14082,18 +14077,18 @@ exports[`Calendar header 1`] = `
               </div>
               <div
                 aria-selected="false"
-                class="c11"
+                class="c10"
                 role="gridcell"
               >
                 <button
                   aria-disabled="true"
                   aria-label="Wed Jan 01 2020"
-                  class="c4 c12"
+                  class="c4 c11"
                   tabindex="-1"
                   type="button"
                 >
                   <div
-                    class="c14"
+                    class="c13"
                   >
                     1
                   </div>
@@ -14101,18 +14096,18 @@ exports[`Calendar header 1`] = `
               </div>
               <div
                 aria-selected="false"
-                class="c11"
+                class="c10"
                 role="gridcell"
               >
                 <button
                   aria-disabled="true"
                   aria-label="Thu Jan 02 2020"
-                  class="c4 c12"
+                  class="c4 c11"
                   tabindex="-1"
                   type="button"
                 >
                   <div
-                    class="c14"
+                    class="c13"
                   >
                     2
                   </div>
@@ -14120,18 +14115,18 @@ exports[`Calendar header 1`] = `
               </div>
               <div
                 aria-selected="false"
-                class="c11"
+                class="c10"
                 role="gridcell"
               >
                 <button
                   aria-disabled="true"
                   aria-label="Fri Jan 03 2020"
-                  class="c4 c12"
+                  class="c4 c11"
                   tabindex="-1"
                   type="button"
                 >
                   <div
-                    class="c14"
+                    class="c13"
                   >
                     3
                   </div>
@@ -14139,18 +14134,18 @@ exports[`Calendar header 1`] = `
               </div>
               <div
                 aria-selected="false"
-                class="c11"
+                class="c10"
                 role="gridcell"
               >
                 <button
                   aria-disabled="true"
                   aria-label="Sat Jan 04 2020"
-                  class="c4 c12"
+                  class="c4 c11"
                   tabindex="-1"
                   type="button"
                 >
                   <div
-                    class="c14"
+                    class="c13"
                   >
                     4
                   </div>
@@ -14158,23 +14153,23 @@ exports[`Calendar header 1`] = `
               </div>
             </div>
             <div
-              class="c10"
+              class="c9"
               role="row"
             >
               <div
                 aria-selected="false"
-                class="c11"
+                class="c10"
                 role="gridcell"
               >
                 <button
                   aria-disabled="true"
                   aria-label="Sun Jan 05 2020"
-                  class="c4 c12"
+                  class="c4 c11"
                   tabindex="-1"
                   type="button"
                 >
                   <div
-                    class="c14"
+                    class="c13"
                   >
                     5
                   </div>
@@ -14182,18 +14177,18 @@ exports[`Calendar header 1`] = `
               </div>
               <div
                 aria-selected="false"
-                class="c11"
+                class="c10"
                 role="gridcell"
               >
                 <button
                   aria-disabled="true"
                   aria-label="Mon Jan 06 2020"
-                  class="c4 c12"
+                  class="c4 c11"
                   tabindex="-1"
                   type="button"
                 >
                   <div
-                    class="c14"
+                    class="c13"
                   >
                     6
                   </div>
@@ -14201,18 +14196,18 @@ exports[`Calendar header 1`] = `
               </div>
               <div
                 aria-selected="false"
-                class="c11"
+                class="c10"
                 role="gridcell"
               >
                 <button
                   aria-disabled="true"
                   aria-label="Tue Jan 07 2020"
-                  class="c4 c12"
+                  class="c4 c11"
                   tabindex="-1"
                   type="button"
                 >
                   <div
-                    class="c14"
+                    class="c13"
                   >
                     7
                   </div>
@@ -14220,18 +14215,18 @@ exports[`Calendar header 1`] = `
               </div>
               <div
                 aria-selected="false"
-                class="c11"
+                class="c10"
                 role="gridcell"
               >
                 <button
                   aria-disabled="true"
                   aria-label="Wed Jan 08 2020"
-                  class="c4 c12"
+                  class="c4 c11"
                   tabindex="-1"
                   type="button"
                 >
                   <div
-                    class="c14"
+                    class="c13"
                   >
                     8
                   </div>
@@ -14239,18 +14234,18 @@ exports[`Calendar header 1`] = `
               </div>
               <div
                 aria-selected="false"
-                class="c11"
+                class="c10"
                 role="gridcell"
               >
                 <button
                   aria-disabled="true"
                   aria-label="Thu Jan 09 2020"
-                  class="c4 c12"
+                  class="c4 c11"
                   tabindex="-1"
                   type="button"
                 >
                   <div
-                    class="c14"
+                    class="c13"
                   >
                     9
                   </div>
@@ -14258,18 +14253,18 @@ exports[`Calendar header 1`] = `
               </div>
               <div
                 aria-selected="false"
-                class="c11"
+                class="c10"
                 role="gridcell"
               >
                 <button
                   aria-disabled="true"
                   aria-label="Fri Jan 10 2020"
-                  class="c4 c12"
+                  class="c4 c11"
                   tabindex="-1"
                   type="button"
                 >
                   <div
-                    class="c14"
+                    class="c13"
                   >
                     10
                   </div>
@@ -14277,18 +14272,18 @@ exports[`Calendar header 1`] = `
               </div>
               <div
                 aria-selected="false"
-                class="c11"
+                class="c10"
                 role="gridcell"
               >
                 <button
                   aria-disabled="true"
                   aria-label="Sat Jan 11 2020"
-                  class="c4 c12"
+                  class="c4 c11"
                   tabindex="-1"
                   type="button"
                 >
                   <div
-                    class="c14"
+                    class="c13"
                   >
                     11
                   </div>
@@ -14296,23 +14291,23 @@ exports[`Calendar header 1`] = `
               </div>
             </div>
             <div
-              class="c10"
+              class="c9"
               role="row"
             >
               <div
                 aria-selected="false"
-                class="c11"
+                class="c10"
                 role="gridcell"
               >
                 <button
                   aria-disabled="true"
                   aria-label="Sun Jan 12 2020"
-                  class="c4 c12"
+                  class="c4 c11"
                   tabindex="-1"
                   type="button"
                 >
                   <div
-                    class="c14"
+                    class="c13"
                   >
                     12
                   </div>
@@ -14320,18 +14315,18 @@ exports[`Calendar header 1`] = `
               </div>
               <div
                 aria-selected="false"
-                class="c11"
+                class="c10"
                 role="gridcell"
               >
                 <button
                   aria-disabled="true"
                   aria-label="Mon Jan 13 2020"
-                  class="c4 c12"
+                  class="c4 c11"
                   tabindex="-1"
                   type="button"
                 >
                   <div
-                    class="c14"
+                    class="c13"
                   >
                     13
                   </div>
@@ -14339,18 +14334,18 @@ exports[`Calendar header 1`] = `
               </div>
               <div
                 aria-selected="false"
-                class="c11"
+                class="c10"
                 role="gridcell"
               >
                 <button
                   aria-disabled="true"
                   aria-label="Tue Jan 14 2020"
-                  class="c4 c12"
+                  class="c4 c11"
                   tabindex="-1"
                   type="button"
                 >
                   <div
-                    class="c14"
+                    class="c13"
                   >
                     14
                   </div>
@@ -14358,18 +14353,18 @@ exports[`Calendar header 1`] = `
               </div>
               <div
                 aria-selected="true"
-                class="c11"
+                class="c10"
                 role="gridcell"
               >
                 <button
                   aria-disabled="true"
                   aria-label="Wed Jan 15 2020"
-                  class="c4 c12"
+                  class="c4 c11"
                   tabindex="-1"
                   type="button"
                 >
                   <div
-                    class="c15"
+                    class="c14"
                   >
                     15
                   </div>
@@ -14377,18 +14372,18 @@ exports[`Calendar header 1`] = `
               </div>
               <div
                 aria-selected="false"
-                class="c11"
+                class="c10"
                 role="gridcell"
               >
                 <button
                   aria-disabled="true"
                   aria-label="Thu Jan 16 2020"
-                  class="c4 c12"
+                  class="c4 c11"
                   tabindex="-1"
                   type="button"
                 >
                   <div
-                    class="c14"
+                    class="c13"
                   >
                     16
                   </div>
@@ -14396,18 +14391,18 @@ exports[`Calendar header 1`] = `
               </div>
               <div
                 aria-selected="false"
-                class="c11"
+                class="c10"
                 role="gridcell"
               >
                 <button
                   aria-disabled="true"
                   aria-label="Fri Jan 17 2020"
-                  class="c4 c12"
+                  class="c4 c11"
                   tabindex="-1"
                   type="button"
                 >
                   <div
-                    class="c14"
+                    class="c13"
                   >
                     17
                   </div>
@@ -14415,18 +14410,18 @@ exports[`Calendar header 1`] = `
               </div>
               <div
                 aria-selected="false"
-                class="c11"
+                class="c10"
                 role="gridcell"
               >
                 <button
                   aria-disabled="true"
                   aria-label="Sat Jan 18 2020"
-                  class="c4 c12"
+                  class="c4 c11"
                   tabindex="-1"
                   type="button"
                 >
                   <div
-                    class="c14"
+                    class="c13"
                   >
                     18
                   </div>
@@ -14434,23 +14429,23 @@ exports[`Calendar header 1`] = `
               </div>
             </div>
             <div
-              class="c10"
+              class="c9"
               role="row"
             >
               <div
                 aria-selected="false"
-                class="c11"
+                class="c10"
                 role="gridcell"
               >
                 <button
                   aria-disabled="true"
                   aria-label="Sun Jan 19 2020"
-                  class="c4 c12"
+                  class="c4 c11"
                   tabindex="-1"
                   type="button"
                 >
                   <div
-                    class="c14"
+                    class="c13"
                   >
                     19
                   </div>
@@ -14458,18 +14453,18 @@ exports[`Calendar header 1`] = `
               </div>
               <div
                 aria-selected="false"
-                class="c11"
+                class="c10"
                 role="gridcell"
               >
                 <button
                   aria-disabled="true"
                   aria-label="Mon Jan 20 2020"
-                  class="c4 c12"
+                  class="c4 c11"
                   tabindex="-1"
                   type="button"
                 >
                   <div
-                    class="c14"
+                    class="c13"
                   >
                     20
                   </div>
@@ -14477,18 +14472,18 @@ exports[`Calendar header 1`] = `
               </div>
               <div
                 aria-selected="false"
-                class="c11"
+                class="c10"
                 role="gridcell"
               >
                 <button
                   aria-disabled="true"
                   aria-label="Tue Jan 21 2020"
-                  class="c4 c12"
+                  class="c4 c11"
                   tabindex="-1"
                   type="button"
                 >
                   <div
-                    class="c14"
+                    class="c13"
                   >
                     21
                   </div>
@@ -14496,18 +14491,18 @@ exports[`Calendar header 1`] = `
               </div>
               <div
                 aria-selected="false"
-                class="c11"
+                class="c10"
                 role="gridcell"
               >
                 <button
                   aria-disabled="true"
                   aria-label="Wed Jan 22 2020"
-                  class="c4 c12"
+                  class="c4 c11"
                   tabindex="-1"
                   type="button"
                 >
                   <div
-                    class="c14"
+                    class="c13"
                   >
                     22
                   </div>
@@ -14515,18 +14510,18 @@ exports[`Calendar header 1`] = `
               </div>
               <div
                 aria-selected="false"
-                class="c11"
+                class="c10"
                 role="gridcell"
               >
                 <button
                   aria-disabled="true"
                   aria-label="Thu Jan 23 2020"
-                  class="c4 c12"
+                  class="c4 c11"
                   tabindex="-1"
                   type="button"
                 >
                   <div
-                    class="c14"
+                    class="c13"
                   >
                     23
                   </div>
@@ -14534,18 +14529,18 @@ exports[`Calendar header 1`] = `
               </div>
               <div
                 aria-selected="false"
-                class="c11"
+                class="c10"
                 role="gridcell"
               >
                 <button
                   aria-disabled="true"
                   aria-label="Fri Jan 24 2020"
-                  class="c4 c12"
+                  class="c4 c11"
                   tabindex="-1"
                   type="button"
                 >
                   <div
-                    class="c14"
+                    class="c13"
                   >
                     24
                   </div>
@@ -14553,18 +14548,18 @@ exports[`Calendar header 1`] = `
               </div>
               <div
                 aria-selected="false"
-                class="c11"
+                class="c10"
                 role="gridcell"
               >
                 <button
                   aria-disabled="true"
                   aria-label="Sat Jan 25 2020"
-                  class="c4 c12"
+                  class="c4 c11"
                   tabindex="-1"
                   type="button"
                 >
                   <div
-                    class="c14"
+                    class="c13"
                   >
                     25
                   </div>
@@ -14572,23 +14567,23 @@ exports[`Calendar header 1`] = `
               </div>
             </div>
             <div
-              class="c10"
+              class="c9"
               role="row"
             >
               <div
                 aria-selected="false"
-                class="c11"
+                class="c10"
                 role="gridcell"
               >
                 <button
                   aria-disabled="true"
                   aria-label="Sun Jan 26 2020"
-                  class="c4 c12"
+                  class="c4 c11"
                   tabindex="-1"
                   type="button"
                 >
                   <div
-                    class="c14"
+                    class="c13"
                   >
                     26
                   </div>
@@ -14596,18 +14591,18 @@ exports[`Calendar header 1`] = `
               </div>
               <div
                 aria-selected="false"
-                class="c11"
+                class="c10"
                 role="gridcell"
               >
                 <button
                   aria-disabled="true"
                   aria-label="Mon Jan 27 2020"
-                  class="c4 c12"
+                  class="c4 c11"
                   tabindex="-1"
                   type="button"
                 >
                   <div
-                    class="c14"
+                    class="c13"
                   >
                     27
                   </div>
@@ -14615,18 +14610,18 @@ exports[`Calendar header 1`] = `
               </div>
               <div
                 aria-selected="false"
-                class="c11"
+                class="c10"
                 role="gridcell"
               >
                 <button
                   aria-disabled="true"
                   aria-label="Tue Jan 28 2020"
-                  class="c4 c12"
+                  class="c4 c11"
                   tabindex="-1"
                   type="button"
                 >
                   <div
-                    class="c14"
+                    class="c13"
                   >
                     28
                   </div>
@@ -14634,18 +14629,18 @@ exports[`Calendar header 1`] = `
               </div>
               <div
                 aria-selected="false"
-                class="c11"
+                class="c10"
                 role="gridcell"
               >
                 <button
                   aria-disabled="true"
                   aria-label="Wed Jan 29 2020"
-                  class="c4 c12"
+                  class="c4 c11"
                   tabindex="-1"
                   type="button"
                 >
                   <div
-                    class="c14"
+                    class="c13"
                   >
                     29
                   </div>
@@ -14653,18 +14648,18 @@ exports[`Calendar header 1`] = `
               </div>
               <div
                 aria-selected="false"
-                class="c11"
+                class="c10"
                 role="gridcell"
               >
                 <button
                   aria-disabled="true"
                   aria-label="Thu Jan 30 2020"
-                  class="c4 c12"
+                  class="c4 c11"
                   tabindex="-1"
                   type="button"
                 >
                   <div
-                    class="c14"
+                    class="c13"
                   >
                     30
                   </div>
@@ -14672,18 +14667,18 @@ exports[`Calendar header 1`] = `
               </div>
               <div
                 aria-selected="false"
-                class="c11"
+                class="c10"
                 role="gridcell"
               >
                 <button
                   aria-disabled="true"
                   aria-label="Fri Jan 31 2020"
-                  class="c4 c12"
+                  class="c4 c11"
                   tabindex="-1"
                   type="button"
                 >
                   <div
-                    class="c14"
+                    class="c13"
                   >
                     31
                   </div>
@@ -14691,18 +14686,18 @@ exports[`Calendar header 1`] = `
               </div>
               <div
                 aria-selected="false"
-                class="c11"
+                class="c10"
                 role="gridcell"
               >
                 <button
                   aria-disabled="true"
                   aria-label="Sat Feb 01 2020"
-                  class="c4 c12"
+                  class="c4 c11"
                   tabindex="-1"
                   type="button"
                 >
                   <div
-                    class="c13"
+                    class="c12"
                   >
                     1
                   </div>
@@ -14710,23 +14705,23 @@ exports[`Calendar header 1`] = `
               </div>
             </div>
             <div
-              class="c10"
+              class="c9"
               role="row"
             >
               <div
                 aria-selected="false"
-                class="c11"
+                class="c10"
                 role="gridcell"
               >
                 <button
                   aria-disabled="true"
                   aria-label="Sun Feb 02 2020"
-                  class="c4 c12"
+                  class="c4 c11"
                   tabindex="-1"
                   type="button"
                 >
                   <div
-                    class="c13"
+                    class="c12"
                   >
                     2
                   </div>
@@ -14734,18 +14729,18 @@ exports[`Calendar header 1`] = `
               </div>
               <div
                 aria-selected="false"
-                class="c11"
+                class="c10"
                 role="gridcell"
               >
                 <button
                   aria-disabled="true"
                   aria-label="Mon Feb 03 2020"
-                  class="c4 c12"
+                  class="c4 c11"
                   tabindex="-1"
                   type="button"
                 >
                   <div
-                    class="c13"
+                    class="c12"
                   >
                     3
                   </div>
@@ -14753,18 +14748,18 @@ exports[`Calendar header 1`] = `
               </div>
               <div
                 aria-selected="false"
-                class="c11"
+                class="c10"
                 role="gridcell"
               >
                 <button
                   aria-disabled="true"
                   aria-label="Tue Feb 04 2020"
-                  class="c4 c12"
+                  class="c4 c11"
                   tabindex="-1"
                   type="button"
                 >
                   <div
-                    class="c13"
+                    class="c12"
                   >
                     4
                   </div>
@@ -14772,18 +14767,18 @@ exports[`Calendar header 1`] = `
               </div>
               <div
                 aria-selected="false"
-                class="c11"
+                class="c10"
                 role="gridcell"
               >
                 <button
                   aria-disabled="true"
                   aria-label="Wed Feb 05 2020"
-                  class="c4 c12"
+                  class="c4 c11"
                   tabindex="-1"
                   type="button"
                 >
                   <div
-                    class="c13"
+                    class="c12"
                   >
                     5
                   </div>
@@ -14791,18 +14786,18 @@ exports[`Calendar header 1`] = `
               </div>
               <div
                 aria-selected="false"
-                class="c11"
+                class="c10"
                 role="gridcell"
               >
                 <button
                   aria-disabled="true"
                   aria-label="Thu Feb 06 2020"
-                  class="c4 c12"
+                  class="c4 c11"
                   tabindex="-1"
                   type="button"
                 >
                   <div
-                    class="c13"
+                    class="c12"
                   >
                     6
                   </div>
@@ -14810,18 +14805,18 @@ exports[`Calendar header 1`] = `
               </div>
               <div
                 aria-selected="false"
-                class="c11"
+                class="c10"
                 role="gridcell"
               >
                 <button
                   aria-disabled="true"
                   aria-label="Fri Feb 07 2020"
-                  class="c4 c12"
+                  class="c4 c11"
                   tabindex="-1"
                   type="button"
                 >
                   <div
-                    class="c13"
+                    class="c12"
                   >
                     7
                   </div>
@@ -14829,18 +14824,18 @@ exports[`Calendar header 1`] = `
               </div>
               <div
                 aria-selected="false"
-                class="c11"
+                class="c10"
                 role="gridcell"
               >
                 <button
                   aria-disabled="true"
                   aria-label="Sat Feb 08 2020"
-                  class="c4 c12"
+                  class="c4 c11"
                   tabindex="-1"
                   type="button"
                 >
                   <div
-                    class="c13"
+                    class="c12"
                   >
                     8
                   </div>
@@ -14857,7 +14852,7 @@ exports[`Calendar header 1`] = `
 
 exports[`Calendar heading text font size 1`] = `
 <DocumentFragment>
-  .c8 {
+  .c7 {
   display: inline-block;
   flex: 0 0 auto;
   width: 48px;
@@ -14866,25 +14861,25 @@ exports[`Calendar heading text font size 1`] = `
   stroke: #666666;
 }
 
-.c8 g {
+.c7 g {
   fill: inherit;
   stroke: inherit;
 }
 
-.c8 *:not([stroke])[fill='none'] {
+.c7 *:not([stroke])[fill='none'] {
   stroke-width: 0;
 }
 
-.c8 *[stroke*='#'],
-.c8 *[STROKE*='#'] {
+.c7 *[stroke*='#'],
+.c7 *[STROKE*='#'] {
   stroke: inherit;
   fill: none;
 }
 
-.c8 *[fill-rule],
-.c8 *[FILL-RULE],
-.c8 *[fill*='#'],
-.c8 *[FILL*='#'] {
+.c7 *[fill-rule],
+.c7 *[FILL-RULE],
+.c7 *[fill*='#'],
+.c7 *[FILL*='#'] {
   fill: inherit;
   stroke: none;
 }
@@ -14923,7 +14918,7 @@ exports[`Calendar heading text font size 1`] = `
   padding-right: 24px;
 }
 
-.c6 {
+.c5 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -14934,7 +14929,7 @@ exports[`Calendar heading text font size 1`] = `
   flex: 0 0 auto;
 }
 
-.c9 {
+.c8 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -14945,12 +14940,7 @@ exports[`Calendar heading text font size 1`] = `
   height: 100%;
 }
 
-.c5 {
-  font-size: 34px;
-  line-height: 40px;
-}
-
-.c7 {
+.c6 {
   display: inline-block;
   box-sizing: border-box;
   cursor: pointer;
@@ -14969,47 +14959,47 @@ exports[`Calendar heading text font size 1`] = `
   padding: 12px;
 }
 
-.c7:focus {
+.c6:focus {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c7:focus >circle,
-.c7:focus >ellipse,
-.c7:focus >line,
-.c7:focus >path,
-.c7:focus >polygon,
-.c7:focus >polyline,
-.c7:focus >rect {
+.c6:focus >circle,
+.c6:focus >ellipse,
+.c6:focus >line,
+.c6:focus >path,
+.c6:focus >polygon,
+.c6:focus >polyline,
+.c6:focus >rect {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c7:focus ::-moz-focus-inner {
+.c6:focus ::-moz-focus-inner {
   border: 0;
 }
 
-.c7:focus:not(:focus-visible) {
+.c6:focus:not(:focus-visible) {
   outline: none;
   box-shadow: none;
 }
 
-.c7:focus:not(:focus-visible) >circle,
-.c7:focus:not(:focus-visible) >ellipse,
-.c7:focus:not(:focus-visible) >line,
-.c7:focus:not(:focus-visible) >path,
-.c7:focus:not(:focus-visible) >polygon,
-.c7:focus:not(:focus-visible) >polyline,
-.c7:focus:not(:focus-visible) >rect {
+.c6:focus:not(:focus-visible) >circle,
+.c6:focus:not(:focus-visible) >ellipse,
+.c6:focus:not(:focus-visible) >line,
+.c6:focus:not(:focus-visible) >path,
+.c6:focus:not(:focus-visible) >polygon,
+.c6:focus:not(:focus-visible) >polyline,
+.c6:focus:not(:focus-visible) >rect {
   outline: none;
   box-shadow: none;
 }
 
-.c7:focus:not(:focus-visible) ::-moz-focus-inner {
+.c6:focus:not(:focus-visible) ::-moz-focus-inner {
   border: 0;
 }
 
-.c15 {
+.c14 {
   display: inline-block;
   box-sizing: border-box;
   cursor: pointer;
@@ -15026,43 +15016,43 @@ exports[`Calendar heading text font size 1`] = `
   text-align: inherit;
 }
 
-.c15:focus {
+.c14:focus {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c15:focus >circle,
-.c15:focus >ellipse,
-.c15:focus >line,
-.c15:focus >path,
-.c15:focus >polygon,
-.c15:focus >polyline,
-.c15:focus >rect {
+.c14:focus >circle,
+.c14:focus >ellipse,
+.c14:focus >line,
+.c14:focus >path,
+.c14:focus >polygon,
+.c14:focus >polyline,
+.c14:focus >rect {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c15:focus ::-moz-focus-inner {
+.c14:focus ::-moz-focus-inner {
   border: 0;
 }
 
-.c15:focus:not(:focus-visible) {
+.c14:focus:not(:focus-visible) {
   outline: none;
   box-shadow: none;
 }
 
-.c15:focus:not(:focus-visible) >circle,
-.c15:focus:not(:focus-visible) >ellipse,
-.c15:focus:not(:focus-visible) >line,
-.c15:focus:not(:focus-visible) >path,
-.c15:focus:not(:focus-visible) >polygon,
-.c15:focus:not(:focus-visible) >polyline,
-.c15:focus:not(:focus-visible) >rect {
+.c14:focus:not(:focus-visible) >circle,
+.c14:focus:not(:focus-visible) >ellipse,
+.c14:focus:not(:focus-visible) >line,
+.c14:focus:not(:focus-visible) >path,
+.c14:focus:not(:focus-visible) >polygon,
+.c14:focus:not(:focus-visible) >polyline,
+.c14:focus:not(:focus-visible) >rect {
   outline: none;
   box-shadow: none;
 }
 
-.c15:focus:not(:focus-visible) ::-moz-focus-inner {
+.c14:focus:not(:focus-visible) ::-moz-focus-inner {
   border: 0;
 }
 
@@ -15072,30 +15062,30 @@ exports[`Calendar heading text font size 1`] = `
   width: 768px;
 }
 
-.c13 {
+.c12 {
   overflow: hidden;
   height: 658.2857142857142px;
 }
 
-.c14 {
+.c13 {
   position: relative;
 }
 
-.c10 {
+.c9 {
   display: flex;
   justify-content: space-between;
 }
 
-.c11 {
+.c10 {
   flex: 0 1 auto;
 }
 
-.c16:focus {
+.c15:focus {
   position: relative;
   z-index: 1;
 }
 
-.c12 {
+.c11 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15104,7 +15094,7 @@ exports[`Calendar heading text font size 1`] = `
   height: 109.71428571428571px;
 }
 
-.c17 {
+.c16 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15113,7 +15103,7 @@ exports[`Calendar heading text font size 1`] = `
   height: 109.71428571428571px;
 }
 
-.c18 {
+.c17 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15150,26 +15140,35 @@ exports[`Calendar heading text font size 1`] = `
 }
 
 @media only screen and (max-width: 768px) {
-  .c13 {
+  .c12 {
     height: auto;
     aspect-ratio: 7/6;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c11 {
+  .c10 {
     width: 14.3%;
   }
 }
 
 @media only screen {
-  .c16 {
+  .c15 {
     width: 100%;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c12 {
+  .c11 {
+    width: 100%;
+    max-width: 109.71428571428571px;
+    height: auto;
+    aspect-ratio: 1;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .c16 {
     width: 100%;
     max-width: 109.71428571428571px;
     height: auto;
@@ -15179,15 +15178,6 @@ exports[`Calendar heading text font size 1`] = `
 
 @media only screen and (max-width: 768px) {
   .c17 {
-    width: 100%;
-    max-width: 109.71428571428571px;
-    height: auto;
-    aspect-ratio: 1;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .c18 {
     width: 100%;
     max-width: 109.71428571428571px;
     height: auto;
@@ -15211,22 +15201,22 @@ exports[`Calendar heading text font size 1`] = `
             class="c4"
           >
             <span
-              class="c5"
+              class="textRecipe_size_xxlarge"
             >
               January 2020
             </span>
           </header>
           <div
-            class="c6"
+            class="c5"
           >
             <button
               aria-label="Go to December 2019"
-              class="c7"
+              class="c6"
               type="button"
             >
               <svg
                 aria-label="Previous"
-                class="c8"
+                class="c7"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -15239,12 +15229,12 @@ exports[`Calendar heading text font size 1`] = `
             </button>
             <button
               aria-label="Go to February 2020"
-              class="c7"
+              class="c6"
               type="button"
             >
               <svg
                 aria-label="Next"
-                class="c8"
+                class="c7"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -15258,79 +15248,79 @@ exports[`Calendar heading text font size 1`] = `
           </div>
         </div>
         <div
-          class="c9"
+          class="c8"
           role="grid"
         >
           <div
-            class="c10"
+            class="c9"
             role="row"
           >
             <div
-              class="c11"
+              class="c10"
               role="gridcell"
             >
               <div
-                class="c12"
+                class="c11"
               >
                 S
               </div>
             </div>
             <div
-              class="c11"
+              class="c10"
               role="gridcell"
             >
               <div
-                class="c12"
+                class="c11"
               >
                 M
               </div>
             </div>
             <div
-              class="c11"
+              class="c10"
               role="gridcell"
             >
               <div
-                class="c12"
+                class="c11"
               >
                 T
               </div>
             </div>
             <div
-              class="c11"
+              class="c10"
               role="gridcell"
             >
               <div
-                class="c12"
+                class="c11"
               >
                 W
               </div>
             </div>
             <div
-              class="c11"
+              class="c10"
               role="gridcell"
             >
               <div
-                class="c12"
+                class="c11"
               >
                 T
               </div>
             </div>
             <div
-              class="c11"
+              class="c10"
               role="gridcell"
             >
               <div
-                class="c12"
+                class="c11"
               >
                 F
               </div>
             </div>
             <div
-              class="c11"
+              class="c10"
               role="gridcell"
             >
               <div
-                class="c12"
+                class="c11"
               >
                 S
               </div>
@@ -15338,30 +15328,30 @@ exports[`Calendar heading text font size 1`] = `
           </div>
           <div
             aria-label="January 2020; Currently selected January 15, 2020;"
-            class="c13"
+            class="c12"
             role="rowgroup"
           >
             <div
-              class="c14"
+              class="c13"
             >
               <div
-                class="c10"
+                class="c9"
                 role="row"
               >
                 <div
                   aria-selected="false"
-                  class="c11"
+                  class="c10"
                   role="gridcell"
                 >
                   <button
                     aria-disabled="false"
                     aria-label="Sun Dec 29 2019"
-                    class="c15 c16"
+                    class="c14 c15"
                     tabindex="0"
                     type="button"
                   >
                     <div
-                      class="c17"
+                      class="c16"
                     >
                       29
                     </div>
@@ -15369,18 +15359,18 @@ exports[`Calendar heading text font size 1`] = `
                 </div>
                 <div
                   aria-selected="false"
-                  class="c11"
+                  class="c10"
                   role="gridcell"
                 >
                   <button
                     aria-disabled="false"
                     aria-label="Mon Dec 30 2019"
-                    class="c15 c16"
+                    class="c14 c15"
                     tabindex="-1"
                     type="button"
                   >
                     <div
-                      class="c17"
+                      class="c16"
                     >
                       30
                     </div>
@@ -15388,18 +15378,18 @@ exports[`Calendar heading text font size 1`] = `
                 </div>
                 <div
                   aria-selected="false"
-                  class="c11"
+                  class="c10"
                   role="gridcell"
                 >
                   <button
                     aria-disabled="false"
                     aria-label="Tue Dec 31 2019"
-                    class="c15 c16"
+                    class="c14 c15"
                     tabindex="-1"
                     type="button"
                   >
                     <div
-                      class="c17"
+                      class="c16"
                     >
                       31
                     </div>
@@ -15407,18 +15397,18 @@ exports[`Calendar heading text font size 1`] = `
                 </div>
                 <div
                   aria-selected="false"
-                  class="c11"
+                  class="c10"
                   role="gridcell"
                 >
                   <button
                     aria-disabled="false"
                     aria-label="Wed Jan 01 2020"
-                    class="c15 c16"
+                    class="c14 c15"
                     tabindex="-1"
                     type="button"
                   >
                     <div
-                      class="c12"
+                      class="c11"
                     >
                       1
                     </div>
@@ -15426,18 +15416,18 @@ exports[`Calendar heading text font size 1`] = `
                 </div>
                 <div
                   aria-selected="false"
-                  class="c11"
+                  class="c10"
                   role="gridcell"
                 >
                   <button
                     aria-disabled="false"
                     aria-label="Thu Jan 02 2020"
-                    class="c15 c16"
+                    class="c14 c15"
                     tabindex="-1"
                     type="button"
                   >
                     <div
-                      class="c12"
+                      class="c11"
                     >
                       2
                     </div>
@@ -15445,18 +15435,18 @@ exports[`Calendar heading text font size 1`] = `
                 </div>
                 <div
                   aria-selected="false"
-                  class="c11"
+                  class="c10"
                   role="gridcell"
                 >
                   <button
                     aria-disabled="false"
                     aria-label="Fri Jan 03 2020"
-                    class="c15 c16"
+                    class="c14 c15"
                     tabindex="-1"
                     type="button"
                   >
                     <div
-                      class="c12"
+                      class="c11"
                     >
                       3
                     </div>
@@ -15464,18 +15454,18 @@ exports[`Calendar heading text font size 1`] = `
                 </div>
                 <div
                   aria-selected="false"
-                  class="c11"
+                  class="c10"
                   role="gridcell"
                 >
                   <button
                     aria-disabled="false"
                     aria-label="Sat Jan 04 2020"
-                    class="c15 c16"
+                    class="c14 c15"
                     tabindex="-1"
                     type="button"
                   >
                     <div
-                      class="c12"
+                      class="c11"
                     >
                       4
                     </div>
@@ -15483,23 +15473,23 @@ exports[`Calendar heading text font size 1`] = `
                 </div>
               </div>
               <div
-                class="c10"
+                class="c9"
                 role="row"
               >
                 <div
                   aria-selected="false"
-                  class="c11"
+                  class="c10"
                   role="gridcell"
                 >
                   <button
                     aria-disabled="false"
                     aria-label="Sun Jan 05 2020"
-                    class="c15 c16"
+                    class="c14 c15"
                     tabindex="-1"
                     type="button"
                   >
                     <div
-                      class="c12"
+                      class="c11"
                     >
                       5
                     </div>
@@ -15507,18 +15497,18 @@ exports[`Calendar heading text font size 1`] = `
                 </div>
                 <div
                   aria-selected="false"
-                  class="c11"
+                  class="c10"
                   role="gridcell"
                 >
                   <button
                     aria-disabled="false"
                     aria-label="Mon Jan 06 2020"
-                    class="c15 c16"
+                    class="c14 c15"
                     tabindex="-1"
                     type="button"
                   >
                     <div
-                      class="c12"
+                      class="c11"
                     >
                       6
                     </div>
@@ -15526,18 +15516,18 @@ exports[`Calendar heading text font size 1`] = `
                 </div>
                 <div
                   aria-selected="false"
-                  class="c11"
+                  class="c10"
                   role="gridcell"
                 >
                   <button
                     aria-disabled="false"
                     aria-label="Tue Jan 07 2020"
-                    class="c15 c16"
+                    class="c14 c15"
                     tabindex="-1"
                     type="button"
                   >
                     <div
-                      class="c12"
+                      class="c11"
                     >
                       7
                     </div>
@@ -15545,18 +15535,18 @@ exports[`Calendar heading text font size 1`] = `
                 </div>
                 <div
                   aria-selected="false"
-                  class="c11"
+                  class="c10"
                   role="gridcell"
                 >
                   <button
                     aria-disabled="false"
                     aria-label="Wed Jan 08 2020"
-                    class="c15 c16"
+                    class="c14 c15"
                     tabindex="-1"
                     type="button"
                   >
                     <div
-                      class="c12"
+                      class="c11"
                     >
                       8
                     </div>
@@ -15564,18 +15554,18 @@ exports[`Calendar heading text font size 1`] = `
                 </div>
                 <div
                   aria-selected="false"
-                  class="c11"
+                  class="c10"
                   role="gridcell"
                 >
                   <button
                     aria-disabled="false"
                     aria-label="Thu Jan 09 2020"
-                    class="c15 c16"
+                    class="c14 c15"
                     tabindex="-1"
                     type="button"
                   >
                     <div
-                      class="c12"
+                      class="c11"
                     >
                       9
                     </div>
@@ -15583,18 +15573,18 @@ exports[`Calendar heading text font size 1`] = `
                 </div>
                 <div
                   aria-selected="false"
-                  class="c11"
+                  class="c10"
                   role="gridcell"
                 >
                   <button
                     aria-disabled="false"
                     aria-label="Fri Jan 10 2020"
-                    class="c15 c16"
+                    class="c14 c15"
                     tabindex="-1"
                     type="button"
                   >
                     <div
-                      class="c12"
+                      class="c11"
                     >
                       10
                     </div>
@@ -15602,18 +15592,18 @@ exports[`Calendar heading text font size 1`] = `
                 </div>
                 <div
                   aria-selected="false"
-                  class="c11"
+                  class="c10"
                   role="gridcell"
                 >
                   <button
                     aria-disabled="false"
                     aria-label="Sat Jan 11 2020"
-                    class="c15 c16"
+                    class="c14 c15"
                     tabindex="-1"
                     type="button"
                   >
                     <div
-                      class="c12"
+                      class="c11"
                     >
                       11
                     </div>
@@ -15621,23 +15611,23 @@ exports[`Calendar heading text font size 1`] = `
                 </div>
               </div>
               <div
-                class="c10"
+                class="c9"
                 role="row"
               >
                 <div
                   aria-selected="false"
-                  class="c11"
+                  class="c10"
                   role="gridcell"
                 >
                   <button
                     aria-disabled="false"
                     aria-label="Sun Jan 12 2020"
-                    class="c15 c16"
+                    class="c14 c15"
                     tabindex="-1"
                     type="button"
                   >
                     <div
-                      class="c12"
+                      class="c11"
                     >
                       12
                     </div>
@@ -15645,18 +15635,18 @@ exports[`Calendar heading text font size 1`] = `
                 </div>
                 <div
                   aria-selected="false"
-                  class="c11"
+                  class="c10"
                   role="gridcell"
                 >
                   <button
                     aria-disabled="false"
                     aria-label="Mon Jan 13 2020"
-                    class="c15 c16"
+                    class="c14 c15"
                     tabindex="-1"
                     type="button"
                   >
                     <div
-                      class="c12"
+                      class="c11"
                     >
                       13
                     </div>
@@ -15664,18 +15654,18 @@ exports[`Calendar heading text font size 1`] = `
                 </div>
                 <div
                   aria-selected="false"
-                  class="c11"
+                  class="c10"
                   role="gridcell"
                 >
                   <button
                     aria-disabled="false"
                     aria-label="Tue Jan 14 2020"
-                    class="c15 c16"
+                    class="c14 c15"
                     tabindex="-1"
                     type="button"
                   >
                     <div
-                      class="c12"
+                      class="c11"
                     >
                       14
                     </div>
@@ -15683,18 +15673,18 @@ exports[`Calendar heading text font size 1`] = `
                 </div>
                 <div
                   aria-selected="true"
-                  class="c11"
+                  class="c10"
                   role="gridcell"
                 >
                   <button
                     aria-disabled="false"
                     aria-label="Wed Jan 15 2020"
-                    class="c15 c16"
+                    class="c14 c15"
                     tabindex="-1"
                     type="button"
                   >
                     <div
-                      class="c18"
+                      class="c17"
                     >
                       15
                     </div>
@@ -15702,18 +15692,18 @@ exports[`Calendar heading text font size 1`] = `
                 </div>
                 <div
                   aria-selected="false"
-                  class="c11"
+                  class="c10"
                   role="gridcell"
                 >
                   <button
                     aria-disabled="false"
                     aria-label="Thu Jan 16 2020"
-                    class="c15 c16"
+                    class="c14 c15"
                     tabindex="-1"
                     type="button"
                   >
                     <div
-                      class="c12"
+                      class="c11"
                     >
                       16
                     </div>
@@ -15721,18 +15711,18 @@ exports[`Calendar heading text font size 1`] = `
                 </div>
                 <div
                   aria-selected="false"
-                  class="c11"
+                  class="c10"
                   role="gridcell"
                 >
                   <button
                     aria-disabled="false"
                     aria-label="Fri Jan 17 2020"
-                    class="c15 c16"
+                    class="c14 c15"
                     tabindex="-1"
                     type="button"
                   >
                     <div
-                      class="c12"
+                      class="c11"
                     >
                       17
                     </div>
@@ -15740,18 +15730,18 @@ exports[`Calendar heading text font size 1`] = `
                 </div>
                 <div
                   aria-selected="false"
-                  class="c11"
+                  class="c10"
                   role="gridcell"
                 >
                   <button
                     aria-disabled="false"
                     aria-label="Sat Jan 18 2020"
-                    class="c15 c16"
+                    class="c14 c15"
                     tabindex="-1"
                     type="button"
                   >
                     <div
-                      class="c12"
+                      class="c11"
                     >
                       18
                     </div>
@@ -15759,23 +15749,23 @@ exports[`Calendar heading text font size 1`] = `
                 </div>
               </div>
               <div
-                class="c10"
+                class="c9"
                 role="row"
               >
                 <div
                   aria-selected="false"
-                  class="c11"
+                  class="c10"
                   role="gridcell"
                 >
                   <button
                     aria-disabled="false"
                     aria-label="Sun Jan 19 2020"
-                    class="c15 c16"
+                    class="c14 c15"
                     tabindex="-1"
                     type="button"
                   >
                     <div
-                      class="c12"
+                      class="c11"
                     >
                       19
                     </div>
@@ -15783,18 +15773,18 @@ exports[`Calendar heading text font size 1`] = `
                 </div>
                 <div
                   aria-selected="false"
-                  class="c11"
+                  class="c10"
                   role="gridcell"
                 >
                   <button
                     aria-disabled="false"
                     aria-label="Mon Jan 20 2020"
-                    class="c15 c16"
+                    class="c14 c15"
                     tabindex="-1"
                     type="button"
                   >
                     <div
-                      class="c12"
+                      class="c11"
                     >
                       20
                     </div>
@@ -15802,18 +15792,18 @@ exports[`Calendar heading text font size 1`] = `
                 </div>
                 <div
                   aria-selected="false"
-                  class="c11"
+                  class="c10"
                   role="gridcell"
                 >
                   <button
                     aria-disabled="false"
                     aria-label="Tue Jan 21 2020"
-                    class="c15 c16"
+                    class="c14 c15"
                     tabindex="-1"
                     type="button"
                   >
                     <div
-                      class="c12"
+                      class="c11"
                     >
                       21
                     </div>
@@ -15821,18 +15811,18 @@ exports[`Calendar heading text font size 1`] = `
                 </div>
                 <div
                   aria-selected="false"
-                  class="c11"
+                  class="c10"
                   role="gridcell"
                 >
                   <button
                     aria-disabled="false"
                     aria-label="Wed Jan 22 2020"
-                    class="c15 c16"
+                    class="c14 c15"
                     tabindex="-1"
                     type="button"
                   >
                     <div
-                      class="c12"
+                      class="c11"
                     >
                       22
                     </div>
@@ -15840,18 +15830,18 @@ exports[`Calendar heading text font size 1`] = `
                 </div>
                 <div
                   aria-selected="false"
-                  class="c11"
+                  class="c10"
                   role="gridcell"
                 >
                   <button
                     aria-disabled="false"
                     aria-label="Thu Jan 23 2020"
-                    class="c15 c16"
+                    class="c14 c15"
                     tabindex="-1"
                     type="button"
                   >
                     <div
-                      class="c12"
+                      class="c11"
                     >
                       23
                     </div>
@@ -15859,18 +15849,18 @@ exports[`Calendar heading text font size 1`] = `
                 </div>
                 <div
                   aria-selected="false"
-                  class="c11"
+                  class="c10"
                   role="gridcell"
                 >
                   <button
                     aria-disabled="false"
                     aria-label="Fri Jan 24 2020"
-                    class="c15 c16"
+                    class="c14 c15"
                     tabindex="-1"
                     type="button"
                   >
                     <div
-                      class="c12"
+                      class="c11"
                     >
                       24
                     </div>
@@ -15878,18 +15868,18 @@ exports[`Calendar heading text font size 1`] = `
                 </div>
                 <div
                   aria-selected="false"
-                  class="c11"
+                  class="c10"
                   role="gridcell"
                 >
                   <button
                     aria-disabled="false"
                     aria-label="Sat Jan 25 2020"
-                    class="c15 c16"
+                    class="c14 c15"
                     tabindex="-1"
                     type="button"
                   >
                     <div
-                      class="c12"
+                      class="c11"
                     >
                       25
                     </div>
@@ -15897,23 +15887,23 @@ exports[`Calendar heading text font size 1`] = `
                 </div>
               </div>
               <div
-                class="c10"
+                class="c9"
                 role="row"
               >
                 <div
                   aria-selected="false"
-                  class="c11"
+                  class="c10"
                   role="gridcell"
                 >
                   <button
                     aria-disabled="false"
                     aria-label="Sun Jan 26 2020"
-                    class="c15 c16"
+                    class="c14 c15"
                     tabindex="-1"
                     type="button"
                   >
                     <div
-                      class="c12"
+                      class="c11"
                     >
                       26
                     </div>
@@ -15921,18 +15911,18 @@ exports[`Calendar heading text font size 1`] = `
                 </div>
                 <div
                   aria-selected="false"
-                  class="c11"
+                  class="c10"
                   role="gridcell"
                 >
                   <button
                     aria-disabled="false"
                     aria-label="Mon Jan 27 2020"
-                    class="c15 c16"
+                    class="c14 c15"
                     tabindex="-1"
                     type="button"
                   >
                     <div
-                      class="c12"
+                      class="c11"
                     >
                       27
                     </div>
@@ -15940,18 +15930,18 @@ exports[`Calendar heading text font size 1`] = `
                 </div>
                 <div
                   aria-selected="false"
-                  class="c11"
+                  class="c10"
                   role="gridcell"
                 >
                   <button
                     aria-disabled="false"
                     aria-label="Tue Jan 28 2020"
-                    class="c15 c16"
+                    class="c14 c15"
                     tabindex="-1"
                     type="button"
                   >
                     <div
-                      class="c12"
+                      class="c11"
                     >
                       28
                     </div>
@@ -15959,18 +15949,18 @@ exports[`Calendar heading text font size 1`] = `
                 </div>
                 <div
                   aria-selected="false"
-                  class="c11"
+                  class="c10"
                   role="gridcell"
                 >
                   <button
                     aria-disabled="false"
                     aria-label="Wed Jan 29 2020"
-                    class="c15 c16"
+                    class="c14 c15"
                     tabindex="-1"
                     type="button"
                   >
                     <div
-                      class="c12"
+                      class="c11"
                     >
                       29
                     </div>
@@ -15978,18 +15968,18 @@ exports[`Calendar heading text font size 1`] = `
                 </div>
                 <div
                   aria-selected="false"
-                  class="c11"
+                  class="c10"
                   role="gridcell"
                 >
                   <button
                     aria-disabled="false"
                     aria-label="Thu Jan 30 2020"
-                    class="c15 c16"
+                    class="c14 c15"
                     tabindex="-1"
                     type="button"
                   >
                     <div
-                      class="c12"
+                      class="c11"
                     >
                       30
                     </div>
@@ -15997,18 +15987,18 @@ exports[`Calendar heading text font size 1`] = `
                 </div>
                 <div
                   aria-selected="false"
-                  class="c11"
+                  class="c10"
                   role="gridcell"
                 >
                   <button
                     aria-disabled="false"
                     aria-label="Fri Jan 31 2020"
-                    class="c15 c16"
+                    class="c14 c15"
                     tabindex="-1"
                     type="button"
                   >
                     <div
-                      class="c12"
+                      class="c11"
                     >
                       31
                     </div>
@@ -16016,18 +16006,18 @@ exports[`Calendar heading text font size 1`] = `
                 </div>
                 <div
                   aria-selected="false"
-                  class="c11"
+                  class="c10"
                   role="gridcell"
                 >
                   <button
                     aria-disabled="false"
                     aria-label="Sat Feb 01 2020"
-                    class="c15 c16"
+                    class="c14 c15"
                     tabindex="-1"
                     type="button"
                   >
                     <div
-                      class="c17"
+                      class="c16"
                     >
                       1
                     </div>
@@ -16035,23 +16025,23 @@ exports[`Calendar heading text font size 1`] = `
                 </div>
               </div>
               <div
-                class="c10"
+                class="c9"
                 role="row"
               >
                 <div
                   aria-selected="false"
-                  class="c11"
+                  class="c10"
                   role="gridcell"
                 >
                   <button
                     aria-disabled="false"
                     aria-label="Sun Feb 02 2020"
-                    class="c15 c16"
+                    class="c14 c15"
                     tabindex="-1"
                     type="button"
                   >
                     <div
-                      class="c17"
+                      class="c16"
                     >
                       2
                     </div>
@@ -16059,18 +16049,18 @@ exports[`Calendar heading text font size 1`] = `
                 </div>
                 <div
                   aria-selected="false"
-                  class="c11"
+                  class="c10"
                   role="gridcell"
                 >
                   <button
                     aria-disabled="false"
                     aria-label="Mon Feb 03 2020"
-                    class="c15 c16"
+                    class="c14 c15"
                     tabindex="-1"
                     type="button"
                   >
                     <div
-                      class="c17"
+                      class="c16"
                     >
                       3
                     </div>
@@ -16078,18 +16068,18 @@ exports[`Calendar heading text font size 1`] = `
                 </div>
                 <div
                   aria-selected="false"
-                  class="c11"
+                  class="c10"
                   role="gridcell"
                 >
                   <button
                     aria-disabled="false"
                     aria-label="Tue Feb 04 2020"
-                    class="c15 c16"
+                    class="c14 c15"
                     tabindex="-1"
                     type="button"
                   >
                     <div
-                      class="c17"
+                      class="c16"
                     >
                       4
                     </div>
@@ -16097,18 +16087,18 @@ exports[`Calendar heading text font size 1`] = `
                 </div>
                 <div
                   aria-selected="false"
-                  class="c11"
+                  class="c10"
                   role="gridcell"
                 >
                   <button
                     aria-disabled="false"
                     aria-label="Wed Feb 05 2020"
-                    class="c15 c16"
+                    class="c14 c15"
                     tabindex="-1"
                     type="button"
                   >
                     <div
-                      class="c17"
+                      class="c16"
                     >
                       5
                     </div>
@@ -16116,18 +16106,18 @@ exports[`Calendar heading text font size 1`] = `
                 </div>
                 <div
                   aria-selected="false"
-                  class="c11"
+                  class="c10"
                   role="gridcell"
                 >
                   <button
                     aria-disabled="false"
                     aria-label="Thu Feb 06 2020"
-                    class="c15 c16"
+                    class="c14 c15"
                     tabindex="-1"
                     type="button"
                   >
                     <div
-                      class="c17"
+                      class="c16"
                     >
                       6
                     </div>
@@ -16135,18 +16125,18 @@ exports[`Calendar heading text font size 1`] = `
                 </div>
                 <div
                   aria-selected="false"
-                  class="c11"
+                  class="c10"
                   role="gridcell"
                 >
                   <button
                     aria-disabled="false"
                     aria-label="Fri Feb 07 2020"
-                    class="c15 c16"
+                    class="c14 c15"
                     tabindex="-1"
                     type="button"
                   >
                     <div
-                      class="c17"
+                      class="c16"
                     >
                       7
                     </div>
@@ -16154,18 +16144,18 @@ exports[`Calendar heading text font size 1`] = `
                 </div>
                 <div
                   aria-selected="false"
-                  class="c11"
+                  class="c10"
                   role="gridcell"
                 >
                   <button
                     aria-disabled="false"
                     aria-label="Sat Feb 08 2020"
-                    class="c15 c16"
+                    class="c14 c15"
                     tabindex="-1"
                     type="button"
                   >
                     <div
-                      class="c17"
+                      class="c16"
                     >
                       8
                     </div>

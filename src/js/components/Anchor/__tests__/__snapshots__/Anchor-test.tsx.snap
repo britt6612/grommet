@@ -885,7 +885,7 @@ exports[`Anchor renders anchor without grommet wrapper 1`] = `
 
 exports[`Anchor renders size specific theming 1`] = `
 <DocumentFragment>
-  .c18 {
+  .c12 {
   display: inline-block;
   flex: 0 0 auto;
   width: 24px;
@@ -894,30 +894,30 @@ exports[`Anchor renders size specific theming 1`] = `
   stroke: #000000;
 }
 
-.c18 g {
+.c12 g {
   fill: inherit;
   stroke: inherit;
 }
 
-.c18 *:not([stroke])[fill='none'] {
+.c12 *:not([stroke])[fill='none'] {
   stroke-width: 0;
 }
 
-.c18 *[stroke*='#'],
-.c18 *[STROKE*='#'] {
+.c12 *[stroke*='#'],
+.c12 *[STROKE*='#'] {
   stroke: inherit;
   fill: none;
 }
 
-.c18 *[fill-rule],
-.c18 *[FILL-RULE],
-.c18 *[fill*='#'],
-.c18 *[FILL*='#'] {
+.c12 *[fill-rule],
+.c12 *[FILL-RULE],
+.c12 *[fill*='#'],
+.c12 *[FILL*='#'] {
   fill: inherit;
   stroke: none;
 }
 
-.c20 {
+.c14 {
   display: inline-block;
   flex: 0 0 auto;
   width: 24px;
@@ -926,25 +926,25 @@ exports[`Anchor renders size specific theming 1`] = `
   stroke: #7D4CDB;
 }
 
-.c20 g {
+.c14 g {
   fill: inherit;
   stroke: inherit;
 }
 
-.c20 *:not([stroke])[fill='none'] {
+.c14 *:not([stroke])[fill='none'] {
   stroke-width: 0;
 }
 
-.c20 *[stroke*='#'],
-.c20 *[STROKE*='#'] {
+.c14 *[stroke*='#'],
+.c14 *[STROKE*='#'] {
   stroke: inherit;
   fill: none;
 }
 
-.c20 *[fill-rule],
-.c20 *[FILL-RULE],
-.c20 *[fill*='#'],
-.c20 *[FILL*='#'] {
+.c14 *[fill-rule],
+.c14 *[FILL-RULE],
+.c14 *[fill*='#'],
+.c14 *[FILL*='#'] {
   fill: inherit;
   stroke: none;
 }
@@ -968,7 +968,7 @@ exports[`Anchor renders size specific theming 1`] = `
   flex-direction: column;
 }
 
-.c17 {
+.c11 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -978,19 +978,19 @@ exports[`Anchor renders size specific theming 1`] = `
   flex-direction: row;
 }
 
-.c19 {
+.c13 {
   flex: 0 0 auto;
   align-self: stretch;
   width: 12px;
 }
 
-.c21 {
+.c15 {
   flex: 0 0 auto;
   align-self: stretch;
   width: 6px;
 }
 
-.c22 {
+.c16 {
   flex: 0 0 auto;
   align-self: stretch;
   width: 48px;
@@ -1011,11 +1011,26 @@ exports[`Anchor renders size specific theming 1`] = `
   text-decoration: underline;
 }
 
-.c4 {
+.c3 {
   box-sizing: border-box;
   display: inline-flex;
   font-size: 14px;
   line-height: 20px;
+  color: #7D4CDB;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.c3:hover {
+  text-decoration: underline;
+}
+
+.c4 {
+  box-sizing: border-box;
+  display: inline-flex;
+  font-size: 18px;
+  line-height: 24px;
   color: #7D4CDB;
   font-weight: 500;
   text-decoration: none;
@@ -1026,11 +1041,26 @@ exports[`Anchor renders size specific theming 1`] = `
   text-decoration: underline;
 }
 
+.c5 {
+  box-sizing: border-box;
+  display: inline-flex;
+  font-size: 22px;
+  line-height: 28px;
+  color: #7D4CDB;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.c5:hover {
+  text-decoration: underline;
+}
+
 .c6 {
   box-sizing: border-box;
   display: inline-flex;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 26px;
+  line-height: 32px;
   color: #7D4CDB;
   font-weight: 500;
   text-decoration: none;
@@ -1041,28 +1071,43 @@ exports[`Anchor renders size specific theming 1`] = `
   text-decoration: underline;
 }
 
-.c8 {
+.c7 {
   box-sizing: border-box;
   display: inline-flex;
-  font-size: 22px;
-  line-height: 28px;
+  font-size: 34px;
+  line-height: 40px;
   color: #7D4CDB;
   font-weight: 500;
   text-decoration: none;
   cursor: pointer;
 }
 
-.c8:hover {
+.c7:hover {
+  text-decoration: underline;
+}
+
+.c9 {
+  box-sizing: border-box;
+  display: inline-flex;
+  font-size: inherit;
+  line-height: inherit;
+  color: #000000;
+  font-weight: 700;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.c9:hover {
   text-decoration: underline;
 }
 
 .c10 {
   box-sizing: border-box;
   display: inline-flex;
-  font-size: 26px;
-  line-height: 32px;
-  color: #7D4CDB;
-  font-weight: 500;
+  font-size: inherit;
+  line-height: inherit;
+  color: #000000;
+  font-weight: 700;
   text-decoration: none;
   cursor: pointer;
 }
@@ -1071,85 +1116,10 @@ exports[`Anchor renders size specific theming 1`] = `
   text-decoration: underline;
 }
 
-.c12 {
-  box-sizing: border-box;
-  display: inline-flex;
-  font-size: 34px;
-  line-height: 40px;
-  color: #7D4CDB;
-  font-weight: 500;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.c12:hover {
-  text-decoration: underline;
-}
-
-.c15 {
-  box-sizing: border-box;
-  display: inline-flex;
-  font-size: inherit;
-  line-height: inherit;
-  color: #000000;
-  font-weight: 700;
-  text-decoration: underline;
-  cursor: pointer;
-}
-
-.c15:hover {
-  text-decoration: underline;
-}
-
-.c16 {
-  box-sizing: border-box;
-  display: inline-flex;
-  font-size: inherit;
-  line-height: inherit;
-  color: #000000;
-  font-weight: 700;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.c16:hover {
-  text-decoration: underline;
-}
-
-.c14 {
+.c8 {
   font-size: 14px;
   line-height: 20px;
   max-width: 336px;
-}
-
-.c3 {
-  font-size: 12px;
-  line-height: 18px;
-}
-
-.c5 {
-  font-size: 14px;
-  line-height: 20px;
-}
-
-.c7 {
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.c9 {
-  font-size: 22px;
-  line-height: 28px;
-}
-
-.c11 {
-  font-size: 26px;
-  line-height: 32px;
-}
-
-.c13 {
-  font-size: 34px;
-  line-height: 40px;
 }
 
 <div
@@ -1164,7 +1134,7 @@ exports[`Anchor renders size specific theming 1`] = `
         xsmall
       </a>
       <span
-        class="c3"
+        class="textRecipe_size_xsmall"
       >
         Anchor should inherit 
         <a
@@ -1179,16 +1149,16 @@ exports[`Anchor renders size specific theming 1`] = `
       class="c1"
     >
       <a
-        class="c4"
+        class="c3"
       >
         small
       </a>
       <span
-        class="c5"
+        class="textRecipe_size_small"
       >
         Anchor should inherit 
         <a
-          class="c4"
+          class="c3"
         >
           small
         </a>
@@ -1199,16 +1169,16 @@ exports[`Anchor renders size specific theming 1`] = `
       class="c1"
     >
       <a
-        class="c6"
+        class="c4"
       >
         medium
       </a>
       <span
-        class="c7"
+        class="textRecipe_size_medium"
       >
         Anchor should inherit 
         <a
-          class="c6"
+          class="c4"
         >
           medium
         </a>
@@ -1219,16 +1189,16 @@ exports[`Anchor renders size specific theming 1`] = `
       class="c1"
     >
       <a
-        class="c8"
+        class="c5"
       >
         large
       </a>
       <span
-        class="c9"
+        class="textRecipe_size_large"
       >
         Anchor should inherit 
         <a
-          class="c8"
+          class="c5"
         >
           large
         </a>
@@ -1239,16 +1209,16 @@ exports[`Anchor renders size specific theming 1`] = `
       class="c1"
     >
       <a
-        class="c10"
+        class="c6"
       >
         xlarge
       </a>
       <span
-        class="c11"
+        class="textRecipe_size_xlarge"
       >
         Anchor should inherit 
         <a
-          class="c10"
+          class="c6"
         >
           xlarge
         </a>
@@ -1259,16 +1229,16 @@ exports[`Anchor renders size specific theming 1`] = `
       class="c1"
     >
       <a
-        class="c12"
+        class="c7"
       >
         xxlarge
       </a>
       <span
-        class="c13"
+        class="textRecipe_size_xxlarge"
       >
         Anchor should inherit 
         <a
-          class="c12"
+          class="c7"
         >
           xxlarge
         </a>
@@ -1276,30 +1246,30 @@ exports[`Anchor renders size specific theming 1`] = `
       </span>
     </div>
     <p
-      class="c14"
+      class="c8"
     >
       Anchor should inherit 
       <a
-        class="c4"
+        class="c3"
       >
         small
       </a>
        from Paragraph.
     </p>
     <a
-      class="c15"
+      class="c9"
     >
       Default anchor with no size prop should receive medium
     </a>
     <a
-      class="c16"
+      class="c10"
     >
       <span
-        class="c17"
+        class="c11"
       >
         <svg
           aria-label="LinkNext"
-          class="c18"
+          class="c12"
           viewBox="0 0 24 24"
         >
           <path
@@ -1310,20 +1280,20 @@ exports[`Anchor renders size specific theming 1`] = `
           />
         </svg>
         <span
-          class="c19"
+          class="c13"
         />
         Anchor with icon
       </span>
     </a>
     <a
-      class="c4"
+      class="c3"
     >
       <span
-        class="c17"
+        class="c11"
       >
         <svg
           aria-label="LinkNext"
-          class="c20"
+          class="c14"
           viewBox="0 0 24 24"
         >
           <path
@@ -1334,20 +1304,20 @@ exports[`Anchor renders size specific theming 1`] = `
           />
         </svg>
         <span
-          class="c21"
+          class="c15"
         />
         small anchor with icon should receive color on icon
       </span>
     </a>
     <a
-      class="c8"
+      class="c5"
     >
       <span
-        class="c17"
+        class="c11"
       >
         <svg
           aria-label="LinkNext"
-          class="c20"
+          class="c14"
           viewBox="0 0 24 24"
         >
           <path
@@ -1358,7 +1328,7 @@ exports[`Anchor renders size specific theming 1`] = `
           />
         </svg>
         <span
-          class="c22"
+          class="c16"
         />
         Large anchor with icon should receive color on icon
       </span>
