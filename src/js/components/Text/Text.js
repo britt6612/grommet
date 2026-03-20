@@ -110,8 +110,17 @@ const Text = forwardRef(
 
     // ── Named size variant → VE recipe class; arbitrary px/em → inline style ──
     const namedSizes = [
-      'xsmall', 'small', 'medium', 'large', 'xlarge', 'xxlarge',
-      '2xl', '3xl', '4xl', '5xl', '6xl',
+      'xsmall',
+      'small',
+      'medium',
+      'large',
+      'xlarge',
+      'xxlarge',
+      '2xl',
+      '3xl',
+      '4xl',
+      '5xl',
+      '6xl',
     ];
     const isNamedSize = !size || namedSizes.includes(size);
 
@@ -164,16 +173,16 @@ const Text = forwardRef(
         runtimeStyle.margin = resolveEdge(margin);
       } else {
         const { top, bottom, left, right, horizontal, vertical } = margin;
-        if (top)        runtimeStyle.marginTop    = resolveEdge(top);
-        if (bottom)     runtimeStyle.marginBottom = resolveEdge(bottom);
-        if (left)       runtimeStyle.marginLeft   = resolveEdge(left);
-        if (right)      runtimeStyle.marginRight  = resolveEdge(right);
+        if (top) runtimeStyle.marginTop = resolveEdge(top);
+        if (bottom) runtimeStyle.marginBottom = resolveEdge(bottom);
+        if (left) runtimeStyle.marginLeft = resolveEdge(left);
+        if (right) runtimeStyle.marginRight = resolveEdge(right);
         if (horizontal) {
-          runtimeStyle.marginLeft  = resolveEdge(horizontal);
+          runtimeStyle.marginLeft = resolveEdge(horizontal);
           runtimeStyle.marginRight = resolveEdge(horizontal);
         }
         if (vertical) {
-          runtimeStyle.marginTop    = resolveEdge(vertical);
+          runtimeStyle.marginTop = resolveEdge(vertical);
           runtimeStyle.marginBottom = resolveEdge(vertical);
         }
       }
@@ -202,7 +211,12 @@ const Text = forwardRef(
         className={cx(
           textRecipe({
             size: isNamedSize ? size || 'medium' : undefined,
-            truncate: truncate === true ? 'true' : truncate === 'tip' ? 'tip' : undefined,
+            truncate:
+              truncate === true
+                ? 'true'
+                : truncate === 'tip'
+                ? 'tip'
+                : undefined,
           }),
           classNameProp,
         )}

@@ -103,17 +103,17 @@ export const vars = createThemeContract({
   // Text
   // fontSizing(n): size = 18+n*4 px, height = 24+n*4 px, maxWidth = 24*(18+n*4) px
   text: {
-    xsmall: { size: null, height: null, maxWidth: null },   // fontSizing(-1.5) → 12px/18px/288px
-    small:  { size: null, height: null, maxWidth: null },   // fontSizing(-1)   → 14px/20px/336px
-    medium: { size: null, height: null, maxWidth: null },   // fontSizing(0)    → 18px/24px/432px
-    large:  { size: null, height: null, maxWidth: null },   // fontSizing(1)    → 22px/28px/528px
-    xlarge: { size: null, height: null, maxWidth: null },   // fontSizing(2)    → 26px/32px/624px
-    xxlarge:{ size: null, height: null, maxWidth: null },   // fontSizing(4)    → 34px/40px/816px
-    t2xl:   { size: null, height: null, maxWidth: null },   // fontSizing(4)    → 34px/40px/816px
-    t3xl:   { size: null, height: null, maxWidth: null },   // fontSizing(6)    → 42px/48px/1008px
-    t4xl:   { size: null, height: null, maxWidth: null },   // fontSizing(9)    → 54px/60px/1296px
-    t5xl:   { size: null, height: null, maxWidth: null },   // fontSizing(13)   → 70px/76px/1680px
-    t6xl:   { size: null, height: null, maxWidth: null },   // fontSizing(18)   → 90px/96px/2160px
+    xsmall: { size: null, height: null, maxWidth: null }, // fontSizing(-1.5) → 12px/18px/288px
+    small: { size: null, height: null, maxWidth: null }, // fontSizing(-1)   → 14px/20px/336px
+    medium: { size: null, height: null, maxWidth: null }, // fontSizing(0)    → 18px/24px/432px
+    large: { size: null, height: null, maxWidth: null }, // fontSizing(1)    → 22px/28px/528px
+    xlarge: { size: null, height: null, maxWidth: null }, // fontSizing(2)    → 26px/32px/624px
+    xxlarge: { size: null, height: null, maxWidth: null }, // fontSizing(4)    → 34px/40px/816px
+    t2xl: { size: null, height: null, maxWidth: null }, // fontSizing(4)    → 34px/40px/816px
+    t3xl: { size: null, height: null, maxWidth: null }, // fontSizing(6)    → 42px/48px/1008px
+    t4xl: { size: null, height: null, maxWidth: null }, // fontSizing(9)    → 54px/60px/1296px
+    t5xl: { size: null, height: null, maxWidth: null }, // fontSizing(13)   → 70px/76px/1680px
+    t6xl: { size: null, height: null, maxWidth: null }, // fontSizing(18)   → 90px/96px/2160px
   },
 
   // Heading — level 1-6, each at small/medium/large/xlarge viewport size
@@ -121,39 +121,39 @@ export const vars = createThemeContract({
     weight: null,
     level: {
       '1': {
-        small:  { size: null, height: null, maxWidth: null }, // fontSizing(4)  → 34px
+        small: { size: null, height: null, maxWidth: null }, // fontSizing(4)  → 34px
         medium: { size: null, height: null, maxWidth: null }, // fontSizing(8)  → 50px
-        large:  { size: null, height: null, maxWidth: null }, // fontSizing(16) → 82px
+        large: { size: null, height: null, maxWidth: null }, // fontSizing(16) → 82px
         xlarge: { size: null, height: null, maxWidth: null }, // fontSizing(24) → 114px
       },
       '2': {
-        small:  { size: null, height: null, maxWidth: null }, // fontSizing(2)  → 26px
+        small: { size: null, height: null, maxWidth: null }, // fontSizing(2)  → 26px
         medium: { size: null, height: null, maxWidth: null }, // fontSizing(4)  → 34px
-        large:  { size: null, height: null, maxWidth: null }, // fontSizing(8)  → 50px
+        large: { size: null, height: null, maxWidth: null }, // fontSizing(8)  → 50px
         xlarge: { size: null, height: null, maxWidth: null }, // fontSizing(12) → 66px
       },
       '3': {
-        small:  { size: null, height: null, maxWidth: null }, // fontSizing(1)  → 22px
+        small: { size: null, height: null, maxWidth: null }, // fontSizing(1)  → 22px
         medium: { size: null, height: null, maxWidth: null }, // fontSizing(2)  → 26px
-        large:  { size: null, height: null, maxWidth: null }, // fontSizing(4)  → 34px
+        large: { size: null, height: null, maxWidth: null }, // fontSizing(4)  → 34px
         xlarge: { size: null, height: null, maxWidth: null }, // fontSizing(6)  → 42px
       },
       '4': {
-        small:  { size: null, height: null, maxWidth: null }, // fontSizing(0)  → 18px
+        small: { size: null, height: null, maxWidth: null }, // fontSizing(0)  → 18px
         medium: { size: null, height: null, maxWidth: null }, // fontSizing(0)  → 18px
-        large:  { size: null, height: null, maxWidth: null }, // fontSizing(0)  → 18px
+        large: { size: null, height: null, maxWidth: null }, // fontSizing(0)  → 18px
         xlarge: { size: null, height: null, maxWidth: null }, // fontSizing(0)  → 18px
       },
       '5': {
-        small:  { size: null, height: null, maxWidth: null }, // fontSizing(-0.5) → 16px (rounded)
+        small: { size: null, height: null, maxWidth: null }, // fontSizing(-0.5) → 16px (rounded)
         medium: { size: null, height: null, maxWidth: null },
-        large:  { size: null, height: null, maxWidth: null },
+        large: { size: null, height: null, maxWidth: null },
         xlarge: { size: null, height: null, maxWidth: null },
       },
       '6': {
-        small:  { size: null, height: null, maxWidth: null }, // fontSizing(-1)   → 14px
+        small: { size: null, height: null, maxWidth: null }, // fontSizing(-1)   → 14px
         medium: { size: null, height: null, maxWidth: null },
-        large:  { size: null, height: null, maxWidth: null },
+        large: { size: null, height: null, maxWidth: null },
         xlarge: { size: null, height: null, maxWidth: null },
       },
     },
@@ -161,11 +161,11 @@ export const vars = createThemeContract({
 
   // Paragraph — reuses fontSizing
   paragraph: {
-    small:  { size: null, height: null, maxWidth: null }, // fontSizing(-1) → 14px
+    small: { size: null, height: null, maxWidth: null }, // fontSizing(-1) → 14px
     medium: { size: null, height: null, maxWidth: null }, // fontSizing(0)  → 18px
-    large:  { size: null, height: null, maxWidth: null }, // fontSizing(1)  → 22px
+    large: { size: null, height: null, maxWidth: null }, // fontSizing(1)  → 22px
     xlarge: { size: null, height: null, maxWidth: null }, // fontSizing(2)  → 26px
-    xxlarge:{ size: null, height: null, maxWidth: null }, // fontSizing(4)  → 34px
+    xxlarge: { size: null, height: null, maxWidth: null }, // fontSizing(4)  → 34px
   },
 
   // Anchor
@@ -179,15 +179,15 @@ export const vars = createThemeContract({
 
   // Avatar
   avatar: {
-    sizeXsmall: null,  // 18px
-    sizeSmall: null,   // 24px
-    sizeMedium: null,  // 48px  (default)
-    sizeLarge: null,   // 72px
-    sizeXlarge: null,  // 96px
-    size2xl: null,     // 120px
-    size3xl: null,     // 144px
-    size4xl: null,     // 168px
-    size5xl: null,     // 192px
+    sizeXsmall: null, // 18px
+    sizeSmall: null, // 24px
+    sizeMedium: null, // 48px  (default)
+    sizeLarge: null, // 72px
+    sizeXlarge: null, // 96px
+    size2xl: null, // 120px
+    size3xl: null, // 144px
+    size4xl: null, // 168px
+    size5xl: null, // 192px
   },
 
   // Tag
@@ -201,9 +201,9 @@ export const vars = createThemeContract({
   // Spinner — container size variants
   spinner: {
     sizeXsmall: null, // 18px
-    sizeSmall: null,  // 24px
+    sizeSmall: null, // 24px
     sizeMedium: null, // 48px
-    sizeLarge: null,  // 72px
+    sizeLarge: null, // 72px
     sizeXlarge: null, // 96px
   },
 
@@ -255,9 +255,9 @@ export const vars = createThemeContract({
 
   // ─── Global responsive breakpoints ────────────────────────────────────────
   breakpoint: {
-    small: null,   // 768px (baseSpacing * 32)
-    medium: null,  // 1536px (baseSpacing * 64)
-    large: null,   // no upper bound — token kept for completeness
+    small: null, // 768px (baseSpacing * 32)
+    medium: null, // 1536px (baseSpacing * 64)
+    large: null, // no upper bound — token kept for completeness
   },
 });
 

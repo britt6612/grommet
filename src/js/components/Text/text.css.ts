@@ -39,17 +39,50 @@ export const textRecipe = recipe({
      *   size = 18 + n*4 px   height = 24 + n*4 px
      */
     size: {
-      xsmall:  { fontSize: vars.text.xsmall.size,  lineHeight: vars.text.xsmall.height  },
-      small:   { fontSize: vars.text.small.size,   lineHeight: vars.text.small.height   },
-      medium:  { fontSize: vars.text.medium.size,  lineHeight: vars.text.medium.height  },
-      large:   { fontSize: vars.text.large.size,   lineHeight: vars.text.large.height   },
-      xlarge:  { fontSize: vars.text.xlarge.size,  lineHeight: vars.text.xlarge.height  },
-      xxlarge: { fontSize: vars.text.xxlarge.size, lineHeight: vars.text.xxlarge.height },
-      '2xl':   { fontSize: vars.text.t2xl.size,    lineHeight: vars.text.t2xl.height    },
-      '3xl':   { fontSize: vars.text.t3xl.size,    lineHeight: vars.text.t3xl.height    },
-      '4xl':   { fontSize: vars.text.t4xl.size,    lineHeight: vars.text.t4xl.height    },
-      '5xl':   { fontSize: vars.text.t5xl.size,    lineHeight: vars.text.t5xl.height    },
-      '6xl':   { fontSize: vars.text.t6xl.size,    lineHeight: vars.text.t6xl.height    },
+      xsmall: {
+        fontSize: vars.text.xsmall.size,
+        lineHeight: vars.text.xsmall.height,
+      },
+      small: {
+        fontSize: vars.text.small.size,
+        lineHeight: vars.text.small.height,
+      },
+      medium: {
+        fontSize: vars.text.medium.size,
+        lineHeight: vars.text.medium.height,
+      },
+      large: {
+        fontSize: vars.text.large.size,
+        lineHeight: vars.text.large.height,
+      },
+      xlarge: {
+        fontSize: vars.text.xlarge.size,
+        lineHeight: vars.text.xlarge.height,
+      },
+      xxlarge: {
+        fontSize: vars.text.xxlarge.size,
+        lineHeight: vars.text.xxlarge.height,
+      },
+      '2xl': {
+        fontSize: vars.text.t2xl.size,
+        lineHeight: vars.text.t2xl.height,
+      },
+      '3xl': {
+        fontSize: vars.text.t3xl.size,
+        lineHeight: vars.text.t3xl.height,
+      },
+      '4xl': {
+        fontSize: vars.text.t4xl.size,
+        lineHeight: vars.text.t4xl.height,
+      },
+      '5xl': {
+        fontSize: vars.text.t5xl.size,
+        lineHeight: vars.text.t5xl.height,
+      },
+      '6xl': {
+        fontSize: vars.text.t6xl.size,
+        lineHeight: vars.text.t6xl.height,
+      },
     },
 
     /**
